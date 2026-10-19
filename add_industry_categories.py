@@ -22,6 +22,8 @@ from collections import defaultdict
 from industry_data import MINING_BRANDS, CHEM_BRANDS, PARTS_BRANDS
 from tools_data import (HAND_TOOL_BRANDS, POWER_TOOL_BRANDS,
                         BATTERY_TOOL_BRANDS, PNEUMATIC_TOOL_BRANDS)
+from hydraulic_data import HYDRAULIC_BRANDS
+from special_tool_data import SPECIAL_TOOL_BRANDS
 
 SRC = 'synonyms_clean.txt'
 REPORT = 'industry_report.log'
@@ -66,7 +68,8 @@ def main():
     global sections_all
     sections_all = [('MINING', MINING_BRANDS), ('CHEM', CHEM_BRANDS), ('PARTS', PARTS_BRANDS),
                     ('HAND', HAND_TOOL_BRANDS), ('POWER', POWER_TOOL_BRANDS),
-                    ('BATT', BATTERY_TOOL_BRANDS), ('PNEU', PNEUMATIC_TOOL_BRANDS)]
+                    ('BATT', BATTERY_TOOL_BRANDS), ('PNEU', PNEUMATIC_TOOL_BRANDS),
+                    ('HYDRAULIC', HYDRAULIC_BRANDS), ('SPECIAL_TOOL', SPECIAL_TOOL_BRANDS)]
 
     # --- пред-объединение записей одного бренда между секциями
     # (например 'Milwaukee' и 'Milwaukee M18'): склеиваем по общему токену,

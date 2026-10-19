@@ -302,4 +302,6 @@ PNEUMATIC_TOOL_BRANDS = {
     'Kraft Pneumatic': ['kraft air tools', 'крафт пневмо'],
     'Quick Punch': ['квикпанч'],
     'Rapid Pneumatic': ['rapid air', 'репид пневматик'],
+    'Wilton': ['wilton tools', 'wilton', 'wylton', 'вилтон', 'толемо', 'уилтон'],
+    'Rinai': ['rainai', 'rinai tools', 'rinao', 'ринай', 'раинай', 'риндай'],
 }
