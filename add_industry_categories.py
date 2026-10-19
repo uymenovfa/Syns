@@ -20,6 +20,8 @@
 from collections import defaultdict
 
 from industry_data import MINING_BRANDS, CHEM_BRANDS, PARTS_BRANDS
+from tools_data import (HAND_TOOL_BRANDS, POWER_TOOL_BRANDS,
+                        BATTERY_TOOL_BRANDS, PNEUMATIC_TOOL_BRANDS)
 
 SRC = 'synonyms_clean.txt'
 REPORT = 'industry_report.log'
@@ -61,6 +63,49 @@ def main():
             key_index[normkey(t)].add(gi)
             key_count[normkey(t)] += 1
 
+    global sections_all
+    sections_all = [('MINING', MINING_BRANDS), ('CHEM', CHEM_BRANDS), ('PARTS', PARTS_BRANDS),
+                    ('HAND', HAND_TOOL_BRANDS), ('POWER', POWER_TOOL_BRANDS),
+                    ('BATT', BATTERY_TOOL_BRANDS), ('PNEU', PNEUMATIC_TOOL_BRANDS)]
+
+    # --- пред-объединение записей одного бренда между секциями
+    # (например 'Milwaukee' и 'Milwaukee M18'): склеиваем по общему токену,
+    # чтобы не создавать дублирующуюся группу.
+    from collections import defaultdict as _dd
+    ent_owner = _dd(set)
+    for si, (_, br) in enumerate(sections_all):
+        for canon, vars_ in br.items():
+            for t in [canon] + list(vars_):
+                ent_owner[normkey(t)].add((si, canon))
+    parent = {}
+    def find(x):
+        while parent.get(x, x) != x: x = parent[x]
+        return x
+    for k, owners in ent_owner.items():
+        if len(owners) > 1:
+            it = iter(sorted(owners)); a = next(it)
+            for b in it:
+                ra, rb = find(a), find(b)
+                if ra != rb: parent[rb] = ra
+    merged_entries = 0
+    by_root = _dd(list)
+    for si, (_, br) in enumerate(sections_all):
+        for canon in br:
+            by_root[find((si, canon))].append((si, canon))
+    for root, members in by_root.items():
+        if len(members) < 2: continue
+        keep = max(members, key=lambda mc: len(sections_all[mc[0]][1][mc[1]]) + 1)
+        toks = [keep[1]] + list(sections_all[keep[0]][1][keep[1]])
+        have = {normkey(t) for t in toks}
+        for mc in members:
+            if mc == keep: continue
+            br = sections_all[mc[0]][1]
+            for t in [mc[1]] + list(br[mc[1]]):
+                if normkey(t) not in have:
+                    toks.append(t); have.add(normkey(t))
+            del br[mc[1]]; merged_entries += 1
+        sections_all[keep[0]][1][keep[1]] = toks[1:]
+
     added_groups = appended_tokens = skipped_conflict = skipped_short = 0
     report = []
 
@@ -78,7 +123,7 @@ def main():
         groups[gi_b] = []
         report.append(f'MERGE {target[:2]}... <- {src_g[:2]}...')
 
-    sections = (('MINING', MINING_BRANDS), ('CHEM', CHEM_BRANDS), ('PARTS', PARTS_BRANDS))
+    sections = sections_all
     for section, table in sections:
         for canon, variants in table.items():
             toks = [canon] + [v.strip() for v in variants if v.strip()]
@@ -169,7 +214,8 @@ def main():
     with open(METRICS, 'w', encoding='utf-8') as fh:
         json.dump(metrics, fh, ensure_ascii=False, indent=2)
 
-    print(f'added_groups={added_groups} appended_tokens={appended_tokens} '
+    print(f'merged_entries={merged_entries} '
+          f'added_groups={added_groups} appended_tokens={appended_tokens} '
           f'conflicts_skipped={skipped_conflict} short_skipped={skipped_short} '
           f'total_groups={len(deduped)}')
 
