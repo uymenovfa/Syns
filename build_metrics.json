@@ -1,0 +1,32 @@
+{
+  "before": {
+    "groups": 45321,
+    "tokens": 122340,
+    "unique_normkeys": 118446,
+    "avg_size": 2.7,
+    "max_size": 39,
+    "singletons": 86,
+    "tokens_in_multi_groups": 3624
+  },
+  "after": {
+    "groups": 46810,
+    "tokens": 127146,
+    "unique_normkeys": 126960,
+    "avg_size": 2.72,
+    "max_size": 46,
+    "singletons": 1024,
+    "tokens_in_multi_groups": 175
+  },
+  "stats": {
+    "yo_pairs_added": 1,
+    "noise_tokens_removed": 59,
+    "homoglyphs_fixed": 20,
+    "splits_applied": 32,
+    "splits_missed": 0,
+    "groups_after_merge": 45251,
+    "aliases_appended": 35,
+    "new_groups_added": 1560,
+    "new_tokens_added": 4868
+  },
+  "splits_missed": []
+}
