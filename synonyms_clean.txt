@@ -100,7 +100,7 @@
 20th digital,20th digital studio,fox digital studio,zero day fox
 20th television animation,fox television animation
 2108,2109,2110,2114,ladasamara,samara,восьмерка,девятка,десятка,самара ваз,четырнадцатая
-2141,412,azlk,moskvich,moskvich 3,автомобильный завод имени ленинского комсомола,автомобильный завод имёни лёнинского комсомола,автомобильный завод ленинского комсомола,автомобильный завод лёнинского комсомола,азлк,москвич,москвич 3,москвич 408
+2141,412,azlk,moskvich,moskvich 3,автомобильный завод имени ленинского комсомола,автомобильный завод имёни лёнинского комсомола,автомобильный завод ленинского комсомола,автомобильный завод лёнинского комсомола,азлк,мозгич,москвич,москвич 3,москвич 408
 21ct,21st century technologies (united states)
 21m assets,21m assets s.r.o
 21st century entertainment,21st century entertainment ltd
@@ -110,7 +110,7 @@
 226 ers,226ers sports things,226ers sports things s.l
 24/7 antwoord,247antwoord.nl
 24 hour fitness,24 hr fitness
-24 волга,3110,gorky automobile plant,volga,volga gaz,волга,волгателеком,волгатёлёком,втк,газ,газ-21,газель,газель next,газон,газёль,газёль next,горьковский автомобильный завод,соболь
+24 волга,3110,gas,gaz,gaz group,gorky automobile plant,volga,volga gaz,волга,волга газ,волгателеком,волгатёлёком,втк,газ,газ-21,газель,газель next,газовель,газон,газёль,газёль next,горьковский автомобильный завод,нижегородский автозавод,соболь
 2682130 ontario limited,peak processing,peak processing solutions
 26n,26 north,26north partners,26north partners lp
 2big,big launcher
@@ -136,11 +136,11 @@
 2s metal,2s metal public company limited
 2trace,2trace a/s
 2.vmp,stratego invest
+3008 пежо,308 peugeot,citan,peugeot,peugeot s.a,пежо,пежо 308,пужо,пёжо
 300 franchising,ecossistema 300 franchising
-308 peugeot,citan,peugeot,peugeot s.a,пежо,пужо,пёжо
 30base,30base cognitive stack,clear base ltd
 313 bureau de change limited,313 bureau de change limited in nigeria
-320 cat,cat,caterpillar,катерпиллар,кэт
+320 cat,cat,cat 320,caterpillar,cat техника,катерпилер,катерпиллар,котлет,кэт
 33 fried chicken,napoli,napoli fried chicken,napoli pizza
 3541 prg,3541 prg s.r.o
 360 cities,360 cities holding b.v
@@ -736,7 +736,7 @@ a.c. & co,alaska commercial company,alexander chaplin and company,alexander chap
 acco brands,acco brands corporation,acco rexel,acco uk
 accolade fund sicav,accolade fund sicav p.l.c
 ac comics,americomics,paragon publications
-accord,civic,honda,honda motor,honda power,аккорд,сивик,хонда,хонда генераторы,хонда гёнёраторы
+accord,civic,honda,honda motor,honda power,аккорд,сивик,хонда,хонда генераторы,хонда гёнёраторы,хондовский
 accord healthcare ab lietuvos filialas,accord healthcare (lithuania)
 accor holding,accor holding b.v
 accoson (united kingdom),ac cossor & son surgical ltd
@@ -790,6 +790,7 @@ aceso life science group,aceso life science group limited,hao tian development g
 ace tone,айстон
 ace van & storage,interstate van lines
 ace wind power,ace wind power (private) limited
+ace амман,ammann,ammann asphalte,амманн
 acf,acf industries llc,american car and foundry,american car foundry
 acf-metals (united states),arizona carbon foil
 acft,transport company of ferrara
@@ -861,6 +862,7 @@ acromas holdings,acromas holdings (united kingdom)
 acronis,acronis international,acronis international gmbh
 acropol (bank),акрополь (банк),яндекс банк,яндёкс банк
 acros,acros security (slovenia)
+acros 595,rostselmash acros,акрос 550,акрос 585
 across,yushin across,yushin across inc
 across crowd,across crowd s.r.o
 across trading,across trading ltd
@@ -884,7 +886,7 @@ actien-verein des zoologischen gartens zu berlin,berliner zoo
 actien-zuckerfabrik bennigsen,actien-zuckerfabrik wabern,aktien-zuckerfabrik bennigsen,aktien-zuckerfabrik in ottmachau,aktien-zuckerfabrik salzdahlum,aktien-zuckerfabrik wabern,zuckerfabrik
 actien-zuckerfabrik stendal,aktien-zuckerfabrik stendal
 actimize,nice actimize
- acting,kyron,kyron s.r.l,rexton,ssangyong,актион,кайрон,рекстон,ссанг
+acting,kyron,kyron s.r.l,rexton,ssangyong,актион,кайрон,рекстон,ссанг
 actio,actio telefonia voip,syntell,syntell s.a
 action,action collectables,action racing collectables,activated research company (united states),advanced research corporation (united states),arc,arc impact,arc impact acquisition corporation,arc impact acquisition corporation (united states)
 action ai
@@ -919,7 +921,7 @@ actualyse,actualyse co,actualyse co. ltd
 actuation valve & control,actuation valve & control limited,actuation valve & control ltd
 actwu,amalgamated clothing and textile workers union
 acuitas medical ltd,osteotronix (united kingdom)
-acura,акyра
+acura,акyра,акора
 acuris,mergermarket
 a cut above,a cut above hair design
 acv,acv auctions,acvauctions.com,acv auctions inc
@@ -930,6 +932,7 @@ adachi light,adachi light inc
 adac online reisevertrieb gmbh,adac reisen
 adag,adagene,adagene inc,adagene inc. (china),adagene (suzhou) limited
 adai,anacapa dental,anacapa dental art institute
+adal,alexander Dennis,enviro Dennis,александр деннис
 adam,am&as,meldrum & anderson company
 adama,adama agricultural solutions ltd,makhteshim agan industries
 adam and eve productions,adam & eve productions
@@ -1085,7 +1088,7 @@ adp network services,cyphernetics
 ad pros,marketplace ad pros
 adr120s,cytori,cytori cell research institute,fractale,seven seas holdings
 adr-ac (switzerland),adverse drug reactions analysis & consulting
-adrenalineip,adrenalineip (washington,dc),united states postal service,united states postal service (washington,u. s. mail,u. s. postal service,usps,почта сша,почтовая служба сша,почтовое ведомство сша,почтовоё вёдомство сша
+adrenalineip,adrenalineip (washington,dc),dc shoes,united states postal service,united states postal service (washington,u. s. mail,u. s. postal service,usps,ди-си,почта сша,почтовая служба сша,почтовое ведомство сша,почтовоё вёдомство сша
 adret retail private limited,adret retail private limited (india)
 adriaan volker,adriaan volker nv,koninklijke adriaan volker groep
 adriagate,adriagate.com
@@ -1171,7 +1174,7 @@ advanced semiconductor materials lithography,asml,asml holding,asml holding n.v,
 advanced space technology research (united states),aster labs
 advanced systems supportability engineering technologies and tools,assett
 advanced systems & technologies (united states),as&t
-advanced targeting systems (united states),american tattoo society,amjet turbine system (united states),applicant tracking system,applied technical services (united states),ats,talent clue,talent clue ats
+advanced targeting systems (united states),american tattoo society,amjet turbine system (united states),applicant tracking system,applied technical services (united states),ats,cad ct6,ct6,cts,talent clue,talent clue ats,xts
 advanced technologies group (united states),atgi
 advanced technologies & industrial membranes,salesoptimize,salesoptimize ltd,salesoptimize (uk) ltd,tami,tami ai,tami industries (france),tangential filtration plate and tubular membranes,total addressable market intelligence
 advanced technology and research corporation (united states),aerotech research (united states),atr
@@ -1265,6 +1268,7 @@ ae multi holdings,ae multi holdings berhad,ae multi holdings bhd
 a.en. slovensko,a.en. slovensko s.r.o
 aent,alliance entertainment
 aentron,aentron gmbh
+aeolus,aeolus e70,эол ax7
 aeolus tyre,aeolus tyre co. ltd
 aeon,aeon corporation,аеон,аёон,корпорация aeon,корпорация аеон,корпорация аёон
 aeon card,aeon credit service,aeon credit service (asia) limited
@@ -1961,7 +1965,7 @@ aktex,аккумуляторные технологии,аккумуляторн
 aktia bank,aktia bank plc
 aktiebolaget stensvik,stensvikin tiilitehdas
 aktiebolaget svenska godsbilcentraler,asg
-aktiebolaget volvo,bm-volvo,bolinder-munktell volvo,volvo,volvo bm,volvo car ab,volvo cars,volvo group,volvo personvagnar,volvo trucks,вольво,ольво
+aktiebolaget volvo,bm-volvo,bolinder-munktell volvo,volvo,volvo bm,volvo car ab,volvo cars,volvo group,volvo personvagnar,volvo trucks,волво,вольво,вольво хс90,ольво
 aktienbierbrauerei gohlis,aktienbrauerei gohlis
 aktien-brauerei beckmann ag,aktien-brauerei ohligs,beckmann-beteiligungs-ag
 aktienbrauerei dormagen,aktienbrauerei dormagen vorm. becker & cie
@@ -2180,6 +2184,8 @@ alexion,alexion pharmaceuticals
 alex james farm
 alex zink felt factory ag,alex zink filzfabrik,filzfabrik von alex zink
 alfa,alfa-bank,alfa romeo,alfa s.a.b. de c.v,alfa (мексиканская компания),alfa (мёксиканская компания),альфa,альфа,альфа банк,альфа ромео
+alfa,alfa romeo,alfa romeo s.p.a,альфa,альфа ромео,альфа ромёо
+alfa,alfa-bank,alfa romeo,альфa,альфа,альфа-банк,альфа-банк беларусь,альфа-банк бёларусь,альфа ромео,банк международной торговли и инвестиций,банк мёждународной торговли и инвёстиций,межторгбанк,мёжторгбанк
 alfa 1 cee investments,alfa 1 cee investments s.a,sicav-sif
 alfa adv,альфа адв
 alfaaz,alfaaz.me,alfaaz on whatsapp
@@ -2197,7 +2203,6 @@ alfamidi,midi,midi global,midi technologies,midi utama indonesia,midi utama indo
 alfa pets,alfa pets s.r.o
 alfa products and technologies (belgium),applied petroleum technology (norway),apt,aston particle technologies (united kingdom)
 alfarma,alfarma s.r.o
-alfa romeo,alfa romeo s.p.a,альфа ромео,альфа ромёо
 alfasigma,alfa wassermann
 alfasped logistik,alfasped logistik s.r.o
 alfelder schuhleistenfabrik c. behrens ag,c. behrens
@@ -2411,6 +2416,7 @@ all sum research center,all sum research center (canada),arctic slope regional c
 allsups
 all tails,alltails.in
 all-tech direct,all-tech investment,all-tech investment group
+all terrain,allterrain kr55,олл террейн
 all the anime,anime limited
 all the madmen,legacy studios
 all things bugs,all things bugs (united states)
@@ -2446,7 +2452,7 @@ al-mawarid bank,al-mawarid bank s.a.l,am bank,ammb holdings berhad,ammb holdings
 almaz capital,almaz capital partners,алмаз капитал партнерс,алмаз капитал партнёрс
 almazy rossii-sakha,alro,alro sa,alrosa co. ltd,alrosa company ltd,yakutalmaz trust,ykutalmaz,ак алроса,алмазы россии-саха,алроса,арс,якуталмаз
 alm. brand,alm. brand a/s,alm. brand bank,alm. brand forsikring,landbygningernes almindelige brandforsikring
-almera,juke,nissan,nissan motor,qashqai,x-trail,альмера,жуки,икстрейл,кашқай,никсан,ниссан
+almera,juke,nissan,nissan motor,qashqai,x-trail,альмера,жуки,икстрейл,кашқай,нессан,никсан,никсон,ниссан
 almera classic,алмера классик
 almex,usen-almex
 almi,alumindo light metal industry,alumindo light metal industry tbk
@@ -2652,6 +2658,7 @@ al yusr international / al yusr middle east,al yusr middle east
 alza,alza corporation
 alza.cz,alza.cz a.s,alzashop,alzasoft
 alzprotect,alzprotect (france)
+amac,amac attachments,амак trenc
 amada,амада
 amadae,amadae accounting
 amada orii,amada press system (japan),orii mec
@@ -2692,6 +2699,7 @@ amaya leisure plc,amaya resorts & spas
 amazedon,ememart,ememart solutions,zeeshop
 amazentis (switzerland),timeline,timeline longevity,timeline nutrition
 amazfit,gtr,gts,g&t septech (norway),guided therapy systems (united states),амазфит
+amazfit,gt-r,gts,амазфит,джи-ти-эр
 amazinghype sweden ab,boostkungen,boostkungen.se
 amazing residence,amazing residence s.r.o
 amazon.co.jp,amazon japan
@@ -3040,7 +3048,7 @@ and ayartstudio,dreamplays global technology infrastructure,dream plays hq,dream
 andaz,andaz private investments
 and biddle company,bailey,bailey banks & biddle,bailey & kitchen,banks,banks and biddle,banks and biddle company,banks & biddle,banks & biddle co,banks & biddle company,banks & biddle company of philadelphia,banks & biddle fine jewelers,bb&b,the bailey
 and dealer in,former swedish producer of,tobacco products,tobaksbolaget
-and desoto,chrysler,chrysler mopar,chrysler motor parts,dodge,durango,journey,mopar,motor parts,pdcd,plymouth,sebring,джерни,додж,дуранго,крайслер,краслер,плимут,сайбринг
+and desoto,chrysler,chrysler mopar,chrysler motor parts,dodge,durango,journey,mopar,motor parts,pdcd,plymouth,sebring,джерни,додж,додж дарт,дуранго,дуранго додж,крайслер,крайслер 300c,краслер,плимут,плимут реле,сайбринг
 and diy enthusiasts,globally operating manufacturer of surface coating technologies for industry,trades,wagner international ag
 andeavor,mirastar,tesoro,tesoro corporation,tesoro petroleum
 a.n. de lint,a.n. de lints industrie- en handelmaatschappij,fa. a.n. de lint
@@ -3162,6 +3170,7 @@ ani technologies pvt. ltd,ola,ola cabs
 anix,trading yard anix
 anjou enterprises,anjou enterprises limited
 anjoy foods,fujian anjoy foods
+ankai,ankai bus,анкай hff
 ankani,ankani ltd
 ankara consulting,ankara danismanlik ankaradanismanlik.com ankara consulting firm tourism consulting turkey turkey consulting services investment consulting ankara
 ankkuri-energia,ankkuri-energia oy
@@ -3244,6 +3253,7 @@ antol,antol.pro,ing. jozef antol antol.pro
 antola coastal group,antola properties group
 anton capital entertainment,studiocanal
 anton flettner,flettner,flugzeugbau gmbh
+antonio carraro,carraro trac,антонио карраро
 antonio parma,parma antonio e figli
 antoniosi tecnologia agroindustrial (brazil),ata antoniosi
 anton j. benjamin,benjamin,city j. benjamin ag
@@ -3585,6 +3595,7 @@ arcelormittal ghent,ghent steelworks
 arcelormittal holdings,arcelormittal holdings ag
 arcelormittal poland,polskie huty stali sa
 arc energy trust,arc resources,arc resources ltd
+arcfox,arkafoks αT5,аркфокс kt5
 archangel agency,arch angel agency llc
 archant,archant limited
 archeco,archeco inc
@@ -3633,6 +3644,7 @@ arctica,арктика
 arctic airboats,arctic airboats oy
 arctic banana,arktinen banaani
 arctic canadian diamond company,burgundy diamond mines
+arctic cat,snomobile arcticcat,арктик кэт б
 arctic express,unibuss ekspress
 arctic ocean company,arctic soda
 arctic silver,arctic silver inc,artic silver
@@ -3739,7 +3751,7 @@ aristo shmat
 aristo sourcing,aristo sourcing llc
 aritzia,aritzia inc
 arius3d (canada),arius technology
-arizo,chery,chery automobile,chery automobile co. ltd,oledz,oley,qq,tiggo,ариcо,тиго,чери,черри,чили,чёри,чёрри
+arizo,chery,chery automobile,chery automobile co. ltd,oledz,oley,qq,tiggo,ариcо,тиго,тиго чери,чери,чери тиго,черри,чили,чири,чёри,чёрри
 arizona beverage company,arizona beverages,arizona beverages usa,arizona iced tea,arizona tea
 arizona central railroad,azcr,clarkdale arizona central railroad
 arizona honey,arizona raw honey,honey hive farms,honeyhivefarms.com
@@ -4125,6 +4137,7 @@ asmo czech,asmo czech s.r.o
 asm pacific technology,asmpt
 asn bank,asn bank n.v
 aso corporation,aso corporation (japan)
+ASO GAZ,асо газ а22,газ соболь,соболь asn33
 aso group,aso group (japan),aso mining
 asoke engineering,asoke motors
 asos,асос
@@ -4190,7 +4203,7 @@ assu 2000
 assured cpd,assured cpd ltd
 a.s. - systematic internaliser,ceska sporitelna,csas,czech savings bank
 as tallink grupp,tallink,tallink silja,таллинк
-astan,aston martin,аcтон
+astan,aston martin,аcтон,астон,дб11 астон
 astana group,астана групп,зерновая индустрия,зёрновая индустрия
 astana motors,астана моторс
 astareal,astareal ab
@@ -4219,6 +4232,7 @@ astorka horse,astorka horse s.r.o
 astoryas,astoryas robot teknolojileri
 a. stotz,stotz ag
 astra,atmospheric and space technology research associates (united states),insignia,opel,vectra,астра,вектра,опель
+astra,insignia,opel,vectra,vectra s.a,астра,вектра,опель
 astra ab,swedish astra ab
 astra arad,astra automobile & waggon factory
 astra engineering,astra engineering s.r.o
@@ -4275,6 +4289,7 @@ at,autolinee toscane
 atac,атак
 ataf,ataf foggia
 atago taxi,keisei taxi atago,teito atago taxi
+atal,atalsnowmobile,атал барагузем
 atala,atala bikes
 atalanta u23,atalanta under 23,аталанта (до 23 лет),аталанта (до 23 лёт)
 atalian cz,atalian cz s.r.o
@@ -4369,12 +4384,12 @@ atlantic refining company,the atlantic refining company
 atlantic shopping centres,crombie properties,crombie reit
 atlantis,atlantis resources,atlantis resources limited
 atlantis investment,atlantis investment a.s
-atlas,coolray,emgrand,geely,атлас,джили,дрили,кулрей,эмгранд
+atlas,coolray,emgrand,geely,атлас,ддили,джили,дрили,кулрей,монаро джили,эмгранд,эмджей джили
 atlas21,onevip,vip,вип
 atlas ag chemische fabrik,atlas ago chemische fabrik
 atlas arteria,macquarie atlas roads
 atlas comics,atlas/seaboard,atlas/seaboard comics,seaboard comics,seaboard periodicals
-atlas copco,atlas copco ab,атлас копко,атлас копко компрессор,атлас копко компрёссор,атлас копко швеция,атлас копко швёция
+atlas copco,atlas copco ab,atlaskopko,атлас буровой,атлас копко,атлас копко компрессор,атлас копко компрёссор,атлас копко швеция,атлас копко швёция,эгрон атлас копко
 atlas ib,ib atlas
 atlasimex,atlasimex sl
 atlas mara co-nvest limited,atlas mara limited
@@ -4436,7 +4451,7 @@ attain,attain corporation,attain corporation (japan)
 attainable,attainable ai
 att almond,att almond s.r.o
 attask,workfront
-at&t communications of indiana,gaumont british,gaumont-british picture corporation,general public,general public art,g.p,gp art,grameenphone
+at&t communications of indiana,gaumont british,gaumont-british picture corporation,gazprom,general public,general public art,g.p,gp art,grameenphone,газ пром
 attend wealth,attend wealth inc,attend wealth management
 attero,attero holding b.v,essent milieu
 at&t global network services czech republic,at&t global network services czech republic s.r.o
@@ -4451,7 +4466,7 @@ attitude advantage program,taap,the attitude advantage,the attitude advantage pr
 attl,attl (czech republic)
 at&t laboratories,sbc laboratories
 attmos inc,attmos inc. (united states)
-atto,build your dreams,byd,byd company limited,chazor,han byd,j6 byd,song,бид,би-уай-ди,бияди,быйд,танг
+atto,build your dreams,byd,byd company limited,chazor,han byd,j6 byd,song,байду,би-wд,бид,билд юй ди,би-уай-ди,бияди,быйд,танг
 atto corporation,atto corporation (japan)
 attractive,attractive llc
 at&t tv now,directv now,directv stream
@@ -4477,7 +4492,7 @@ audacity,audacity team
 audax,audax groep,audax holding,audax publishing,audax renewables,audax renovables
 audax gas trading,audax gas trading kft
 audeo international,audeo international s.r.o
-audi,audi ag,quattro,а4,а6,ауди,аудяха,кватро
+audi,audi ag,quattro,а4,а6,ауди,ауди а6,аудяха,кватро
 audiala,audiala solutions ltd,audiala solutions sa
 audience genomics,audience genomics llc
 audiocodes,audiocodes (israel),audiocodes ltd
@@ -4520,6 +4535,7 @@ augustus miles,augustus miles llc
 au jibun bank,jibun bank,jibun bank corporation
 auktionshaus max perl,max perl auction house
 aultman,the aultman company
+auman,foton auman,ауман etx
 aumictech llc,aumictech solutions
 aumor,aumor inc,aumor incorporated,osow,oversize overweight pilot cars
 aum scuba,oum scuba co.ltd
@@ -4563,7 +4579,7 @@ aurrigo,rdm group
 aurubis,aurubis ag,aurubis (germany),norddeutsche affinerie,norddeutsche affinerie ag
 aurubis bulgaria,aurubis bulgaria jsc
 aurum grove saakshis kitchen,saakshis,saakshis kitchen
-aurus,senat,аурус,сенат клей
+aurus,senat,аурyс komendant,аурус,аурус сенат,сенат клей
 aurvy,aurvy spa
 aus brokers,ausbrokers.au,aus brokers pty ltd
 ausbusinessregister,ausbusinessregister.com.au,musumeci & co pty ltd
@@ -4699,6 +4715,7 @@ autorentals,autorentals.com
 autorent lb,autorent lebanon
 auto.ru,авто.ру
 autosalon hora cz,autosalon hora cz a.s
+autosan,autosan a09,автосан а12
 autosave,autosave club,autosave pte. ltd
 autoshow,auto show sales and finance winnipeg
 autosky,autosky us,promaster electronic,promaster electronic llc
@@ -4735,7 +4752,7 @@ avantgardes,avantgardes inc
 avant homes,avant homes (central) limited,avant homes (england) limited,avant homes group limited,avant homes holdings limited,avant homes (scotland) limited
 avanti,avanti bikes
 avanti communications,avanti communications plc,avanti (united kingdom)
-avantis,avantis ltd
+avantis,avantis ltd,quadsport avantis,авантис atv
 avanza,avanza bank,avanza bank holding
 avarda bank,avarda group,tf bank ab
 avast holding,avast holding b.v
@@ -4766,7 +4783,7 @@ aventum group limited,direct group holdings limited
 avenue capital,avenue capital group
 avenue supermarts ltd,d-mart
 aver,aver media,avermedia technologies,avertv
-avera automotive,mainstream motors,rivian
+avera automotive,mainstream motors,rivian,ридиан r1t,рэвиан r1s
 avermont,avermont us
 avery birmingham england,w & t avery ltd
 a very good production,very good productions
@@ -4782,6 +4799,7 @@ avfall sverige,swedish waste management
 avg technologies,grisoft
 avi,avi limited,avi ltd
 aviaam,aviaam leasing service centre,avia investment,avia solutions group,avia solutions group holdings,flylal group services,geonafta,lietuvos draudimas,lotos geonafta,ogmios centras,ogmios group,ragutis,ragutis brewery,seb vilniaus bankas,via lietuva,vilniaus bankas,volfas engelman,volfas engelman brewery,авиа сол루션с груп
+aviadvigatel,авиадвигатель пс-90,пс-90 авиадвигатель
 aviakompaniya pobeda ooo,pobeda airlines,pobeda airlines limited liability company,авиакомпания победа,авиакомпания победа группа аэрофлот,авиакомпания побёда,авиакомпания побёда группа аэрофлот,ооо авиакомпания победа,ооо авиакомпания побёда,победа,победа авиакомпания,побёда,побёда авиакомпания
 avia marees,marees,marees en kistemaker b.v,marees & kistemaker
 avianlabs netherlands,avianlabs netherlands b.v
@@ -4851,7 +4869,7 @@ avtech,avtech corp,avtech corporation
 avtoframos,автофрамос,рено россия,рёно россия
 avtoinvest,ооо avtoinvest
 avtokraz,korean register,korean register of shipping,kr,z energy,z energy limited,автокраз,краз,кременчугский автозавод,кременчугский автомобильный завод,крёмёнчугский автозавод,крёмёнчугский автомобильный завод
-avtovaz,fourta,fourtha,lada,автоваз,ваз,веста,гранта,жигули,классика ваз,лада,нива,приора,тольятти,шеви нива
+avtovaz,fourta,fourtha,lada,автоваз,ваз,вазовский,веста,гранта,жигyли,жигули,классика ваз,лада,лада веста,ладовский,нива,нива лада,приора,тольятти,шеви нива
 avtrix,avtrix nz,avtrix software solutions,avtrix software solutions limited
 avvale consulting,avvale ltd
 avx czech republic,avx czech republic s.r.o
@@ -5504,8 +5522,9 @@ bapd,dalvi,grupo dalvi,далви
 bapras,bapras (united kingdom)
 bapst and falize,bapst et falize,bapst & falize,maison bapst et falize,maison bapst & falize
 bar 25
-barabaika,bavarskie motory,bayerische motoren werke,bmw,x5 bmw,баварские моторные заводы,баварскиё моторныё заводы,бмв,бмвешка,бэвэмэ,бэха,икс5,пятерка,семерка,тройка
+barabaika,bavarskie motory,bayerische motoren werke,bmw,x5 bmw,баварские моторные заводы,баварские моторы,баварскиё моторныё заводы,бмв,бмвешка,бэвэмэ,бэха,бээмвэ,икс5,икс5 бмв,пятерка,семерка,тройка
 bar and cocoa,bar & cocoa,bar & cocoa chocolate,choco rush
+baranov,барановский завод,д16 баранов
 barash communication technologies,bcti,мтс-туркмен,мтс туркменистан,мтс-туркмён,мтс туркмёнистан
 barbaria,barbaria casablanca,barbaria morocco,barbaria morocco sarl
 barbary company,marocco company
@@ -5533,7 +5552,7 @@ bare knuckle fc,bare knuckle fighting championship,bkfc,чемпионат по 
 bareuther & co ag,porzellanfabrik waldsassen bareuther & co,waldsassener porzellanfabrik
 bargains online everyday,crazy sales,providing manufacturer direct deals
 bargang tea company,bargang tea company ltd
-bargp limited,bar honda gp limited,benz,brawn gp limited,british american racing gp limited,british american racing grand prix limited,c-class,daimler,honda gp limited,mercedes,mercedes-amg petronas f1 team,mercedes-benz,mercedes benz ag,mercedes-benz grand prix,mercedes f1,mercedes formula one team,mercedes gp,tyrrell racing organisation limited,w211,в212,мерин,мерседес,мерседес-бенц,мерседес гран-при,мёрсёдёс,мёрсёдёс-бёнц,мёрсёдёс гран-при,ц-класс
+bargp limited,bar honda gp limited,benz,brawn gp limited,british american racing gp limited,british american racing grand prix limited,c-class,daimler,honda gp limited,mercedes,mercedes-amg petronas f1 team,mercedes-benz,mercedes benz ag,mercedes-benz grand prix,mercedes f1,mercedes formula one team,mercedes gp,tyrrell racing organisation limited,w211,бенц,в212,мерин,мерседес,мерседес-бенц,мерседес гран-при,мэрс,мёрсёдёс,мёрсёдёс-бёнц,мёрсёдёс гран-при,ц-класс
 barilla hellas a.e,misko
 baring brothers,barings bank
 bariquand et marre,bariquand & marre
@@ -5774,6 +5793,7 @@ bazargan global,bazargan global llp
 bazillion points,bazillion points books
 bazzi & c,vetreria bazzi,vetreria corvaya e bazzi
 bba,busbetrieb aarau,busbetrieb aarau ag,busbetriebe aarau
+bbac,beiben,бейбен truck,бейбень
 bbb,burgus burger bar
 b-bbee verification,empowerment verification agency,evasa,evasa b-bbee verification,evasa (pty) ltd
 bbb franchise ltd,boom battle bar
@@ -6006,7 +6026,6 @@ behnoush company,iran behnoush company,iran malta
 b e h o,beho (czechia)
 behran co,behran iran,behran oil,behran oil company
 behring-werke
-beiben,бейбень
 beiersdorf,beiersdorf (germany)
 beiersdorf (malaysia),beiersdorf (malaysia) sdn. bhd,beiersdorf (malaysia) sdn. bhd. (malaysia),beiersdorf my
 beijing,le.com,leshi internet information and technology corp
@@ -6076,10 +6095,11 @@ bekoh consolidated rubber estates ltd -- 1965,bekoh holding
 bekula (berliner kraft und licht ag),berliner kraft- und licht (bewag)-aktiengesellschaft,bewag-aktiengesellschaft,bkl (berliner kraft und licht)
 bel,belships,belships asa
 belap,foresighted,foresighted hr
-belarus,mtw,mtz,беларус,беларус минский тракторный завод,бёларус,бёларус минский тракторный завод,железные дороги монголии,жёлёзныё дороги монголии,минский тракторный завод,мтз
-belarusian automobile plant,belaz,белаз,белорусский автомобильный завод,бёлаз,бёлорусский автомобильный завод
+belarus,mtw,mtz,mtz-1221,mtz 3022,беларус,беларус минский тракторный завод,беларус мтз,бёларус,бёларус минский тракторный завод,железные дороги монголии,жёлёзныё дороги монголии,минский тракторный завод,мтз,мтз 82
+belarusian automobile plant,belaz,belaz 7513,belazs,белаз,белаз 75,белорусский автомобильный завод,бёлаз,бёлорусский автомобильный завод
 belarusian optical and mechanical association,belomo,беломо,белорусское оптико-механическое объединение,бёломо,бёлорусскоё оптико-мёханичёскоё объёдинёниё
 belarusian production and trade concern of timber woodworking and pulp and paper industry,bielaruski vytvorcha handliovy kancern liasnoj drevaapracowchaj i celiulozna papiarovaj pramyslovasci,kontsern bellesbumprom,беллесбумпром,бёллёсбумпром
+belarus tractor,беларyс 82.1,мтз беларус
 belaya dolina,gk belaya dolina
 belaya dvina,белая двина масло
 belaya ptitsa,белая птица,птичка
@@ -6100,6 +6120,7 @@ belgacom,belgacom mobile,proximus
 belgacom skynet,proximus skynet
 belgacom tv,proximus tv
 belgavox,belgavox scrl
+belgee,белджи x70,бельджи
 belgian clean fuel company,pitpoint.be,pitpoint clean fuels
 belgian nren,belnet
 belgian stamp printing works,mechelen,stamp printing works,zegeldrukkerij van mechelen
@@ -6234,7 +6255,7 @@ bennetts petroleum
 bennewitz & bonebakker,bonebakker & bennewitz
 bennewitz & zonen,firma bennewitz & zonen
 benney,house of benney
-benni,changan,changan automobile,cs35,бенни,сs35,чанган,чонган
+benni,changan,changan automobile,cs35,cs35 чанган,бенни,сs35,чaнган,чанган,чанъань,чонган
 ben nye,ben nye cosmetics,ben nye makeup company
 benoit a,bertrand et cie,deforge,deforge et carpentier,galerie deforge
 benq,benq corporation,benq mobile,benq siemens,qisda
@@ -6247,7 +6268,7 @@ bente,bentepromo
 benteler,benteler ag,бентелер,бёнтёлёр
 bentglass,bentglass a.s
 bentham science publishers,bentham science publishers (united arab emirates)
-bentley,бентли
+bentley,бенли,бентли,бентли континенталь
 bentley czech,bentley czech s.r.o
 bentley (germany),bentley innomed
 bento,bento tas,bento tasmania
@@ -6283,7 +6304,7 @@ berkeley,berkeley group,berkeley group holdings
 berkeley nucleonics corporation,bnc
 berkeley systems,berkeley systems (united states)
 berkery,berkerynoyes,noyes & co
-berkhof,berkhof groep
+berkhof,berkhof groep,беркхоф excellencia
 berkley,w. r. berkley,w. r. berkley corporation
 berkley integrated audio software,bias
 berkman,berkman energie service b.v
@@ -6292,7 +6313,7 @@ berkshire cotton manufacturing company,berkshire fine spinning associates
 berkshire hathaway,berkshire hathaway homeservices,berkshire hathaway inc,berkshire hathaway incorperation,valley falls company,беркшир хатэвэй,бёркшир хатэвэй
 berkshire hathaway energy,midamerican energy holdings company
 berlanda,berlanda group
-berlin,berlin porcelain manufacturer,gustav mandel,kingston process metallurgy (canada),konigliche porzellan manufaktur,k.p.m,kpm berlin,kunstverlag gustav mandel,royal porcelain manufactory,берлинская королевская фарфоровая мануфактура,бёрлинская королёвская фарфоровая мануфактура,королевская фарфоровая мануфактура в берлине,королёвская фарфоровая мануфактура в бёрлинё
+berlin,berlin porcelain manufacturer,gustav mandel,kalugapuzmash,kingston process metallurgy (canada),konigliche porzellan manufaktur,k.p.m,kpm berlin,kunstverlag gustav mandel,royal porcelain manufactory,берлинская королевская фарфоровая мануфактура,бёрлинская королёвская фарфоровая мануфактура,калугапутьмаш,королевская фарфоровая мануфактура в берлине,королёвская фарфоровая мануфактура в бёрлинё
 berlin-chemie,berlin-chemie ag
 berliner boden ag,deutsche wirtschaftsbank
 berliner druck- und zeitungsbetrieb,rudolf mosse stiftung gmbh
@@ -6302,7 +6323,7 @@ berliner hagel-assecuranz-gesellschaft von 1832,bhag (berliner hagel-assecuranz-
 berliner handels- und frankfurter bank,bhf bank,oddo bhf,oddo bhf se,oddo contrepartie
 berliner kindl,vereinsbrauerei berliner gastwirte zu berlin ag
 berliner lombardkasse,berliner makler-verein ag
-berliner maschinenbau,berliner maschinenbau ag,bmag,шварцкопф
+berliner maschinenbau,berliner maschinenbau ag,bmag,schwarzkopf,шварцкопф
 berliner maschinenbau-actien-gesellschaft vormals l.schwartzkopff,berlin machine building company,bmag (berliner maschinenbau ag)
 berliner paketfahrt ag,berliner paketfahrt bartz & co,berliner paketfahrt- speditions- und lagerhaus (vormals bartz & co),berliner speditions- und lagerhaus-ag,vorm. bartz & co
 berliner stadtreinigung,berliner stadtreinigungsbetriebe,birmingham sound reproducers,b.s.r,b.s.r. engineering and development,b.s.r. group,charlton comics,charlton comics group,charlton press,charlton publications,law and order magazines,monarch
@@ -6385,7 +6406,7 @@ best it world (india) pvt. ltd,iball
 best of show,best of show models,bos models
 bestore,lppz
 bestsystems,bestsystems inc,bestsystems inc. (japan)
-bestune,besturn,faw besturn,бестун,бестурн
+bestune,besturn,faw besturn,бестун,бестун t77,бестурн,бестюн b30
 bestway,bestway group,bestway group limited
 bestway inflatables & material corporation,bestway inflatables & material corp. (shanghai)
 besu investment,besu investment s.r.o
@@ -6524,6 +6545,7 @@ biamp systems,llc (beaverton,monolithic 3d,monolithic 3d inc. (klamath falls,opa
 bianchi,bianchi (motorcycles)
 bianchi bicycles,f.i.v. edoardo bianchi s.p.a
 bianchi sa,bianchi sa division juguetes
+biarpi,BRP,brp can-am
 biatec group,biatec group a.s
 biberk business insurance,biberk.com (website)
 biberman bros,biberman bros. inc
@@ -6564,6 +6586,7 @@ big bike iron rent,ironbike.id,iron rent,iron rent bali,pt soul bikes indonesia
 big blue meenie,big blue meenie recording studio
 big boy restaurant group,big boy restaurants
 bigbrand,big brand tire & service
+big bud,bigbud 545,биг бад 747
 big city beats
 big data guizhou,gcbd,guizhou-cloud big data
 big design,big design ai
@@ -7112,7 +7135,7 @@ blythe,hamilton and hughes,hamilton & hughes
 bm,bm supermarket
 bm bond invest,bm bond invest s.r.o
 bmc,bmc software,bmc software inc
-bmcm,bmo capital markets limited,maharashtra state road transport corporation,msrtc,semmtech,semmtech b.v,semmtech (the netherlands),sgs-thomson,sky team,skyteam alliance,st,stm,st micro,stmicroelectronics,stmicroelectronics n.v,stm (turkish company),скай тим
+bmcm,bmo capital markets limited,maharashtra state road transport corporation,msrtc,semmtech,semmtech b.v,semmtech (the netherlands),sgs-thomson,sky team,skyteam alliance,st,stm,st micro,stmicroelectronics,stmicroelectronics n.v,stm (turkish company),скай тим,эс-ти
 bmg arista/ariola limited,bmg australia pty. limited,bmg rights management (australia) pty ltd,rca of australia limited,rca photophone of australia
 b m g australia limited
 bmg canada inc,bmg canada incorporated
@@ -7148,7 +7171,7 @@ board of supervisors of louisiana state university and agricultural and mechanic
 boardr,the boardr,theboardr.com
 boardsy,boardsy.co.uk,boardsy uk,branded led signage uk,custom branded led uk,custom led displays uk,custom led lightboxes,illuminated display uk,led cube light box uk,led display supplier uk,led light box uk
 boars head,boars head brand,boars head provision company
-boart longyear,boart longyear group ltd,boart longyear (united states)
+boart longyear,boart longyear group ltd,boart longyear (united states),боарт лонгьер 372
 boasson and eggler,boasson & eggler,boissonas and eggler,ателье буассона и эглер,атёльё буассона и эглёр,боассонна и эгглер,боассонна и эгглёр,буассонна и эгглер,буассонна и эгглёр,петербург,пётёрбург,студия петербург,студия пётёрбург
 boat4you,boat4you.com
 boatique,boatique boat hire and tours,boatique sydney,boatique sydney boat hire
@@ -7244,7 +7267,7 @@ bolshoi ballet company,балет большого театра,балёт бо�
 bolsius,bolsius kaarsenfabriek
 bolter,bolter.chat
 boly inc,boly media communications
-bomag,бомаг,бомаг германия,бомаг гмбх,бомаг гёрмания,бомаг каток
+bomag,bw203 бомаг,бомаг,бомаг bw,бомаг германия,бомаг гмбх,бомаг гёрмания,бомаг каток
 bombini parodi delfino difesa-spazio spa,bombrini-parodi-delfino,bpd,snia-bpd
 bombini tribe,bombini tribe apparel
 bombril,kalipto,limpol,mon bijou,pinho bril
@@ -7380,6 +7403,7 @@ bosch global software technologies,bosch global software technologies private li
 bosch home comfort group,bosch thermotechnik,bosch thermotechnik gmbh
 bosch home comfort japan,hitachi-johnson controls air conditioning
 bosch plug,фросш свеча
+bosch power tools,бош инструмент,гбх бош
 bosch security and safety systems,bosch security systems
 bosch sicherheitssysteme,bosch sicherheitssysteme gmbh
 bosch solar energy,bosch solar services gmbh,ersol,ersol solar energy
@@ -7446,6 +7470,7 @@ bouwkundig bureau,mouton en de wijs
 bouwmaat,bouwmaat nederland b.v
 boux avenue,boux avenue ltd
 bouygues,bouygues s.a,буиг
+bova,бова magiq
 bovas,bovas & company limited
 bovas and company limited,bovas group
 bova (taiwan),ultimate enterprise
@@ -7599,6 +7624,7 @@ brazzale,brazzale societa per azioni
 brazzale moravia,orrero a.s
 brb internacional,b.r.b internacional s.a
 breadtalk,breadtalk group limited
+breakermontabert,montabert,монтабер hi
 breakfree,breakfree hotels
 breaking free,breaking free group,breaking free group (united kingdom),breaking free online,breaking free online limited,the breaking free group
 breakroom,breakroom.cc
@@ -7688,7 +7714,7 @@ bright research,bright research partners,bright research partners (united states
 brights,brights agency,brights company,brights software agency,brights software development agency
 brightsphere investment group,old mutual asset management,united asset management
 brightway,brightway insurance
-brilliance,brilliance auto,brilliance auto group,brilliance automotive,brilliance automotive group,brilliance china,brilliance china auto,brilliance china automotive,brilliance china automotive holdings limited,huachen,huachen automotive group,huachen automotive group holdings,v5,бриллианс
+brilliance,brilliance auto,brilliance auto group,brilliance automotive,brilliance automotive group,brilliance china,brilliance china auto,brilliance china automotive,brilliance china automotive holdings limited,huachen,huachen automotive group,huachen automotive group holdings,v5,брilliance bs4,бриллианс,бриллианс h30
 brilliant british ltd
 brilux,brilux s.a
 brinc,brinc drones,brinc drones inc
@@ -7714,7 +7740,7 @@ bristow norway,norsk helikopter
 brita,brita gmbh
 britam holdings limited,british-american investments company
 britannia,britannia industries
-britannia ironworks,clifford,clifford and morris,clifford & morris,faulkner & co,marshall,marshall sons & company (successors),morris,morris and co,morris and company,morris & co,morris & co. artworkers limited,morris & co. decorators ltd,morris & company,sons & co
+britannia ironworks,clifford,clifford and morris,clifford & morris,faulkner & co,marshall,marshall sons & company (successors),morris,morris and co,morris and company,morris & co,morris & co. artworkers limited,morris & co. decorators ltd,morris & company,morris garages,sons & co,моррис
 britannic energy trading,britannic energy trading limited
 brit insurance,brit insurance holdings plc
 british aluminium,luxfer group
@@ -7841,6 +7867,7 @@ brush electrical engineering,brush electrical engineering co,brush electrical en
 brussels airport company,the brussels airport company
 bruynzeel,bruynzeel fabrieken,bruynzeel keukens,bruynzeel & zonen
 bryan health,bryanlgh health system
+bryansk machine-building,бмз тэпс,брянмаш
 bryansk metallurgical factory,dnepropetrovsk metallurgical plant of petrovsky,dniprovsky metallurgical plant,брянский металлургический завод,брянский мёталлургичёский завод,днепровский металлургический завод,днепропетровский металлургический завод имени петровского,днёпровский мёталлургичёский завод,днёпропётровский мёталлургичёский завод имёни пётровского
 bryanston distributing company,bryanston pictures
 bryant,william bryant
@@ -7859,6 +7886,7 @@ bs coolers,bs coolers a.s
 bsdlab,bsdlab cells
 bses,reliance energy,reliance infra,reliance infrastructure
 bs-fox,fox bs238,fox sports and entertainment
+bsf путцмайстер,pere marquette railway,pere marquette railway company,pm,putzmastер,putzmeister,putzmeister holding gmbh,путц бум,путцмастер
 bs graphics,bs graphics production
 bsg-schalttechnik gmbh & co. kg,raytheon (germany)
 b&s holding,b&s holding s.r.o
@@ -7958,10 +7986,10 @@ bugatti rimac,bugatti rimac d.o.o. za proizvodnju i razvoj motornih vozila,bugat
 buggies unlimited,buggies unltd
 bugi invest,bugi invest s.r.o
 bugsier-,reederei- und bergungsgesellschaft,shipping,towage and savage company
-buhanka,буханка
+buhanka,hunter,tabletki uaz,uang,uaz,буханка,буханка уаз,козлик,патриот уаз,уаз,уазик,хантер
 buhrmann,corporate express,staples business advantage
 buhta,bukhta,бухта
-buick,буйк,бьюик
+buick,буйк,бьюик,бьюик энклав
 buick lacrosse,lacrosse,лакросс
 buick regal,regal,регал
 build a bear,build a bear workshop
@@ -7994,6 +8022,7 @@ bulmers,h. p. bulmer,hp bulmers
 bulones coiro,coiro,distribuidora bulones coiro s.a
 bulut nakliyat,bulut nakliyat samsun
 bulweld,bulweld usa,булвелд,булвелд сша,булвёлд,булвёлд сша
+buma,buma b120,бума ge
 bumar pco,pco,pco sa,przedsiębiorstwo mechaniki precyzyjnej pco
 bumbee labs,bumbee labs ab
 bumblebee handkerchiefs,bumble bee linen,bumble bee linens,bumblebeelinens.com,bumblebee wedding linens
@@ -8171,7 +8200,7 @@ by virtue of your own nature,vyon,vyon perfume house,vyon scandinavia
 byway,byway technologies,byway world
 bz.comm,bz.comm gmbh
 c1,calibre one,calibre one holdings,calibre one ltd
-c10,leapmotor,t03,липомотор
+c10,leap c10,leapmotor,t03,липмотор,липомотор,липомотор c11
 c1000,c1000 takeda
 c1r,channel 1 releasing
 c2,cyber consortium inc
@@ -8183,12 +8212,13 @@ c3 ai,c3 energy,c3 iot
 c3i (united states),controls and instruments,critical communications
 c3m,c3m d.o.o,centre for computational continuum mechanics (slovenia)
 c-3po,c-3po s.r.o
-c4,citroen,citroën,си4,ситроен,ситроён,цитроен
+c4,citroen,citroën,си4,ситроен,ситроен жикси,ситроен с4,ситроён,цитроен
 c4 energi,c4 energi ab
 c4ff,centre for factories of the future (united kingdom)
 c4sc78,c4sc78 s.r.o
 c4v,charge cccv,charge cccv llc
 c520,consultoria 520
+ca2500 динапак,dynapac,данapac,динапак cc
 caa,centro agricoltura ambiente
 caak,choson minhang,chosonminhang korean airways,civil aviation administration of korea,korean airways
 caas,caas capital,caas capital management,caas capital management lp
@@ -8243,7 +8273,7 @@ cadent,cadent gas
 cadesis,fealinx (france)
 cadg,cag,changi airport group,china architecture design and research institute,china architecture design & research group
 cadila healthcare,zydus,zydus cadila,zydus lifesciences
-cadillac,cadillac motor car division,кадилак,кадиллак,калилак
+cadillac,cadillac motor car division,кадилак,кадиллак,кадиллак эскаладейт,калилак
 cadillac development corporation ltd,cadillac fairview,cadillac fairview corporation limited,fairview corporation
 cadillac escalade,escalade,эскалaд
 cadillac europe,general motors suisse
@@ -8428,7 +8458,7 @@ campus casuals,campus casuals of california
 campuscraze,campuscraze.com
 campus science park office a,campus science park office a s.r.o
 cam resources,cam resources berhad,cam resources bhd
-camry,corolla,land cruiser,rav4,toyota,toyota ag,toyota motor,камри,королла,крузак тойота,прадо,рав4,равчик,тоета,тойота
+camry,corolla,land cruiser,rav4,toyota,toyota ag,toyota motor,камри,королла,крузак тойота,прадо,рав4,равчик,тауота,тоета,тойота
 camsing international holding limited,fittec international group limited,mh development,mh development limited
 camstreamer,camstreamer apps,camstreamer.com,camstreamer s.r.o
 camuso cpa,camuso cpa pllc
@@ -8479,7 +8509,7 @@ canage,canage inc
 canal de las estrellas,el canal de las estrellas,las estrellas internacional
 canal digitaal
 canali,канали
-can-am,can-am off-road
+can-am,canam defender,can-am off-road,can-am outlander,кенам
 canaria,canaria inc,decanaria
 canary control,cocontrol (united kingdom)
 canberra data centres,cdc,cdc data centres pty ltd,construction development (qatar),qatar construction and development,qcdc
@@ -8500,7 +8530,7 @@ canisius,canisius-henssen
 canis safety,canis safety a.s,canis safety (firma)
 canitinger,canitinger s.r.o
 canivro,canivro co. sarl
-cannabis delivery,smoakland weed,weed
+cannabis delivery,smoakland weed,weed,ид
 cannamedical,cannamedical pharma,cannamedical pharma gmbh
 cannell equity,cannell equity limited
 canniffe,canniffe limited
@@ -8594,7 +8624,7 @@ capri,capri records
 capribex holding,capribex holding limited
 caprice bespoke,caprice bespoke s.r.l
 capricor therapeutics,capricor therapeutics (united states)
-capri holdings limited,michael kors,michael kors holdings,майкл корс
+capri holdings limited,michael kors,michael kors holdings,mk,майкл корс
 caprinos,caprinos pizza
 caprock,caprock aligned wealth
 capsida,capsida biotherapeutics,capsida biotherapeutics (united states),capsida inc
@@ -8842,8 +8872,9 @@ cascadia seaweed,cascadia seaweed (canada),cascadia seaweed corp
 casco inc,ingredion (canada)
 cas corp,cas corporation
 case,case corporation,case equipment corporation,case llc,j. i. case company,j. i. case threshing machine company,кейс
+case construction,case cx,кейс 580
 ca sega joypolis,sega live creation,sega live creation inc
-case ih,case ih tractors,кейсh,кейс ай кейч,кёйсih,кёйс ай кёйч
+case ih,case ih tractors,case maxxum,кейсh,кейс ай кейч,кейс их,кёйсih,кёйс ай кёйч,стейгер кейс
 casepick systems,symbotic,symbotic inc
 casey fenton,up stock,upstock io
 caseys,caseys general stores
@@ -8907,6 +8938,7 @@ castro clothing,castro model,castro model ltd
 castrol,castrol edge,castrol limited,castrol magnatec,кастрол,кастрол эдж
 castrol india,castrol india limited
 casuseiq.com,cause iq,nonprofit metrics llc
+cat 4440,CAT ag,cat Challenger AG,кэт аг
 catabasis pharmaceuticals,catabasis pharmaceuticals (united states)
 catalayer,catalayer ai,catalayer.com
 catalent,catalent (belgium),catalent biologics,catalent pharma solutions,catalent (united kingdom)
@@ -9102,7 +9134,7 @@ cedra,cedra group
 cedrat technologies,ctec
 cedrob,cedrob s.a
 cee cz immobilien,cee cz immobilien gmbh
-cee'd,kia,kiae,kias,ricer,rio kia,sportage,киа,киамо,рио,сид,спортаж
+cee'd,kia,kiae,kias,ricer,rio kia,sportage,trio,киа,киамо,киа моторс,рио,рио киа,сид,спортаж
 ceed jd,jd
 ceeg,china electric equipment group (china),ministry of energy
 ceegex,ceegex ztr,central eastern european gas exchange ltd,xgas
@@ -9438,7 +9470,9 @@ cez finance,cez finance b.v
 cez oltenia,distributie energie oltenia s.a
 cezoma textielmachine fabrieken
 cez skawina,cez skawina s.a
-c & f,crum & forster enterprise,crum & forster holdings corp
+c & f,crum & forster enterprise,crum & forster holdings corp,daf,lf,даф
+cf,daf,lee,lee direct,lee filters,lf,даф,ли джинсы
+cf,daf,daf trucks,david andrew furniture,lf,даф
 cfd marine (norway),computational fluid dynamics marine
 cfe,cfe research
 cfee,cfee-westpoint,westpoint,westpoint group,westpoint international
@@ -9454,7 +9488,7 @@ cfk,compagnie de chemin de fer du katanga
 cfl,chemins de fer luxembourgeois,luxembourg national railways,societe nationale des chemins de fer luxembourgeois
 cfm,chit fai cfm,chit fai motors,chit fai motors company limited
 c. f. martin & company,martin & co,martin guitar,martin guitar company,martin guitars
-cfmoto,zhejiang cfmoto power,zhejiang chunfeng power
+cfmoto,cfmoto uforce,cfmо zforce,zhejiang cfmoto power,zhejiang chunfeng power,цфмоменто
 cfo,chesapeake and ohio railway,c&o,detroit industrial vehicles company,divco,oriental railway,румелийская железная дорога,румёлийская жёлёзная дорога
 cfoa,chemins de fer ottomans danatolie
 cfo angle,cfo angle advisory services llp
@@ -9510,6 +9544,7 @@ chairish,pamono
 chaiseri,chaiseri metal and rubber
 chalkiadakis,xalkiadakis
 challengepost,devpost
+challenger tracks,агко челленджер,челленджер rt
 cham,springer,springer international,springer international publishing ag,springer nature switzerland ag,концентрация,концёнтрация,тепло и импульс,тёпло и импульс
 chambers and co,chambers and co. sargent,mess sargent,sargent
 chambers and partners,chambers & partners
@@ -9731,8 +9766,8 @@ chernogolovka,черноголовка
 cherry,cherry ag,cherry corporation,cherry gmbh,cherry (keyboards),zf electronics
 cherry lips,odessa entertainment,taki,taki corporation
 cherry red records limited,cherry red records ltd
-chery exeed,exeed,txl,vx,эксед,эксид,эксёд
-chery omoda,omoda,омода
+chery exeed,exeed,txl,vx,ексиид lx,экcид,эксед,эксид,эксёд
+chery omoda,omoda,omodа,омода,омода с5
 chesapeake energy,expand energy corporation
 chesbro,chesbro music,chesbro music co,chesbro music company
 chesebrough manufacturing company,chesebrough-ponds,chesebrough-ponds co,ponds extract company
@@ -9744,7 +9779,7 @@ chetes,chetes s.r.o
 cheung kong holdings,cheung kong holdings limited
 cheung kong infrastructure holdings,ck infrastructure holdings
 cheung kong property holdings,cheung kong property holdings limited,ck asset holdings,ck asset holdings limited
-chevrolet,chevrolet motor division,chevy,cruze,lanos chevrolet,nexia,крузак,лачетти,невия,шевроле,шеврон,шивrolet,шёвролё
+chevrolet,chevrolet motor division,chevy,cruze,lanos chevrolet,nexia,крузак,лачетти,невия,нивус шевроле,шеви,шеврове,шевроле,шеврон,шивrolet,шёвролё
 chevron japan,chevron japan ltd,chevron japan ltd. (japan)
 chevron oronite,chevron oronite company llc,chevron oronite company (united states)
 chevron products uk,chevron products uk limited
@@ -10027,12 +10062,13 @@ chronic logic,chronic logic llc
 chronos-werk,hennefer maschinenfabrik
 chroomlederfabriek de amstel,koninklijke chroomlederfabriek de amstel,nv koninklijke chroomlederfabriek de amstel v/h l.s. gompen
 chropiner zuckerfabrik ag,cukrovary schoeller a spol. akc. spol,schoeller u. co zuckerfabriken,zuckerfabriken schoeller u. co
-chr salvesen & chr thamss communications aktieselskab,salvesen & thams,s&t
+chr salvesen & chr thamss communications aktieselskab,salvesen & thams,s&t,эс-ти
 chrysa labs
 chrysalis biotherapeutics (united states),radix therapeutics
 chrysalis finance,chrysalis finance limited
 chrysler canada,fca canada,stellantis canada
 chryso,chryso aditivos
+chtz,т-170 чтз,трактор челябинский,чатз,чтз т10
 chuangs consortium,chuangs consortium international (china)
 chuangs development limited,lambda technology ltd,scilla holdings,scilla holdings limited
 chuan huat resources berhad,chuan huat resources bhd
@@ -10222,6 +10258,7 @@ citruslabs,citruslabs (united states)
 city 24
 citya,citya immobilier
 citybike finland,citybike finland ltd,citybike finland oy
+citybus скания,scania bus,скания омнибус
 city car club,enterprise car club
 citycommerce bank,конверсбанк,конвёрсбанк
 city disc
@@ -10286,7 +10323,7 @@ ck satur,satur,satur travel
 c. kurz & co,kurz & co,tinfabriek kurz
 cla,copyright licensing agency,агентство по лицензированию авторских прав,агёнтство по лицёнзированию авторских прав
 claarifai,claarifai.com,claarifai inc
-claas,claas germany,claas group,toscano,tucano,клаас,клаас германия,клаас гёрмания
+claas,claas germany,claas group,claas lexion,klas,toscano,tucano,клаас,клаас германия,клаас гёрмания,клаас тyби,ягуар клаас
 clac (switzerland),corporate language and communication
 clad,clad payments
 claim jumper,claim jumper restaurant and saloon
@@ -10332,7 +10369,7 @@ class number,det norske veritas germanischer lloyd,dnv gl,dnv gl group,dnv id
 class pass,classtivity
 classting,classting inc,ct corp
 classy,classy inc,classy.org,stayclassy
- Claudie,клоди
+Claudie,клоди
 claudio perrin,c. perrin,c. perrin (lithographer),lith,torino
 clava,clava inc
 clavia,clavia dmi ab
@@ -10542,7 +10579,7 @@ cnergenz,cnergenz berhad,cnergenz bhd
 cnet svenska,cnet (sweden)
 cn group cz,cn group holding
 cnh industrial,cnh industrial (netherlands),cnh industrial n.v
-cnhtc,аум
+cnhtc,cnhtc auman,аум,цнтхк
 cnl financial group,cnl lifestyle properties
 cnl invest,cnl invest s.r.o
 cno financial group,conseco
@@ -11136,10 +11173,12 @@ contents innovation,contents innovation. inc
 contentview,contentview gmbh
 contera investment v,contera investment v. s.r.o
 contextlogic,wish,wish.com,wish promotion,иш
-conti,continental,vdo,вдо,континенталь,континёнталь
+conti,continental,contitech,konti,vdo,вдо,конти,континенталь,континёнталь
+conti,konti,киев-конти,киёв-конти,конти
 contigo
 contigroup companies,continental grain
 contigy development,contigy development limited
+continental,conti tech,континенталь,контитех,контитёх
 continental7,continental7 origin private limited
 continental and industrial trust,continental & industrial trust,second continental & industrial trust
 continental automotive gmbh,siemens vdo,siemens vdo automotive,siemens vdo automotive ag,vdo automotive,vdo automotive ag
@@ -11162,7 +11201,6 @@ contino,contino.io,contino limited,contino solutions,contino solutions limited,c
 continuous composites,continuous composites inc. (coeur dalene,id)
 continuum,continuum financial services,continuum (financial services) llp,my continuum
 contipro,contipro a.s
-conti tech,контитех,контитёх
 contrast,contrast webinars,getcontrast
 contrast 3d,contrast 3d design studio
 contrast ernst & young management consulting,contrast ernst & young management consulting gmbh,contrast management consulting,contrast management consulting gmbh
@@ -11854,12 +11892,13 @@ customware,customware.ai,factory bucket
 custom wood designs hospitality,cwdh hospitality supply,cwdh.ie,cwdh ireland
 cut1000,family cut 1000
 cute figure hk,cutefigure hong kong
-cutlass,oldsmobile,олдс
+cutlass,oldsmobile,катласс олдсмобайл,олдс
 cutonce,dash-stylists
 cutting & wear resistant developments,cutting & wear (united kingdom)
 cvc,cvc group,cvc limited
 cvc capital partners viii (a),cvc capital partners viii (a) lp
 cv check,cv check ltd
+cv motoland,motoland,мотоланд vm
 cvorm,cvorm industry,cvorm sa
 cvs,cvs pharmacy
 cvs bay area,cvs bay area inc
@@ -11873,7 +11912,7 @@ cwmni theatr cymru,welsh theatre company
 c.w. obel,c.w. obel a/s
 c.w. parker
 cws-boco international gmbh,cws international gmbh
-cx-5,mazda,mazda 6,mazda motor,мазда,мазде,сх5,шестерка
+cx-5,mazda,mazda 6,mazda motor,мазда,мазда 6,мазде,мзда,сх5,шестерка
 cyanogen inc,cyngn
 cyban,cyban pty ltd,wavewise analytics pty,wavewise analytics pty ltd,wavewise analytics pty ltd. (australia)
 cybaverse,cybaverse limited,cybaverse ltd,northstar cyber security
@@ -11995,7 +12034,7 @@ daalderop,k.m.d,koninklijke metaalwarenfabriek daalderop,metaalwarenfabriek daal
 daani,market places in ghana
 dab,dab pumps,dortmunder actien brauerei,даб,даб италия,даб насосы
 dachser czech republic,dachser czech republic a.s
-dacia,дасия,дачия
+dacia,дасия,дастер дачия,датсия,дачия
 dacia romano petroleum syndicate,romano petroleum syndicate
 dacj871001kta,facebook ireland limited
 dac san ngon,dacsanngon.com.vn
@@ -12006,15 +12045,15 @@ dado,dado luxury ventures,world of dado
 dae,dubai aerospace enterprise
 daechang seat,daechang seat s.r.o
 daechang seat co,dsc daechang seat co,ltd-dongtan (hwaseong-si)
+Daedong kioti,kioti,kioti korea,киоти,киоти rx,киоти корея,киоти корёя
 daehwa pharm,daehwa pharmaceutical,dae hwa pharm (south korea)
 da emobil,da emobil gmbh & co. kg
 daewon media,daiwon media
-daewoo,daewoo group,gentra,lanos,matiz,nexia daewoo,даэу,джентра,дэо,дэу,ланос,матиз
+daewoo,daewoo group,gentra,lanos,matiz,nexia daewoo,даewoo,даэу,джентра,дэо,дэу,дэу матиз,ланос,матиз,нексия дэу
 daewoo corporation,daewoo international,posco daewoo,posco international
 daewoo electronics,winia daewoo,winia electronics
-daewoo excavator,doosan,doosan infracore,doosan korea,hd hyundai infracore,hyundai doosan infracore,дусан,дусан корея,дусан корёя
+daewoo excavator,doosan,doosan dx140,doosan infracore,doosan korea,hd hyundai infracore,hyundai doosan infracore,доосан,дусан,дусан 225,дусан корея,дусан корёя
 daewoo precision industries,snt motiv,s&t daewoo,s&t motiv
-daf,daf trucks,david andrew furniture,даф
 dafesta,dafesta s.r.o
 daffer,daffer spol. s r.o
 dafra pharma,dafra pharma international,dafra pharma international nv,dafra pharma international nv (belgium),dafra pharma research and development
@@ -12034,6 +12073,7 @@ daido special metals,daido-special metals ltd
 daifuku,daifuku (company)
 daigaku honyaku center,dhc,dhc corporation,digital human corporation
 dai han pharmaceutical chemistry,dai han pharm (south korea),joseon pharmaceutical chemistry
+daihatsu,даихатсу,дайхацу
 daihatsu diesel manufacturing,daihatsu infinearth mfg
 dai-ichi bank,daiichi kokuritsu ginko,first national bank,fnb corporation
 daiichi commodities,unbanked
@@ -12051,6 +12091,7 @@ daiko hokubu bus,nakatsu kanko bus,takata kanko bus
 daikoku,daikoku corporation
 daikyo,lions mansion
 dai.ly,daily motion,iveco,дейли,ивеко
+daily,iveco,iveco s.p.a,дейли,ивеко,ивёко
 dailyburn,gyminee
 daily courier,the daily courier
 daily diverse,daily diverse limited
@@ -12141,7 +12182,7 @@ dalprod,dalprov,далпрод
 dalsa,teledyne dalsa
 dalsey,danzas,dhl,dhl aviation,dhl express,dhl global forwarding,dhl international gmbh,dhl world express,dhl worldwide express,hillblom & lynn
 dalton,dalton corporation,dalton corporation (japan)
-dalzell-viking glass company,new martinsville,new martinsville glass co,new martinsville glass company,viking glass,viking glass co,viking glass company,wv
+dalzell-viking glass company,new martinsville,new martinsville glass co,new martinsville glass company,viking glass,viking glass co,viking glass company,wv,ww,вв
 dam,detroit artists market
 dama,dama couture,dama couture sp. z o.o
 damage control engineering,strymon
@@ -12247,6 +12288,7 @@ darkolab,darkolab ai
 darley,w.s. darley and company,w.s. darley & co,w.s. darley & company
 darley japan,darley japan farm,darley japan stallion complex
 darling,e-darling,gifry,kitekat,purina,whiskas,вискас,гиффи,дарлинг корм,китекет,пурина
+darling,gifry,kitekat,nestle purina petcare,purina,whiskas,вискас,гиффи,дарлинг корм,китекет,пурина
 darlot,darlot ai,darlot securities
 darner,darner s.r.o
 daroo ghar,tolypers,tolypers iran
@@ -12383,6 +12425,7 @@ dayton-hudson corporation,daytons
 dayton t. brown (united states),dtb
 dayton-wright,dayton wright company
 daytrip europe,daytrip europe ltd
+dayun,даюнь v9
 day use,dayuse.com
 dayxanbank,дайханбанк
 dazn group,dazn group limited,perform group
@@ -12536,7 +12579,8 @@ deep silver vienna,games that matter
 deep tec,deep tec engineering,deep tec engineering (pvt) ltd
 deepwater.com,transocean,transocean ltd,transocean tours
 deer,deer carsharing,deer gmbh,deer mobility
-deere,deere-clark motor car company,john deere,джон дир
+deere,deere-clark motor car company,john deere,джонди,джон дир,дир 310
+deere s700,john deere tractor,джон дир 8р
 deerfield management,deerfield management company
 deerfos,deerfos korea,дирфос,дирфос корея,дирфос корёя
 deergear,legendary whitetails
@@ -12626,7 +12670,7 @@ delhi land & finance,delhi land & finance limited,dlf limited
 delhi press,delhi press patra prakashan private limited,delhi press patra prakashan pvt ltd
 delhi transport corporation,depository trust company,dtc
 delibarn nederland bv,nl 635 eu
-delica, LDN
+delica,LDN
 de lijn,flemish public transport company - de lijn
 delikana,delikana s.r.o
 delikomat,delikomat s.r.o
@@ -12684,7 +12728,7 @@ del valle,helados santa clara,jugos del valle,jugos del valle - santa clara,sant
 dely,kurashiru
 demae-can
 de maecht,de maecht tapestry factory,de maecht tapestry manufactory,de maecht tapestry workshop,de maeght tapestry workshop,de maegt,de maegt studio
-demag,demag germany,демаг,демаг германия,дёмаг,дёмаг гёрмания
+demag,demag germany,демаг,демаг ac,демаг германия,дёмаг,дёмаг гёрмания,德马克
 demag-kampnagel gmbh,eisenwerk ag vorm. nagel & kaemp,kampnagel,kampnagel ag vormals nagel & kaemp,nagel & kaemp ag
 de management group,de management group s.r.o
 demand media,leaf group
@@ -12752,7 +12796,7 @@ dentzel carousel co,dentzel carousel company,dentzel carousel corporation,dentze
 denver,denver a/s,denver.eu,inter sales a/s
 de nw 303 eg,dr. oetker frischeprodukte moers kg
 den wahlske boghandels forlag,wahlske boghandel,wahlske boghandels forlag
-denza,денza
+denza,денza,денза d9
 denzel,denzel germany,дензел,дензел генератор,дензел инструмент,дёнзёл,дёнзёл гёнёратор,дёнзёл инструмёнт
 de olde kruyk (dok),dok/ jacobs piet,potterie de olde kruyk
 deona medi,deona medi s.r.o
@@ -12824,6 +12868,7 @@ desky,desky ltd,desky pty ltd,desky usa ltd
 desma (germany),deutsche schuhmaschinen & c0. u. e. ludwig kg
 desmond park service company,yosemite national park company
 desnoes and geddes limited,desnoes & geddes,d&g,dolce gabanna,габбана,дольче
+desoutter,sds desoutter,десуттер h
 desowag chemie-gesellschaft mbh,deutsche solvay-werke,dsw (deutsche solvay-werke)
 despace,despace protocol
 despag (deutsche spinnereimaschinenbau ag),deutsche spinnereimaschinenbau
@@ -12909,17 +12954,18 @@ deutsche tickerdienst gmbh,fernschreiber ag
 deutsche transalpine oelleitung,deutsche transalpine oelleitung gmbh
 deutsche ufg capital management,офг инвест,офг инвёст
 deutsche unionbank,deutsche union bank gmbh
-deutsche vacuum oel,dome mines,exxonmobil,exxon mobil corp,falconbridge ltd,falconbridge nickel mines limited,mobil,mobil 1,mobil oil,mobil oil corporation,noranda inc,socony,socony-vacuum oil company,standard oil company of new york,standard oil of new york,superior oil,xom,xtrata,xtrata nickel,ексонмобил,мобил,мобил 1,ёксонмобил
+deutsche vacuum oel,dome mines,exxonmobil,exxon mobil corp,falconbridge ltd,falconbridge nickel mines limited,mobil,mobil 1,mobile one,mobil oil,mobil oil corporation,noranda inc,socony,socony-vacuum oil company,standard oil company of new york,standard oil of new york,superior oil,xom,xtrata,xtrata nickel,ексонмобил,мобиu,мобил,мобил 1,ёксонмобил
 deutsche waggonbau- und leihgesellschaft mbh,waggonfabrik danzig
 deutsche wirtschaftsbetriebe,dwb,german economic enterprises
 deutsche wohnen ag,deutsche wohnen se
 deutsche wrigley,wrigley aktien-gesellschaft,wrigley gmbh
 deutschnationale verlagsanstalt ag,hanseatische druckanstalt gmbh,hanseatische verlagsanstalt
 deutz,deutz engines,deutz & geldermann,дойц,дойц двигатели,дойц двигатёли
-deutz fahr,дойц фар
+deutz fahr,deutzfar,дойц агро,дойц фар
 devadi realty,devadi ventures
 de vegetarische slager,the vegetarian butcher
 develia s.a,lc corp
+develon,devolon dx,девeлон
 developer experience hub,devxhub,devxhub limited,devxhub private limited
 developers stack,developers stack lk,ds,dual shockers,dualshockers.com
 develop investment,develop investment s.r.o
@@ -12957,10 +13003,10 @@ dewey,dewey data inc,dewey data inc. (united states)
 dewey & leboeuf,дьюи энд лебоф,дьюи энд лёбоф
 dewis ventures,dewis ventures inc,dewis ventures strategic advisory,dvi
 dex,dream express (dex),subaru dex,декс
+dex,dexp,subaru dex,декс
 dexco,dexco s.a,duratex
 dexerials,dexerials corporation,sony chemicals corporation
 dexigner,dexigner.com
-dexp,декс
 dexter,dexter power,декстер,декстер инструмент,декстер электроинструмент,дёкстёр,дёкстёр инструмёнт,дёкстёр элёктроинструмёнт
 dezotech,dezotech - intelligent systems & ai compliance inc
 dezu,dezu corporation
@@ -13213,7 +13259,7 @@ discont credit,diskont - kredit ag
 discount printing detroit,printing-detroit
 discover car hire,discovercars.com
 discoveric marketplace ag,discovermarket,discovermarket asia pte. ltd
-discovery,discovery communications,land rover,range rover,дискавери,рейндж ровер,ровер
+discovery,discovery communications,land rover,range rover,дефендер ленд ровер,дискавери,рандж ровер,ранж ровер,рейндж ровер,рендж,рендж ровер,ровер
 discovery air defence,top aces
 discovery benelux,warner bros. discovery benelux
 discovery communications nordic,discovery networks nordic,warner bros. discovery nordic
@@ -13295,6 +13341,7 @@ djamil & teimur mehtieff,zigarettenfabrik confreia
 django film
 d&j design,d&j design s.r.o
 djember holdings ltd,djember rubber estates,the djember rubber estates ltd,tubular edgington,tubular exhibition group
+dji agras,dji enterprise,аграс t40,диджейай
 dji luggage,djiluggage.id,dji luggage indonesia,pt. dji travel product indonesia
 djo global (germany),ormed
 djt holdings,djt holdings llc
@@ -13327,7 +13374,7 @@ dm3d,dm3d technology (united states)
 dma,dynamic microprocessor associates
 dmack,shandong yongtai chemical group
 d-matrix,d-matrix inc,d-matrix inc. (united states)
-d-max,isuzu,n-series,дмакс,ивузу,ишузу
+d-max,isuzu,n-series,дмакс,ивузу,изузу нпр,исудзу,ишузу
 dmcc,dubai multi commodities centre
 dmc global,dmc global inc,dynamic materials corporation
 dmcii,dmc international imaging
@@ -13356,7 +13403,7 @@ dnb eiendom,dnb nor eiendom,dnb real estate
 dnb livsforsikring,vital forsikring
 dnc,национальный комитет демократической партии,национальный комитёт дёмократичёской партии
 dne,dne resources
-dnepr,svr,u6,ural,ural air,ural airline,ural airlines ojsc,ural automobile plant,ural moto,ursi,utel-урал,восход,днепр,иж планета спорт,минск m103,нпо урал,урал,урал next,урал инструмент,урал инструмёнт,урал мото,урал нпо,уралсвязьинформ,уральские авиалинии,уральский автомобильный завод,уральскиё авиалинии,уси
+dnepr,svr,u6,ural,ural air,ural airline,ural airlines ojsc,ural automobile plant,ural moto,ursi,utel-урал,восход,днепр,иж планета спорт,минск m103,нпо урал,урал,урал 4320,урал next,урал вахтовик,урал инструмент,урал инструмёнт,урал мото,урал нпо,уралсвязьинформ,уральские авиалинии,уральский автомобильный завод,уральскиё авиалинии,уси
 dnet,indoritel makmur internasional,pt indoritel makmur internasional tbk
 dng,draft and goal,draft & goal,super nova research
 dnieper-dvina river shipping,upper dnieper river shipping,белорусское речное пароходство,брп,бёлорусскоё рёчноё пароходство,вдрп,верхне-днепровское речное пароходство,вёрхнё-днёпровскоё рёчноё пароходство,ддвву,ддрп,днепро-двинское военно-восстановительное управление,днепро-двинское речное пароходство,днёпро-двинскоё воённо-восстановитёльноё управлёниё,днёпро-двинскоё рёчноё пароходство
@@ -13479,10 +13526,12 @@ doneel,doneel s.r.o
 donek - n,donek - n spol. s r.o
 dongbei piano,nordiska
 dong-e-e-jiao,dong-e-e-jiao co ltd
+dongfanghong,дунфанхон,东方红 lf
 dongfang jibai,east dawning
 dongfeng,dongfeng china,kf3,shaquan,восточный ветер,восточный вётёр,донгфенг,донгфенг китай,донгфёнг,донгфёнг китай,дунфэн,шакуань
 dongfeng nengdi,dongvo,dongvo (hangzhou) truck,dongvo (hangzhou) truck company,dongvo truck
 dongfeng-nissan.com.cn,dongfeng nissan passenger vehicle company
+dongfeng truck,kf1331 дунфэн,дунфэн грузовик
 dongfeng yueda kia,dongfeng yueda kia motors,jiangsu yueda kia motors
 dongguan city kangmao eletronic ltd,unisen group (china)
 dongguan guangdong hong kong and macao stem cell biotechnology,ghmscb,guangdong hong kong and macao stem cell biotechnology
@@ -13759,6 +13808,8 @@ dstv,tdc,terekhin dc,terekhin digital crew
 dsv a/s,dsv panalpina a/s,dsv (компания)
 dsv limiting factor,triton submarines
 d. swarovski kg,d. swarovski kommanditgesellschaft,swarovski,swarovski limited partnership,swarovski lp,кристаллы swarovski,сваровски
+DT-30,dt-30 птз,kierovets k7,kirovets,lkz,putilov plant,кировец,кировец п,кировский завод,кировёц,красный путиловец,красный путиловёц,ктз кировец,ленинградский кировский завод,лёнинградский кировский завод,павловский экскаватор,петербургский тракторный завод,птз,путиловский завод,путиловский литейный завод,путиловский литёйный завод,пётёрбургский тракторный завод,эо-3322
+dt-3101,dt3101 влтз,влтз,волховец
 dt capital,dt capital limited
 dtc group,dtc group s. r. o
 dtf linko,linko,linko dtf printer
@@ -13779,9 +13830,10 @@ dublonbay,dublonbay s.r.o
 dubois naval architects,dubois naval architects ltd,edward dubois naval architects limited
 duboraya,zuboraya
 ducati,дукат,дукати
+ducati motor,дукати монстр
 ducati sistemi,ducati sistemi s.p.a
-ducato,fabbrica italiana automobili torino,fiat,fiat group,fiat s.p.a,punto,ализея,дукато,панто,фиат
-ducato, fiat Ducato,фиат дукато
+ducato,fabbrica italiana automobili torino,fiat,fiat group,fiat s.p.a,punto,ализея,дукато,дукато фиат,панто,фиат,фиатовский
+ducato,fiat Ducato,фиат дукато
 duchamp,duchamp holdings limited
 duchess,duchess womens wear
 duchossois group (united states),duchossois industries
@@ -13858,7 +13910,7 @@ duryea and macdonald,duryea and mcdonald,duryea & macdonald,duryea & mcdonald
 dusita,parfums dusita
 dusk,dusk.com
 duslo,duslo (slovakia)
-duster,logan,megan,renault,renault s.a,sandero,дастер,логан,меган,рено,ренор,рёно,сандеро
+duster,logan,megan,renault,renault s.a,sandero,дастер,дастер рено,логан,логан рено,меган,рено,рено дастер,ренор,рёно,сандеро
 dustin,dustin ab
 dutaland,dutaland berhad,dutaland bhd
 duta pertiwi,duta pertiwi tbk,duti
@@ -14085,6 +14137,7 @@ ebay korea,ebay korea llc
 ebc,ehime broadcasting
 ebd,economics by design,economics by design ltd
 ebeans,endochain
+ebee ag,sensefly ebee,сенсфлай
 eberhard b. oppi,eberhard b. oppi kunstforlag,eberh. b. oppi,oppi
 eberhard faber,eberhard faber gmbh
 eberjey,eberjey pajamas
@@ -14114,7 +14167,7 @@ ebssl,eghl,equity bank,equity bank group,equity bank south sudan,equity bank sou
 ebu,ebu ulm,entsorgungs-betriebe der stadt ulm,entsorgungsbetriebe ulm
 e-buildway,tower crane,tower cranes in georgia
 ebv-leasing,erste bank und sparkassen leasing gmbh
-ec210,volvo ce,volvo construction,volvo construction equipment,volvo ec,вольво се,вольво строительная,вольво строитёльная,вольво сё
+ec210,l120 вольво,volvo ce,volvo construction,volvo construction equipment,volvo ec,вольво грейдер,вольво погрузчик,вольво се,вольво строительная,вольво строитёльная,вольво сё
 eca,ec applications,electrical corporation of america
 eca medical instruments,eca medical (united states)
 ecars,екарс бг,екарс бг еоод,ёкарс бг,ёкарс бг ёоод
@@ -14182,6 +14235,7 @@ ecole software,ecole software corp
 ecole tecnic,tecnic
 ecolines,эколайнс
 eco log
+ecolog harvesters,эколог harvester
 ecological city organizer,ecological city organizer (japan)
 ecological engineering institute,iei,iei integration corp
 ecological research & industrial cooperation,erico (slovenia)
@@ -14573,8 +14627,9 @@ eivirt,united incandescent lamps and electrical company limited
 eizo,eizo corporation,eizo nanao corporation
 eje (hong kong) holdings limited,jia meng holdings limited
 ek,enterprise knowledge,enterprise knowledge llc
-eka,eka group limited,eka limited,eka recovery vehicles (g.b.) limited,wrecquip limited
+eka,eka group limited,eka limited,eka recovery vehicles (g.b.) limited,eka бур,wrecquip limited,эка 1100
 ekco,ekco electronics ltd,e. k. cole ltd,ekcovision,eric kirkham cole limited
+ekeby,ekeby rig,экеби 1054
 eke project,eke projekt
 ekey,ekey biometric systems,ekey biometric systems gmbh
 ekf-diagnostic gmbh,ekf diagnostics
@@ -14623,6 +14678,7 @@ elanders,elanders ab
 elang mahkota teknologi,elang mahkota teknologi tbk,emtek,emtk,pt elang mahkota teknologi (emtek)
 elantas,elantas gmbh
 elantra,hyundai,solaris,solarisbank,solarisgroup,solaris se,кreta,крета,солярис,соната,хендай,хундай,хюндай,элантра
+elantra,h305 хендай,hd hyundai construction equipment,hyundai,hyundai construction equipment,solaris,кreta,крета,солярис,соната,хендай,хендай экскаватор,хендэ,хундай,хюндай,хюндай 300,хёндай,хёндэ,элантра
 elara,elara telehealth,skinnytheory,visionairemd,with elara,womens wellness
 elastic,elastic bv,elastic.co,elastic nv,elasticsearch bv
 elate holdings,elate holdings limited,south sea petroleum holdings limited
@@ -14696,7 +14752,7 @@ electronic sports league,electro standards laboratories (united states),esl,esl 
 electronics workbench corporation,national instruments electronics workbench group
 electronic theatre controls,empirical technologies (united states),etc,ethiopian telecommunication corporation,ethio telecom
 electronic visions group,ev group
-electronic warfare associates (united states),ewa,ewa point,synergy,synergy (electricity corporation),synergy (electricity generation and retail corporation),wpgener,wprtl
+electronic warfare associates (united states),ewa,ewa point,synergy,synergy (electricity corporation),synergy (electricity generation and retail corporation),wpgener,wprtl,синергия
 electro optical systems (germany),electro optical systems (united kingdom),electro optic systems holdings limited,electro optic systems pty ltd,eos
 electroroute energy trading,electroroute energy trading limited
 electrosignal novosibirsk,электросигнал,элёктросигнал
@@ -14756,6 +14812,7 @@ el gaitero,sidra el gaitero
 elgas,elgas limited
 elgato systems,elgato systems gmbh,eve systems,eve systems gmbh
 elgawa,nv elgawa
+elgi,элджи компрессор
 elgiganten,elgiganten ab,elgiganten a/s
 elgin johnstons,johnstons,johnstons cashmere,johnstons of elgin
 elgoods,elgoods brewery,elgood & sons
@@ -14773,11 +14830,12 @@ eliminalia,idata protection
 elingue,elingue s.r.o
 e linkx,e linkx a.s
 elinoil hellenic petroleum company s.a,elinoil s.a
+elios3,flyability elios,флабилити
 elis,элис
 elisa,elisa oyj,hpy htf
 elisa polystar,elisa polystar uk ltd
 elisdesign,elisdesign s.r.o
-elise,lotus,lotus cars,lotus development corporation,lotus software,элиз
+elise,lotus,lotus cars,lotus development corporation,lotus software,лотос эксидж,элиз,элиз лотус
 elite,elite microfinance
 elite grips,elite grips inc
 elite mamba tech,elite mamba tech sdn bhd,emtech
@@ -14927,8 +14985,11 @@ emerson,emerson a.s
 emerson-brantingham,emerson-brantingham co,emerson-brantingham company
 emerson crystals,unicorn lab
 emerson phonograph co,emerson radio corporation,emerson radio & phonograph corp,emerson television and radio corporation
+emesent hovermap,емесент
 emex,емекс
 emg,emg pickups,mts,мобильные телесистемы,мтс
+emg,marine and towage services,mts,mts technologies (united states),мобильные телесистемы,мтс
+emg,mts,мобильные телесистемы,мобильные телесистемы (белоруссия),мобильныё тёлёсистёмы (бёлоруссия),мтс,мтс беларусь,мтс бёларусь
 emg germany,nobeo
 emglo,emglo usa,эмгло,эмгло сша
 emh,european metals holdings,european metals holdings limited
@@ -15000,6 +15061,7 @@ emrbi,euromed research business institute,euromed research business institute (c
 emr brownsville,emr international shipbreaking,international shipbreaking
 emr group,emr metal recycling,european metal recycling,european metal recycling limited
 emr vindpark hejring,emr vindpark hejring a/s
+ems,matra marconi space,meridian medical systems (united states),micromolding solutions (canada),microwave medical systems,mms,эм энд эмс
 emsa gmbh,emsa holding gmbh
 emsbo,emsbo solar gmbh
 ems chemie,ems-chemie holding ag,ems (switzerland)
@@ -15466,6 +15528,7 @@ erianta co,erianta co limited
 eric mower and associates,mower,mower agency
 eric sk s.r.o,fusakle
 ericsson,sony,sony ericsson,sony mobile communications,сони,эриксон
+ericsson,sony,sony corporation,sony ericsson,сони,эриксон
 ericsson,lm эриксон,эриксон
 ericsson ab,ericsson radio systems
 ericsson (germany),ericsson (hungary),ericsson (italy),ericsson (netherlands),eth,telefonaktiebolaget l. m. ericsson
@@ -15510,7 +15573,7 @@ erwin cotton mills company,erwin mill
 erwin junker grinding technology,erwin junker grinding technology a.s
 erzgebirgische steinkohlen-energie gesellschaft,esteg (erzgebirgische steinkohlen-energie-gesellschaft mbh)
 es300,lexus es,эс триста
-es8,et5,nio,нио
+es8,et5,nio,найо,нио,нио et7
 esab,esab sweden,есаб,есаб сварка,есаб сварочное,есаб швеция,ёсаб,ёсаб сварка,ёсаб сварочноё,ёсаб швёция
 esaf microfinance,esaf small finance bank
 esam,esam inc,esam.ir
@@ -15529,6 +15592,7 @@ escholar,escholar llc
 esco,esco corporation,esco group
 es-con,es-con japan,es-con japan ltd,nihon es-con
 escopa,escopa a.s
+escort,fiesta,focus ford,ford,ford france,ford motor company,ford of france,ford saf,фиеста,форд,фордик,фукус,эскорт
 escorts,escorts agri machinery,escorts group
 escozul cuba,grupo lifescozul,lifescozul
 escudo,эскудо
@@ -15744,7 +15808,7 @@ europolis ce rho holding,europolis ce rho holding gmbh
 europower,europower as
 europower industries,europower industries s.r.o
 europrint czech,europrint czech a.s
-euro pro,euro-pro operating llc,myninja,ninja,ninjatech ai,ninjatech ai inc,shark,sharkninja,sharkninja operating llc,superninja
+euro pro,euro-pro operating llc,kawasaki,myninja,ninja,ninjatech ai,ninjatech ai inc,shark,sharkninja,sharkninja operating llc,superninja,кава,кавасаки,ниндзя
 euro rscg,euro rscg worldwide pr,havas creative,havas worldwide
 euro rscg london,euro rscg wnek gosper
 euroschnell,euroschnell.eu
@@ -15859,7 +15923,7 @@ evoke life,evoke life s.r.o
 evolinq,evolinq.io,evolinq ltd
 e-volo,volocopter
 evologics,evologics gmbh,evologics gmbh (germany)
-evolute,evolute electric,эволют,эволютион
+evolute,evolute electric,эвoлют rx,эволют,эволютейт,эволютион
 evolution,evolution gaming,evolution gaming group
 evolution finance,evolution finance s.r.o
 evolution space,sugarhouse aerospace
@@ -16081,14 +16145,14 @@ f-150,f150 raptor,раптор,эфка
 f1 autocentres,formula one autocentres
 f1 real estate,forward one,forward one real estate,forward one real estate team
 f1 west,f1 west s.r.o
+F2000 шакман,F3000,shaacman sx2500,shaanxi automobile works,shacman,шаxman,шакман
 f250,f350,super duty
 f2i reti tlc,metroweb italia
 f2w,fight 2 win promotions
-F3000,shaanxi automobile works,shacman,шакман
 f45,f45 training
 f50 league,f50 league llc
 f6s,f6s network
-f7,great wall,gwm haval,h9,haval,haval motor,hover,j6,jolion,грейв ол,грейт вол,джилион,хавал,хавейл,хавёйл,ховер
+f7,great wall,gwm haval,h9,haval,haval motor,hover,j6,jolion,великая стена,гвейт вол,грейв ол,грейт вол,джилион,джолион хавейл,хавeйл,хавал,хавал ховер,хавейл,хавёйл,ховер,ховер хаval
 f9,fft,frontier airlines
 fa,fa (brand),film associates,фа гель
 fabas foods,fabas foods ag,fabas foods ag (switzerland)
@@ -16323,6 +16387,7 @@ farmexpert d.c.i,farmexpert d.c.i. srl
 farm fresh,farm fresh berhad,farm fresh bhd,the holstein milk company
 farmland,farmlend.ru,pharmland pharmacy,pharmland pharmacy chain
 farm not pharm,oracle taleo,taleo,taleo llc
+farmol lovol,lovol,lovol фармол,ловол tg
 farmpro,farmpro korea,фармпро,фармпро корея,фармпро корёя
 farm water,farm water systems,water4dairy,water4equine,water4poultry,water4swine
 farnell,premier farnell
@@ -16360,7 +16425,7 @@ fast trac,fast-trac industries inc,fast-trac snowmobile traction products,fasttr
 fast track communications,fast track communications pty ltd,ftc,ftcomms.com.au,ftm,tanzania-china friendship textile company,tanzania-china friendship textile mill,urafiki (friendship) textile company ltd,urafiki friendship textile mill,urafiki textile mill
 fast trucking compliance,fasttruckingcompliance.com,fast trucking compliance llc,ftc compliance platform
 fata assicurazioni,fondo assicurativo tra agricoltori
-fat boy,harley,harley davidson,sportster,спорст,фэтбой,харлей,харли,чоппер
+fat boy,harley,harley davidson,hog харлей,sportster,спорст,фэтбой,харлей,харли,чоппер
 fat cat brewery,fat cat brewery tap,fat cat tap,the fat cat brewery,the fat cat brewery tap,the fat cat tap
 fate,fate argentina,fate empresa,fate neumaticos,fate saici,fate tires
 fat goose press,fat goose press limited,fat goose press ltd
@@ -16372,6 +16437,7 @@ fatto a mano,fatto a mano pizzeria
 fatware,fatware inc,fatware inc. (japan)
 fat yankee jerky,fatyankeejerky.com,fat yankee jerky llc,the fat yankee
 fauji foods,noon pakistan limited
+faun,vactor faun,фаун котлован
 faura,faura global,faura interior design residency,faura ltd
 faurecia automotive czech republic,faurecia automotive czech republic s.r.o
 faurecia automotive slovakia,faurecia automotive slovakia s.r.o
@@ -16382,8 +16448,9 @@ favelle favco,favelle favco berhad,favelle favco bhd
 faveo healthcare,faveo healthcare s. r. o
 favi,favi online
 favo capital,stewards business capital,stewards inc
-faw,first automobile works,j6,jiefang,первый автомобильный завод,пёрвый автомобильный завод,фав,фау
+faw,first automobile works,j6,jiefang,jiefang new,первый автомобильный завод,пёрвый автомобильный завод,фaв бестун,фаw jiefang,фав,фау,цзефан
 fa. wed. h. helweg & zoon,wed. h. helweg & zoon
+FAW J6,faw truck,jiefang фав,фаw орбитра
 faw jie fang
 fa world entertainment,fucking awesome
 faw toyota,ftmc,tftm
@@ -16463,7 +16530,7 @@ federated hermes,federated investors
 federated insurance,federated insurance company of canada
 federatie van nederlandse trombosediensten,federation of dutch anticoagulation clinics,fnt
 federazione cricket italiana,italian cricket federation
-fedex,fedex corporate services,fedex corporation,inc. (collierville,tn),федэкс,фёдэкс
+fedex,fedex corporate services,fedex corporation,inc. (collierville,tn),тн,федэкс,фёдэкс
 fedex kinkos,fedex office,fedex office print & ship services inc
 fedrosa,fedrosa s.r.o
 fee,forschungsinstitut fur mineralische und metallische werkstoffe edelsteine/edemetalle,research institute for mineral and metallic materials gemstones/precious metals
@@ -16511,7 +16578,7 @@ fenalt,fenalt.com,fenalt hq
 fendel-schiffahrts-aktiengesellschaft,rag (rheinschiffahrt-aktiengesellschaft)
 fender,fender company,fender guitars
 fendi,пенди,фенди,фёнди
-fendt,fendt germany,фендт,фендт германия,фёндт,фёндт гёрмания
+fendt,fendt germany,vendt,фендт,фендт германия,фент 1050,фенти варио,фёндт,фёндт гёрмания
 feniks,phoenix pharma,феникс
 fenix,fenix funeral,garmin fenix,финикс
 fennel,fennel ai
@@ -16544,7 +16611,7 @@ ferox therapeutics,ferox therapeutics (united states)
 ferrania,ferrania technologies s.p.a
 ferranti,ferranti international plc,ферранти,фёрранти
 ferranti thomson sonar systems,thomson marconi sonar
-ferrari,ferrari s.p.a,фарари,феррари
+ferrari,ferrari s.p.a,фарари,феррари,феррари 488
 ferratum,the ferratum group
 ferrexpo,ferrexpo ag,ferrexpo plc
 ferrexpo poltava gok,ferrexpo poltava mining,poltava gok,полтавский гок,полтавский горно-обогатительный комбинат,полтавский горно-обогатитёльный комбинат
@@ -16618,7 +16685,7 @@ fg wilson,fg wilson generators,вилсон генераторы,вилсон г
 fgwrs,firmus grey water recycling system
 f. herder abr. sohn,f. herder en sn,friedr. herder abr. sohn,friedrich herder abraham sohn,friedrich herder abraham sohn gmbh,friedrich herder abr sohn
 fhg,fullerton health group
-fhi,forester,fuji heavy industries,subaru,subaru corporation,субару,форестер
+fhi,forester,fuji heavy industries,subaru,subaru corporation,импреза субару,сабару,субару,форестер
 fh invest,fh invest se
 f. h. kalbfleisch company,f.h. kalbfleisch corp,franklin h. kalbfleisch chemical company,franklin h. kalbfleisch company
 fhm holland,fhm netherlands
@@ -16680,7 +16747,7 @@ fiera capital,fiera capital corporation
 fierce,fierce beer
 fierran,fierran as
 fiesta americana,grupo posadas,posadas
-fiesta st,st fiesta,эс-ти
+fiesta st,st,st fiesta,эс-ти
 fiesta tableware company,homer laughlin china company
 f & i eu,f & i eu s.r.o
 fiftf,football is for the fans,football is for the fans ltd
@@ -16827,7 +16894,7 @@ fiorlab,fiorlab limited
 fiorucci,fiorucci holdings limited
 fip,heinrich fip,heinrich fip gmbh & co. kg
 fire and flow movement,fire & flow,fire & flow movement
-firebird,pontiac,понтиак
+firebird,pontiac,джи-ти-пи понтиак,понтиак,понто
 firedance,firedance.io,firedance multimedia llc
 firefish europe,firefish europe s.r.o
 firefly,firefly tonics,firefly tonics ltd
@@ -16848,7 +16915,7 @@ firma fris,fris studio,keramische industrie fris,n.v. keramische industrie fris
 firma f.w. braat,f.w. braat
 firma gebr. lampe,lampe
 firma g.j. rheberghen,g.j. rhebergen
-firma g. keuzenkamp,keuzencamp & marcelis,kuga mk,m&k,mk2
+firma g. keuzenkamp,keuzencamp & marcelis,kuga mk,michael kors,m&k,mk2,майкл корс
 firma h. bernhard,firma h. bernhard nzn,firma h. bernhard & zn
 firma h. blenken n.v,h. blenken
 firma heinrich levinger,levinger & bissinger
@@ -17142,7 +17209,7 @@ flying mining,flying mining limited
 flying shine
 flyingwheel,flyingwheel s.r.o
 flykflakswag,flykflakswag.com
-flynas,flynas company,kne,nas air,xy
+flynas,flynas company,kne,nas air,xy,хи
 flynn intel group,flynn intel group inc
 flynorse,n0,nbt,norse atlantic,norse atlantic airways
 flypaper,soundfly,soundfly inc
@@ -17259,7 +17326,6 @@ forcepoint,websense
 forcerebrus,forcerebrus (portugal)
 forcontax,forcontax s.r.o
 forcorp group,forcorp group spol. s r.o
-ford,ford france,ford motor company,ford of france,ford saf,форд
 ford argentina,ford motor argentina,ford motor company of argentina
 ford canada,ford motor company of canada,ford of canada
 ford europe,ford of europe
@@ -17334,7 +17400,7 @@ formac,formac elektronik gmbh
 formality,formality deutschland
 forma pro 360,fp360
 formasuisse,formasuisse sa
-format, Format bike,формат байк
+format,Format bike,формат байк
 formatic ab,formatic aktiebolag,ljusbutik,stockholms ljusbutik
 formations house,the london office
 formbeam,formbeam limited
@@ -17380,7 +17446,7 @@ forte trust realty,forte trust realty a.s
 forte (united states),percipenz technologies
 forth,forth life,forth with life,humankind ventures ltd
 for the love,ftl,ftl bags,ftl games
-forthing,форсинг
+forthing,форсинг,форсинг t5
 forthnet,nova greece
 fortience consulting,qunie
 fortis,fortis energy
@@ -17435,10 +17501,10 @@ fotofix,me group,photo-me,photo-me international
 fotoflite,skyfotos
 fotograf engvig,fotograf engvig a/s
 foto kino-swamenberg,foto swanenberg,kino swanenberg,tiel foto-kino swanenburg
-foton,toeland,townd,фотон
+foton,toeland,townd,фотон,фотон тоано,фотон туol
 fotool,fotool.ai,fotool ltd
 fotostudio p.f.h,fotostudio p.f.h. putten
-fototechniek trio,trio,trio medicines (united kingdom)
+fototechniek trio,trio,trio medicines (united kingdom),рио
 fototica,grandvision by fototica
 fototrending,fototrending.com,photography blog fototrending
 fotowatio renewable ventures,frv
@@ -17468,6 +17534,7 @@ four smart brothers,four smart brothers limited,four smart brothers ltd,fsbl
 four solutions,four solutions pte ltd
 fourth dimension publishers,fourth dimension publishing co. ltd,fourth dimension publishing company,nigeria
 fourth quadrant,fourth quadrant s.r.o
+fourtrax rubicon,honda fourtrax,хонда тракс
 four winds,four winds inc
 fowler potteries,fowler ware,r. fowler limited,r. fowler sydney
 fox 21 television studios,touchstone television
@@ -17599,7 +17666,7 @@ frees of marlborough,marlborough,thomas free and sons,thomas free and sons limit
 free style
 free train,freetrain.com,freetrain.co.uk
 freeview,freeview australia,freeview nz,fv
-free voyah,voyah,войа
+free voyah,voyah,вая m7,войа,войа dream
 free vpn planet,freevpnplanet.com,planet vpn
 freeze pipe,tfpfet lcc,the freeze pipe
 freiberger erdgas,freiberger erdgas gmbh
@@ -17851,6 +17918,7 @@ furnilytics,furnilytics ab
 furnished accommodation,villa la fnouil - ile dyeu
 furtec,iedosa
 further markets,further markets technologies ltd
+furukawa,рокбрейкер фурукава,фурукава hd
 furuta confectionery,furuta seika
 furyu,furyu corporation
 fuse energy technologies,fuse energy technologies corporation
@@ -17904,7 +17972,7 @@ fv prague first,fv prague first s.r.o
 fvz convenience,fvz convenience gmbh
 fwusow ind. corp,fwusow industry,fwusow industry corp,fwusow industry corporation
 f. w. woolworth company,woolworth
-fx35,infiniti,nissan infiniti,qx,инфинити
+fx35,infiniti,nissan infiniti,qx,инфинити,инфинити qx50
 fx capital,fx capital s.r.o
 fxcm asia,fxcm asia limited,rakuten securities hk,rakuten securities hong kong,rakuten securities hong kong limited,rshk
 fx macro data,fxmacrodata api
@@ -17920,7 +17988,7 @@ fynix,fynix co-banking,quovatech
 fyresign,socialscreen
 fyrfasen energi,fyrfasen energi ab
 fyware,fyware s.c
-g01,landwind,swm,x7,лендвинд,свм
+g01,landwind,swm,swm g01,x7,лендвинд,сwm s7,свам эс7,свм
 g24 power,g24 power (united kingdom),gcell (united kingdom)
 g2mt,generation 2 materials technology (united states)
 g2r,giir
@@ -17929,7 +17997,7 @@ g3 global,g3 global berhad,g3 global bhd
 g4e,gas for europe gmbh
 g4 media,g4 media inc
 g4s,group 4 securicor
-g80,genesis,genesis bicycle company,genesis bicycles,genesis bike company,genesis global,gv70,генезис
+g80,genesis,genesis bicycle company,genesis bicycles,genesis bike company,genesis global,gv70,генезис,дженесис
 g9,terria,terria access seekers association
 ga,generic assays (germany)
 ga-110,g-shock,джишок
@@ -17947,7 +18015,7 @@ gabriel,gabriel a/s,gabriel fabrics
 gabriele pasini,pasini,пасини
 gabriel holding,gabriel holding a/s
 gabungan aqrs,gabungan aqrs berhad,gabungan aqrs bhd
-gac,guizhou aircraft industry corporation
+gac,guizhou aircraft industry corporation,гаc мотор,гак мобил
 gaca,georgia connections academy
 gachsaran oil and gas production company,gachsaran oil & gas production co,gogpc
 gac mitsubishi,gac mitsubishi motors
@@ -18118,7 +18186,7 @@ gardinenfabrik plauen,plauener gardine gmbh & co
 gardinier fertilizer inc,gardinier sa
 gardline group,gardline group ltd
 gardner,l. gardner and sons,l. gardner & sons
-gardner denver,gardner denver compressors,гарднер денвер,гарднер денвер компрессоры,гарднёр дёнвёр,гарднёр дёнвёр компрёссоры
+gardner denver,gardner denver compressors,гарднер денвер,гарднер денвер gd,гарднер денвер компрессоры,гарднёр дёнвёр,гарднёр дёнвёр компрёссоры
 garena,garena online,ggc,гарена,гарёна
 gareth stevens,gareth stevens publishing
 garford motor truck company,гарфорд (фирма)
@@ -18213,7 +18281,7 @@ gazeta.uz,газета.uz,газета.уз,газёта.uz,газёта.уз
 gazexport,gazprom export llc,газпром экспорт,газэкспорт
 gazin,gazin group,grupo gazin
 gaznat,gaznat sa
-gazprom,pao gazprom,public joint stock company gazprom,газпром,оао газпром,публичное акционерное общество газпром,публичноё акционёрноё общёство газпром
+gazprom,gp,pao gazprom,public joint stock company gazprom,газпром,оао газпром,публичное акционерное общество газпром,публичноё акционёрноё общёство газпром
 gazprombank,газпромбанк,гпб
 gazprom germania,gazprom (germany),securing energy for europe,sefe,sefe group
 gazprom global lng,gazprom global lng limited,sefe marketing & trading london
@@ -18600,6 +18668,7 @@ georgia theatre company,global technology connection (united states),gtc
 georg jensen,georg jensen a/s
 georg jos. kaes,v-markt
 georg neumann,georg neumann gmbh,neumann
+geoscan aerial,geoscan scout,геоскан
 geosciences consultants,gold & silver company,good smile company,gsc
 geospace technologies,geospace technologies corporation
 geosphere environmental technology,geosphere environmental technology corp,geosphere environmental technology corp. (japan)
@@ -19073,7 +19142,7 @@ gmac insurance,gmac insurance group,national general insurance
 gmac mortgage,gmac rescap
 gma films,gma pictures
 g-market,qoo 10,qoo10.jp
-gmc,джиэмси
+gmc,гимси,гмк пикап,джиэмси
 gm canada,mclaughlin carriage co,mclaughlin carriage works,mclaughlin motor car co. ltd,mclaughlin motor car company
 gmdc,gujarat mineral development corporation,gujarat mineral development corporation limited
 gmeri,guangzhou mechanical engineering research institute (china)
@@ -19157,7 +19226,7 @@ golden agri-resources,golden agri-resources limited,golden agri-resources ltd
 golden bow,jing gong
 golden casket,new south wales lotteries,nsw lotteries,sa lotteries,tatts,the lott,thelott enterprises pty ltd
 golden corral,golden corral buffet
-golden dragon,xiamen golden dragon bus
+golden dragon,xiamen golden dragon bus,голден дракон xmq,金旅 xml
 golden entertainment,golden gaming
 golden globe tech,golden globe technologies
 golden horse shoe estates,golden horseshoe estates co. ltd
@@ -19193,7 +19262,7 @@ goldin solar,goldin solar llc
 gold line movers (legal trading variant),gold line removals
 goldman sachs bank europe se,goldman sachs europe se
 goldmine souvenirs ltd,kissy bang bang,kissy bang bang condoms
-goldoni,goldoni s.p.a,goldoni trattori
+goldoni,goldoni s.p.a,goldoni trattori,голдони micro
 goldove entertainment,goldove records
 gold peak industries (united kingdom),gp industries
 gold reserve,gold reserve inc
@@ -19376,7 +19445,7 @@ grand capital,grand capital group,гранд капитал груп
 grand central bakery,grand central baking company
 grand central (ceylon) rubber estates,grand central investment holding ltd. ab 1960
 grand central enterprises berhad,grand central enterprises bhd
-grand cherokee,jeep,wrangler jeep,гранд чероки,джи-джип,джип,ранглер
+grand cherokee,jeep,wrangler jeep,гранд чероки,джаип,джи-джип,джи-ип,джип,джип гранд чероки,ранглер
 grand city properties,grand city properties s.a
 grande holdings,nimble holdings,the grande holdings limited
 grandem,grandem group,sia grandem group
@@ -19393,7 +19462,7 @@ grand teton energy systems,k2 energy solutions
 grand union,grand union family markets,grand union supermarkets
 grand ventures,grand ventures sia
 grandvision,optica2000
-grand vitara,suzuki,suzuki motor,swift,витары,свифт,сузуки,сузуков
+grand vitara,suzuki,suzuki motor,swift,витары,гск сузуки,свифт,судзуки,сузуки,сузуков
 grand vitara,гвв
 grange co op,grange cooperative,grange cooperative supply association
 grange insurance,grange insurance company,grange mutual holding company
@@ -19450,7 +19519,7 @@ great southern rail,great southern railway,jbre,journey beyond,journey beyond ra
 great tree,great tree pharmacy
 great uk pubs,stonegate group,stonegate pub company
 great universal stores,gus,gus plc
-great wall tank,tank,танк
+great wall tank,tank,tанк 500,танк,танк 300
 great wave ai,great wave ai limited
 greatwest.ca,great west media,great west newspapers,great west newspapers limited partnership,great west newspapers l.p
 great western garment co,great western garment company (gwg)
@@ -19630,7 +19699,7 @@ group telecom,gt group telecom,gt group telecom inc,gt group telecom services co
 group van elsen,group van elsen cargo care
 group w,westinghouse broadcasting
 grout,grout brothers
-grove,гроув
+grove,grove gmrt,гров 5220,гроув
 grove instruments (united states),vivascan corporation
 groves batteries titan division,titan batteries,titan lithium
 grovestreet,grove street advisors
@@ -19730,7 +19799,6 @@ gtlk europe,gtlk europe dac
 gtl prologis beta,gtl prologis beta s.r.o
 gt mg,medianews group,mg,mng,rx8,zs mg,эм-джи
 gt production,gt production s.r.o
-gt-r,джи-ти-эр
 gtr24,gtr24.ru,гуд трейд,гуд-трейд красноярск,гуд трёйд,гуд-трёйд красноярск
 g-tv,gtv media group
 gtv,gunma television,guntele
@@ -19863,7 +19931,7 @@ gyt,tochigi tv
 gzbrain,kadokawa game linkage
 gz digital media,gz media,gz vinyl
 h1.cz,h1.cz s.r.o
-h2,h2 hd,h3,history 2,hummer,хаммер
+h2,h2 hd,h3,history 2,hummer,xaммер,хаммер,хаммер h2
 h2 energy technologies,h2 energy technologies s.r.o
 h2 farming technologies,h2 farming technologies s.r.o
 h2 green steel,stegra,stegra ab
@@ -20041,6 +20109,7 @@ hamilton photographic co,hamilton photographic company
 hamilton utilities corporation,huc
 haminan energia,haminan energia oy
 ha ming kee,ha ming kee noodle shop,yung kong ho
+hamm,hamm 3522,хамм hdx
 hammarplast,hammarplast ab
 hammarsten shipyard,hammarstens varv
 hammelmann,hammelmann gmbh
@@ -20088,7 +20157,7 @@ h and m,hennes & mauritz,h & m,h & m hennes & mauritz ab,х энди эм,хэн
 hands,hands inc,tokyu hands,tokyu hands inc
 hands-on b.v. (lendahand),lendahand
 handtmann,handtmann beteiligungen gmbh
-hand-to-hand couriers,ram,ram 1500,ram couriers,ram hand-to-hand,ram hand to hand couriers,рам
+hand-to-hand couriers,ram,ram 1500,ram couriers,ram hand-to-hand,ram hand to hand couriers,пикап рам,рам,рам 1500
 handwertig,handwertig gmbh
 handweverij de wipstrik,handweverij en ontwerpatelier kitty van der mijll dekker
 handwriting,twinkl handwriting
@@ -20154,7 +20223,7 @@ hanwha vision,samsung techwin
 hanyu da cidian press,truth & wisdom press
 hanzo archives limited,hanzo archives (united kingdom)
 hanztech,hanztech s.r.o
-haohan,howo,sinotruk,хаохань,хово
+haohan,howo,howo тх7,sinotruk,ауман хово,хаохань,хово,хово a7
 hao wen holdings,hao wen holdings limited,hao wen holdings limted
 hapi,health action partnership international (united kingdom)
 hapik,the hapik group
@@ -20433,7 +20502,6 @@ hdfc,housing development finance corporation,housing development finance corpora
 hdfc bank,payzapp
 hdf group,the hdf group
 hdhc,hellenic digital health cluster,hellenic digital health cluster - hdhc,hellenic digital health cluster - hdhc (greece)
-hd hyundai construction equipment,hyundai,hyundai construction equipment,хендай,хендэ,хёндай,хёндэ
 hd hyundai global service,hd hyundai marine solution,hyundai global service
 hd hyundai marine engine,stx heavy industries
 hd hyundai oilbank,hyundai oilbank,hyundai oil refinery
@@ -20509,7 +20577,7 @@ heavy machinery services,heavy machinery services a.s,legios
 hebei donghai special steel,tangshan donghai iron and steel group special steel
 hebei jingye group co. ltd,jingye group
 hebei sinogiant group,hebei sinogiant steel investment co,hebei xinhua united metallurgical holding group co
-hebei zhongxing automobile co ltd,zx auto
+hebei zhongxing automobile co ltd,zx auto,zx tutela,зика,зотай зх
 heberer,heberer gmbh & co. kg
 hecht,hecht benelux,hecht technologie,hecht technologie gmbh,hecht technology,hecht technology b.v,plant partner,plant partner b.v
 hecht technology inc,hecht technology usa,hecht usa
@@ -20657,7 +20725,7 @@ hengxing gold,hengxing gold holdings limited
 hengyuan refining company,hengyuan refining company berhad,hengyuan refining company bhd
 hengyuanxiang,hyx,hyx1927.com
 heni,heni editions,heni group,heni leviathan,heni press,heni publishing,heni talks
-henkel,henkel group,henkel-konzern,n.v. v/h c.f. van dijl & zoon,schwarzkopf,schwarzkopf dordrecht
+henkel,henkel group,henkel-konzern,n.v. v/h c.f. van dijl & zoon,schwarzkopf,schwarzkopf dordrecht,шварцкопф
 henkel ag,papier- und pappe
 henkel japan,henkel japan ltd,henkel japan ltd. (japan)
 henkell & co. sektkellerei,henkell freixenet
@@ -20856,7 +20924,7 @@ hificorp,hifi corporation
 hifigear,hifigear limited
 hi/fn
 higashinihon broadcasting,higashinippon broadcasting,khb
-higer,higer bus,хайгер
+higer,higer bus,хайгер,хайер klq
 high and mighty,high & mighty
 highburton co-operative society,highburton industrial and provident society limited
 high end companies,high end companies llc
@@ -20909,7 +20977,7 @@ hillside engineering,hillside engineering group
 hillside railway workshops,hillside workshops,nz hillside workshops
 hilmor,hilmor usa,хилмор,хилмор сша
 hi-lo food stores,massy stores
-hilti,hilti ag,hilti corporation,hilti group,хилти,хилти корпорейшн,хилти корпорёйшн,хилти крепеж,хилти крепёж
+hilti,hilti ag,hilti corporation,hilti group,te 3000 хилти,хилte,хилти,хилти te,хилти корпорейшн,хилти корпорёйшн,хилти крепеж,хилти крепёж
 hilton grand vacations,hilton grand vacations company
 hilton kommunal,hilton kommunal gmbh
 hiltzik strategies,h strategies
@@ -20980,7 +21048,8 @@ historic images,historicimages.com
 history of statoil,statoil history
 history of wea in italy,history of wea italiana,wea italiana
 history press,the history press
-hitachi,hitachi construction machinery,hitachi koki,hitachi konstruction,hitachi transportation systems,ltd. railway systems business unit,zx200,хирачи,хитачи,хитачи кокки,хитачи павер тулс,хитачи павёр тулс
+hisun,hisun 700,хисун 500
+hitachi,hitachi construction machinery,hitachi koki,hitachi konstruction,hitachi transportation systems,ltd. railway systems business unit,zx200,zx200 хитачи,хирачи,хитачи,хитачи кокки,хитачи павер тулс,хитачи павёр тулс,хитачи экскаватор
 hitachi automotive systems measurement,tokico system solutions,tokico techno
 hitachi channel solutions,hitachi-omron terminal solutions,oh channel innovations
 hitachi chemical,showa denko materials
@@ -21113,6 +21182,7 @@ hokutetsu hakusan bus,kaga hakusan bus
 holaluz-clidom,holaluz-clidom sa
 holc,home owners loan corporation
 holcim s.a,холсим
+holden,хoлден коммодор
 holdens brewery
 holding monex,monex sab
 holics,holics ceramics factory,holics faience manufacture,holitsch
@@ -21229,7 +21299,7 @@ hong leong capital,hong leong capital berhad,hong leong capital bhd
 hong leong finance,hong leong finance limited,hong leong finance ltd,singapore finance,singapore finance limited,singapore finance ltd
 hong leong financial group,hong leong financial group berhad,hong leong financial group bhd
 hong leong industries,hong leong industries berhad,hong leong industries bhd
-hongqi,red flag
+hongqi,red flag,красное знамя авто,хонги,хунци h9
 hong seng consolidated,hong seng consolidated berhad,hong seng consolidated bhd
 hongta group,yuxi cigarette factory,yuxi tobacco company
 hong ying animation
@@ -21380,6 +21450,7 @@ howden,howden scotland,хауден,хауден шотландия,хаудён
 howdens,howdens joinery
 how-ing,how-ing technology,how-ing technology inspection engineering
 howlett and white,norvic footwear ltd,norvic shoe
+howo sinotruk,sinotruk cnhtc,sinotruk howo,сінотрак
 howthef,how the f ai
 hoya,hoya corporation,hoya kabushiki-gaisha
 hoyts kiosk,oovie
@@ -22097,6 +22168,7 @@ ikasa bus,ikasa tetsudo
 ikatel,orange mali
 ikb,ikb ag,innsbrucker kommunalbetriebe
 ikbi,sumi indo kabel,sumi indo kabel tbk
+ikco,iran khodro,иран xoдро
 ikea,икеа,икеевский,икея
 ikea components,ikea components s.r.o
 ikea deutschland,ikea germany,ikea in germany
@@ -22551,7 +22623,7 @@ ingenio ledesma,ledesma sa,ledesma s.a.a.i
 ingenovis,ingenovis health
 ingenuity systems,qiagen silicon valley
 ingersoll,ingersoll electronic
-ingersoll rand,ingersoll rand company,ингерсолланд,ингерсолл пневмоинструмент,ингерсолл рэнд,ингерсолл-рэнд компани,ингёрсолланд,ингёрсолл пнёвмоинструмёнт,ингёрсолл рэнд,ингёрсолл-рэнд компани
+ingersoll rand,ingersoll rand company,ingersolrand ir,ингерсолланд,ингерсолл пневмоинструмент,ингерсолл рэнд,ингерсолл-рэнд компани,ингерсолранд,ингёрсолланд,ингёрсолл пнёвмоинструмёнт,ингёрсолл рэнд,ингёрсолл-рэнд компани
 ing financial holdings,ing financial holdings corporation
 inghams enterprises,inghams group limited
 ingka holding,ingka holding b.v
@@ -22832,7 +22904,8 @@ intermestic,intermestic inc
 intermo,intermo ai
 intermos praha,intermos praha s.r.o
 intermusica,intermusica artists management ltd,intermusica deutschland gmbh,intermusica inc
-international,international islamic bank,international truck,интернейшнл
+international,international islamic bank
+international,international truck,интернейшнл
 international association of independent tanker owners,intertanko (norway)
 international biofuel investment,international biofuel investment pte. ltd
 international city holdings,international city holdings limited
@@ -23083,6 +23156,7 @@ irish fiscal policy research centre,publicpolicy.ie (ireland)
 irish life and permanent,irish life and permanent plc,permanent tsb,permanent tsb group holdings,permanent tsb group holdings plc
 iris light technologies,iris light technologies (united states)
 iris robotics,is robotics
+irizar,irizar pb,иризар i6
 irkutskie,иркутские молочные продукты
 irkutsk research institute of noble and rare metals and diamonds,иргиредмет,иргирёдмёт
 ir-mporg
@@ -23114,7 +23188,7 @@ isdemir,искендерунский металлургический комби
 ise chemicals,ise chemicals corporation,ise chemicals corporation (japan)
 ise foods,tamago & company
 ise-gen
-iseki,iseki japan,исеки,исеки япония,исёки,исёки япония
+iseki,iseki japan,ISEKI KR,исеки,исеки rh,исеки япония,исёки,исёки япония
 isent,изент
 iseo,iseo s.r.o
 ishaka,ishaka-microfinance
@@ -23229,7 +23303,7 @@ ivanahelsinki,ivana helsinki paola suhonen
 ivani,ivorians,иваново-
 ivax international,ivax international b.v
 ivdiagnostics (united states),ivdx
-iveco,iveco s.p.a,ивеко,ивёко
+Iveco bus,iveco crossway,ивеко урбано
 iveco france,iveco france sa,iveco france sas
 ivenco,ivenco suction
 iver c. weilbach & co. a/s,weilbach a/s
@@ -23319,7 +23393,7 @@ jadewerft,neue jadewerft gmbh
 jadi imaging holdings,jadi imaging holdings berhad,jadi imaging holdings bhd
 jadori holdings,jadori holdings limited
 jadrolinija,jadrolinija rijeka
-jaecoo,джайку,джейку,джёйку
+jaecoo,джakoo j7,джайку,джейку,джеку,джёйку
 jaeger,jaeger (clothing)
 jaeger-lecoultre,jaeger-lecoultre watch,jlc
 jaffa,jaffa crvenka
@@ -23329,7 +23403,7 @@ jafra,jafra cosmetics
 jagannath,джаганнат
 jaggerwood,jaggerwood limited
 jagran prakashan,jagran prakashan limited
-jaguar,jaguar xe,ягуар
+jaguar,jaguar xe,джегуар,ягуар,ягуар епейс
 jaguar land rover,jaguar land rover automotive,jaguar land rover automotive plc,jlr
 j. a. henckels,zwilling j. a. henckels
 jahez,jahiz
@@ -23440,7 +23514,7 @@ japan iron & steel,nihon seitetsu
 japan-kotsu,rent a car tagajo
 japan laser,japan laser corp,japan laser corp. (japan)
 japan maggot company,japan maggot company co. ltd,japan maggot company co. ltd. (japan)
-japan metals and chemicals,japan metals & chemicals,jiangling,jiangling motors,jmc
+japan metals and chemicals,japan metals & chemicals,jiangling,jiangling motors,jmc,jmc yuda,жимси,цзянлинг
 japan multimedia services,japan multimedia services corporation,jms inc,jms-united
 japan music entertainment general incorporated association,j.m.e
 japan net bank,paypay bank
@@ -23612,6 +23686,7 @@ jetbrains co. ltd,джетбрейнс,джётбрёйнс
 jete power holdings,jete power holdings limited,solomon worldwide holdings,solomon worldwide holdings limited
 jet lube,джет луб,джетлюб,джёт луб,джётлюб
 jet match
+jetour,джерiтур t2,джетур Дэшинг
 jetrun technology,jetrun technology corporation
 jet signal industries co,j.s
 jetsmarter,jetsmarter inc
@@ -23689,7 +23764,7 @@ jimny,джимни
 jina,jina ai
 jinan municipal design institute,jinan municipal engineering design & research institute (china)
 jin bao bao holdings limited,teamway international group holdings limited
-jinbei,джинбей
+jinbei,джинбeй,джинбей,джинбэй голд
 jinergy,jinneng clean energy technology,jinneng clean energy technology ltd,jinneng energy
 jingisukan,tsukisappu genghis-khan club,tsukisappu jingisukan club
 jinheng automotive safety,jinheng automotive safety technology,jinheng automotive safety technology holdings,jinheng automotive safety technology holdings limited,jinheng automotive safety technology holdings ltd,tus international,tus international limited
@@ -23849,7 +23924,7 @@ john tiller software (united states),jts
 john turner realtor,turner victory,turner victory team,tvt
 john wesley community health institute,jwch institute
 john whitby and sons,john whitby & son
-john white,smith & company,weld & co,white,white-smith music publishing company,white weld & co
+john white,smith & company,weld & co,white,white-smith music publishing company,white weld & co,айт
 john wick presents,jwp
 john wiley & sons (germany),wiley,wiley-vch,wilvch
 john woodman,j. woodman
@@ -24158,6 +24233,7 @@ jysk,jysk sp. z o.o,jysk s.r.o
 jyukankyo research institute,jyukankyo research institute inc,jyukankyo research institute inc. (japan)
 k1l,kumite 1 league
 k3y,k3y ltd,k3y ltd (bulgaria)
+k-744 кировец,ktz,ктз к-700,петербургский трактор
 ka,ка-машина
 kaakon energia,kaakon energia oy
 kaal,kaal.store
@@ -24180,12 +24256,12 @@ kabuki theatrical co,kabuki za,kabukiza theatre,кабуки-дза
 kabu & peace,kabu & peace inc
 kabushiki-gaisha kaneka,kaneka corporation
 kabushiki-gaisha komatsu seisakusho,komatsu,komatsu japan,komatsu limited,komatsu ltd,komatsu pc200,komatsu seisakujo,каматсу,коматсу,коматсу япония,комуцу
-kabushiki-gaisha shiguma,sigma,sigma assessment systems,sigma corporation
+kabushiki-gaisha shiguma,sigma,sigma assessment systems,sigma corporation,сигма
 kabushiki gaisha stardom,stardom,world wonder ring stardom
 kabushikigaisha tonari,tonari,tonari inc
 kabushiki-gaisha tsubakimoto chiein,tsubakimoto chain
 kabushiki gaisha yaohan,yaohan,yaohan depato
-kabushiki-kaisha kubota,kubota,kubota corporation,kubota japan,кубота,кубота япония
+kabushiki-kaisha kubota,kubota,kubota b,kubota corporation,kubota japan,кубота,кубота bx1860,кубота япония,Кубото m9540
 kabushiki kaisha kureha,k.k. kureha,kureha chemical industries,kureha corporation,куреха,курёха
 kabushiki kaisha mitsutoyo,mitsutoyo,mitutoyo,mitutoyo corporation,mitutoyo japan,митутое,митутойо,митутойо измерительный,митутойо измёритёльный,митутойо япония,митутоё
 kabushiki kaisha ooaks,ooaks inc
@@ -24203,6 +24279,8 @@ kadoya seiyu,kadoya sesame mills,kadoya sesame mills inc
 kaduna syndicate,the kaduna syndicate ltd
 kaef,kimia farma,kimia farma tbk,pt kimia farma tbk
 kaeferling,kaeferling pro
+kaeser,m50 каезер,каiser компрессор
+kaessbohrer,pistenbully kaessbohrer,кёсбрер
 kafademi,kafademi scientific research and development cooperative
 kaffee of world,kaffee of world s.r.o
 kaffee partner,kaffee partner gmbh
@@ -24286,7 +24364,7 @@ kamag,kamag transporttechnik gmbh & co. kg
 kamaka,kamaka ukulele
 kamal encon,kamal encon industries limited,kamal encon industries limited (india)
 kamari pharma,kamari pharma ltd,orvida pharma,orvida pharma ltd,orvida pharma ltd. (israel)
-kamaz,kamaz master,камаз,камзы,камск,камский,камский автомобильный завод,набережные челны,набёрёжныё чёлны
+kamaz,kamaz master,камaз 5490,камaз мастер,камaз некст,камаз,камзы,камск,камский,камский автoмобиль,камский автомобильный завод,набережные челны,набёрёжныё чёлны
 kambala,kambala solutions
 kamchatskenergo pjsc,камчатскэнерго,камчатскэнёрго
 kamco,keane australia micropayment consortium
@@ -24395,7 +24473,7 @@ karimoku,karimoku furniture
 karin & stefan,karinundstefan
 karl deutsch,karl deutsch gmbh
 karl-lorimar home video,karl video corporation,klv-tv,lorimar home video
-karl marx plant,lyulka-saturn,omsk electrotechnical plant,omsk karl marx plant,pao saturn,saturn,saturn hyper,нпо сатурн,окб-36,омский электротехнический завод,омский электротехнический завод имени карла маркса,омский элёктротёхничёский завод,омский элёктротёхничёский завод имёни карла маркса,пао сатурн,рыбинские моторы,рыбинский авиамоторный завод,рыбинский машиностроительный завод,рыбинский машиностроитёльный завод,рыбинский моторный завод,рыбинский моторостроительный завод,рыбинский моторостроитёльный завод,рыбинскиё моторы,сатурн,сатурн инструмент,сатурн инструмёнт,сатурн (нпо)
+karl marx plant,lyulka-saturn,omsk electrotechnical plant,omsk karl marx plant,pao saturn,saturn,saturn hyper,UEC-Saturn,нпо сатурн,окб-36,омский электротехнический завод,омский электротехнический завод имени карла маркса,омский элёктротёхничёский завод,омский элёктротёхничёский завод имёни карла маркса,пао сатурн,рыбинские моторы,рыбинский авиамоторный завод,рыбинский машиностроительный завод,рыбинский машиностроитёльный завод,рыбинский моторный завод,рыбинский моторостроительный завод,рыбинский моторостроитёльный завод,рыбинскиё моторы,сатурн,сатурн инструмент,сатурн инструмёнт,сатурн (нпо),сатурн сл,уэк сатурн
 karl richard klemm,richard klemm
 karl schauerman,karl schubert
 karl schuke organs,karl schuke orgelbau
@@ -24446,6 +24524,7 @@ kassel university press,kup
 kastech software solutions group,kastechssg
 kasvo,kasvo spol. s r.o
 kat,kinetic art & technology (united states)
+kat1 kat2,MAN Kat,tg3 ман кат,ман кат
 katakura co,katakura gumi
 katalon,katalon studio
 katam (sweden),katam technologies ab
@@ -24498,7 +24577,10 @@ kawamoto industries,kawamoto industry (japan)
 kawamura electric,kawamura electric inc
 kawan food,kawan food berhad,kawan food bhd
 kawasaki,kawasaki heavy industries,kawasaki heavy industries ltd,khi,ninja,кава,кавасаки,ниндзя
+kawasaki,ninja,кава,кавасаки,ниндзя,судоверфь кавасаки,судовёрфь кавасаки
+kawasaki atv,kxf кавасаки,кавасаки атв
 kawasaki kinkai kisen,k line kinkai
+kawasaki motor,кавасаки ниндзя
 kawasaki natural gas power generation,kngpg
 kawasaki-one hundredth bank,one hundredth bank,the one hundredth bank
 kawasaki seitetsu,kawasaki steel,kawasaki steel corporation,kawatetsu
@@ -24507,7 +24589,7 @@ kawneer,the kawneer company
 kayaba,kayaba industry,kayaba kogyo kabushiki-gaisha,kyb corporation
 kayak,kayak.com
 kaya limited,kaya skin clinic
-kayen,panamera,porsche,porsche ag,каен,панамера,порш,порше,поршё
+kayen,panamera,porsche,porsche ag,porshe,каен,кайен порше,панамера,порш,порше,поршё
 kaylaan,kaylaan llc
 kayou,kayou inc
 kaypro,kaypro corporation
@@ -24907,7 +24989,7 @@ kingdom window tint,kingdom window tinting
 kingfolowers,kingmarket,social media
 king force security,king force security holdings limited
 kingkech,kingkech marrakech
-king long,xml,кинглонг
+king long,xml,xml king long,xmq6127 кинг лонг,кинглong,кинглонг
 kingmax,kingmax technology
 king meng,l. king meng
 king of kings,kok,kok fights,kok kickboxing
@@ -24950,7 +25032,6 @@ kioicho-1,line financial,line financial corporation
 kiolo,kiolo gmbh
 kion,kion kinderopvang b.v
 kioritz,kioritz corporation,kioritz corporation (japan)
-kioti,kioti korea,киоти,киоти корея,киоти корёя
 kioxia,kioxia corporation,kioxia corporation (tokyo),kioxia holdings corporation,toshiba memory,toshiba memory corporation,toshiba memory holdings corporation
 kipa,tesco kipa
 kipco,kuwait projects company,kuwait projects company (holding)
@@ -24971,7 +25052,6 @@ kirklees stadium development ltd,ksdl
 kirkstall,kirkstall brewery,kirkstall brewery company
 kirk-stieff,kirk stieff company,stieff silver
 kirloskar,kirloskar india,кирлоскар,кирлоскар индия
-kirovets,lkz,putilov plant,кировец,кировский завод,кировёц,красный путиловец,красный путиловёц,ленинградский кировский завод,лёнинградский кировский завод,петербургский тракторный завод,птз,путиловский завод,путиловский литейный завод,путиловский литёйный завод,пётёрбургский тракторный завод
 kirovo-chepetsk chemical plant named after b. p. konstantinov,кирово-чепецкий химический комбинат,кирово-чёпёцкий химичёский комбинат,кчхк
 kirtap management,kirtap management limited
 kiru,kommunale informationsverarbeitung reutlingen-ulm (kiru)
@@ -25070,6 +25150,7 @@ klikk og hent as,kolonial.no as,oda
 klikwork,klikwork talent imagineers
 klima,klima a.s
 klima & so,klima und so,klimaundso ug
+klimov,вт-250 климов,климовский завод
 klimovo,климово
 klimsch & co,klimsch und co
 klingel,klingel group
@@ -25119,6 +25200,7 @@ kmv bev sk,kmv bev sk s. r. o
 kmw,knds deutschland,krauss-maffei wegmann
 kmw inc,kmw inc. (hwaseong-si)
 kmy,kvaerner masa-yards,kvaern masa-yards
+KMZ-6001,кмз 600a3,колумна кмз
 k&n,k&n filter,каэнка
 knaapo,knaaz,кнаапо,комсомольское-на-амуре авиапроизводственное объединение,комсомольское на амуре авиационное производственное объединение,комсомольское-на-амуре авиационное производственное объединение имени ю. а. гагарина,комсомольскоё-на-амурё авиапроизводствённоё объёдинёниё,комсомольскоё на амурё авиационноё производствённоё объёдинёниё,комсомольскоё-на-амурё авиационноё производствённоё объёдинёниё имёни ю. а. гагарина
 knabe piano,william knabe & co,wm. knabe & co
@@ -25156,7 +25238,7 @@ koalaops,skyhook,skyhook wireless
 kobay technology,kobay technology berhad,kobay technology bhd
 kobe bussan,kobe cook
 kobe future city co,om kobe
-kobelco,kobelco japan,кобелко,кобелко япония,кобёлко,кобёлко япония
+kobelco,kobelco japan,sk700 кобелко,skobeko,кобелко,кобелко япония,кобёлко,кобёлко япония
 kobelco construction machinery,kobelco training services
 kobe-np.co.jp/,кобе симбун,кобё симбун
 kobe sea bus
@@ -25230,6 +25312,7 @@ komarkcorp,komarkcorp berhad,komarkcorp bhd
 komarov,комаров
 koma stadium,koma studium
 komat - stk,komat - stk s.r.o
+komatsu forest,komatsu форест 931,коматсу форест
 komatsu matere,komatsu seiren
 kombank,komercijalna banka,nlb komercijalna banka,коммерческий банк,коммёрчёский банк
 kombinat veb stern-radio,stern-radio,veb stern-radio
@@ -25294,7 +25377,6 @@ konnecto,konnecto consumer intelligence
 konoklota mahila bank,the konoklota mahila urban co-operative bank ltd
 konsuprod,konsuprod gmbh
 kontent,kontent s.r.o
-konti,киев-конти,киёв-конти,конти
 kontiki data,tiki data
 kontis,kontis s.r.o
 kontrol,kontrol (smart locks),kontrol technologies k.a,kontrol zero (maker)
@@ -25415,7 +25497,9 @@ k. raheja constructions,k. raheja realty
 kralupol,kralupol a.s
 kramerbooks,kramerbooks & afterwords,kramers
 kranti chemicals,kranti chemicals vadodara
+kras,kraz,краз 250
 krasnoe & beloe,krasnoe i beloe,red&white,к&б,кб вино,красное&белое,красное и белое,краснотеево,красноё&бёлоё
+Krass,krass пожарная,красс ац
 krate,krate labs
 kratkyaudit,kratkyaudit s.r.o
 kraton,кратон,кратон инструмент,кратон инструмёнт,кратон россия,кратон электроинструмент,кратон элёктроинструмёнт
@@ -25663,6 +25747,7 @@ l3,l-3 communications,l-3 communications holdings
 l-3 wescam,wescam
 l4 group,l4 group llc,l4 group media
 l7,l7 ltd,l9,li auto,lixiang,roam japan
+l7,l9,li auto,lixiang,lixiao,one li,理想
 l&a,longenecker and associates (united states)
 laa,lindsay associates architects (united states)
 l a airways,los angeles airways
@@ -25786,7 +25871,7 @@ lambda cz s.r.o,lambda instruments,lambda laboratory instruments
 lambda science (united states),lsi
 lambert & butler,lambert & butler england
 lambert weston and son,lambert weston & son,lambert weston & son ltd
-lamborghini,urus,ламбо,ламборгини
+lamborghini,urus,ламбо,ламборгини,ланборгини,лямбо,урус ламбо
 lamborghini trattori,ламборгини трактора,ламборгини трактори
 lamello,lamello swiss,ламелло,ламелло фрезер,ламелло швейцария,ламёлло,ламёлло фрёзёр,ламёлло швёйцария
 la mercanti,la mercanti srl
@@ -25800,8 +25885,8 @@ lampsy,lampsy.com
 lampukas,valinte
 lanarkshire enterprise services limited (united kingdom),lesl
 lancashire holdings,lancashire insurance group
-lancer,mitsubishi,mitsubishi companies,mitsubishi group,mitsubishi group of companies,mitsubishi motors,outlander,pajero,аутлендер,лансер,митсубиси,митсубиши,митцубиси,митцубиши,мицубиси,мицубиши,паджеро
-lancia,делта,ланча
+lancer,mitsubishi,mitsubishi companies,mitsubishi group,mitsubishi group of companies,mitsubishi motors,outlander,pajero,аутлендер,лансер,мите,митсубиси,митсубиши,митцубиси,митцубиши,митя,мицубиси,мицубиши,паджеро
+lancia,делта,ланча,ланча дельта
 lancy,ланси
 land,land.jp
 landal,landal greenparks,landal holiday parks,roompot
@@ -25816,6 +25901,7 @@ landfill gas & power,landfill gas & power pty. ltd,lndfllgp,red hill landfill ga
 landflora,odakyu landflora
 land & general,land & general berhad,land & general bhd
 landhoven,landhoven group
+landini,ландини powerstar
 landkraftwerke leipzig,leipzig overland power companies,lkw (landkraftwerke leipzig)
 landlord mtd software,landlordmtdsoftware.com
 landmark bookstores,landmark limited
@@ -26092,7 +26178,6 @@ lederwerke,lederwerke otto & albrecht dix ag,lederwerke wieman,otto & albrecht d
 lediberg,lediberg gmbh
 le doyen llc,le doyen studio
 led padel,planet power tools,planet power tools s.l
-lee,lee direct,lee filters,lf,ли джинсы
 lee and shepard,lee & shepard
 lee cooper,lee cooper brand,morris cooper,ли купер
 lee daniels holdings,lee daniels holdings ltd,lee daniels israel
@@ -26333,6 +26418,7 @@ lianson fleet group,lianson fleet group berhad,lianson fleet group bhd
 liaoning chuban group,liaoning chuban group corporation,liaoning chuban jituan,liaoning chuban jituan corporation,liaoning chuban jituan gongsi,liaoning publishing group,liaoning publishing group corporation,liaoning publishing jituan,liaoning publishing jituan corporation
 liaoning radio & television,liaoning television
 liaz,liaz (russia),likino bus plant,likinskiy avtobusnyi zavod,nkpz,paz,лиаз,ликинский автобус,ликинский автобусный завод,нпкз,пазик
+liaz,nkpz,pavlovsky avtobusny zavod,paz,зати,лиаз,нпкз,павловский автобус,павловский автобусный завод,паз,пазик
 libbey glass company,libbey inc,new england glass company
 libbey-owens-ford,libbey-owens-ford company,libbey-owens-ford glass co,libbey-owens glass company,lof
 libe,libe clothing
@@ -26386,10 +26472,10 @@ lidl poland,lidl sp. z o.o. sp.k
 lidmisiv consult,lidmisiv consult se
 lidsen,lidsen publishing,lidsen publishing inc,lidsen publishing inc. (united states)
 liebenberg & stander consulting engineers,liebenberg & stander gauteng,l&s consulting (south africa)
-liebherr,liebherr (germany),liebherr group,лиbiherr,либхер,либхер германия,либхерр,либхёр,либхёр гёрмания,либхёрр
+liebherr,liebherr (germany),liebherr group,liebherr r936,лиbiherr,либерхер,либхер,либхер 566,либхер германия,либхерр,либхёр,либхёр гёрмания,либхёрр
 liebherr construction,liebherr tech,либер кран
 lien hoe corporation,lien hoe corporation berhad,lien hoe corporation bhd
-lifan,lifan industry,x60,x70,лифан
+lifan,lifan industry,lifan xlx,x60,x70,лифан,лифан mx
 life4cut,life4cuts,life four cuts
 lifealike ltd,onefinestay
 life concepts holdings,life concepts holdings limited
@@ -26483,7 +26569,7 @@ lims chicken
 linares medical devices (united states),lmd
 linas,линас
 lincare,lincare holdings inc,lincare inc
-lincoln,lincoln records
+lincoln,lincoln records,линкольн навигейтор
 lincoln agritech,lincoln agritech limited,lincoln agritech ltd,lincoln agritech (new zealand)
 lincoln electric,lincoln electric company,линкольн,линкольн сварка,линкольн электрик,линкольн элёктрик
 lincoln financial group,lincoln national corporation,the lincoln national life insurance company - separate account bl3
@@ -26525,6 +26611,7 @@ lingner-werke vertriebs,lingner-werke vertriebs gmbh
 lingsoft,lingsoft language services oy,pasanet
 linguamatics,linguamatics (united kingdom)
 linguatec,linguatec (germany)
+linhai,linhai lh,линьхай 254
 linhardt,linhardt group gmbh
 linhart investment,linhart investment ltd
 li-ning,lining.com,ли-нин
@@ -26580,7 +26667,7 @@ lion television,lion tv
 lipa,li power authority,long island power authority
 lipa retirement investment board,lipa retirement investment board llp
 lipatech,lipatech s.r.o
-lipetsk tractor plant,ltz,ltz tractor,luhansk locomotive works,ворошиловградский завод имени октябрьской революции,ворошиловградский завод имёни октябрьской рёволюции,липецкий трактор,липецкий тракторный завод,липёцкий трактор,липёцкий тракторный завод,лтз,луганский тепловозостроительный завод,луганский тёпловозостроитёльный завод,лугансктепловоз,лугансктёпловоз
+lipetsk tractor plant,ltz,ltz tractor,luganskteplovoz,luhansk locomotive works,ворошиловградский завод имени октябрьской революции,ворошиловградский завод имёни октябрьской рёволюции,липецкий трактор,липецкий тракторный завод,липёцкий трактор,липёцкий тракторный завод,лтз,луганский тепловозостроительный завод,луганский тёпловозостроитёльный завод,лугансктепловоз,лугансктёпловоз
 lipman hearne,lipman hearne (united states)
 lipotype,lipotype (germany),lipotype gmbh
 lipper,thomson reuters lipper
@@ -26633,7 +26720,7 @@ littlewing,littlewing pinball
 littlewoods shop direct group,shop direct,shop direct group,shop direct limited,the very group
 littoral research group (united states),lrg
 litum,litum technologies
-liugong,люгонг
+liugong,liugong clg923,люгонг,люгонг 856,люгун
 liu wei zhai
 liuzhou mini car factory,wuling motors
 live 5am,noma wellness corp
@@ -26666,7 +26753,6 @@ livraria saraiva,saraiva
 livsforsikringsselskapet nordea liv norge as,nordea life and pension norway,nordea liv,nordea liv forsikring as
 livzon,livzon pharmaceutical group inc
 liwest,liwest kabelmedien
-lixiang,lixiao,one li,理想
 lixil suzuki shutter,suzuki shutter
 lixil viva,super viva home,viva home
 lizy,lizy belgium
@@ -26824,6 +26910,7 @@ lombardo environmental,lombardo trucking co
 lombardy dress company,lombardy dresses,lombardy frocks
 lome airways,lome aw
 lomeo,lomeo s.r.o
+loncin,loncin lifan,лонсин vmx
 londa,londa spol. s r. o
 londis,londis ireland,londis united kingdom
 london and county portrait co,london and county portrait company,london & county portrait co,london & county portrait company
@@ -26866,6 +26953,7 @@ long tall sally,long tall sally clothing
 long-term capital management,long-term capital management l.p,ltcm
 longton hall porcelain,longton hall porcelain factory
 long well international,long well international holdings,long well international holdings limited,tou rong chang fu group,tou rong chang fu group limited
+lonking,лонггонг погрузчик,лонкинг sc
 lonseal,lonseal corporation,lonseal corporation (japan)
 lonza biotec,lonza biotec sro
 lonza group,lonza group limited
@@ -26982,6 +27070,7 @@ lsi medience,lsi medience corporation,lsi medience corporation (japan)
 ls industrial systems,lsis (korea)
 ls manufacturing,ls manufacturing ltd
 l. smit en zoons scheeps- en werktuigbouw,l. smit & zoon
+ls mtron,ls traktör,элэс мтрон
 lspt,lsp technologies
 lsr,группа лср,ленстройреконструкция,лср,лёнстройрёконструкция
 lsrc,лидер
@@ -27004,6 +27093,7 @@ ltj,lund - trelleborg railway line
 ltkm,ltkm berhad,ltkm bhd
 ltmh,ltmh public company limited
 ltx,ltx-credence corporation,xcerra corporation
+ltz250 сузуки,suzuki quad sport,сузуки лтз
 luana gastro,luana gastro s.r.o
 lubi,lubi pumps,луби,луби насосы
 lubnya,люберецкие
@@ -27017,6 +27107,7 @@ lucen,lucendata
 luch,novosibirsk electromechanical works,novosibirsk emz,plant 159,plant 677,завод 159,завод 677,новосибирский электромеханический завод,новосибирский элёктромёханичёский завод,новосибирский эмз,нпо луч
 luchsinger and company,luchsinger & co,muller
 luciad,luciad (belgium)
+lucid,люsite gravity,люсид air
 lucideus,safe security
 lucifer tech,lucifertech store
 lucigame,lucigame.com
@@ -27178,6 +27269,7 @@ lzrd,lzrd tech,vettex,vettex sports,vettex sports inc
 lzt,lz technology (united states)
 m1,m1 limited,mobil,mobil 1,mobileone,мобиu,мобил 1
 m12,microsoft ventures
+m18 милуоки,milwaukee tool,милуоки инструмент
 m-1 global,mixfight,mma-1
 m1nute med1a,minute media
 m2m cloud factory,nexiona connectocrats
@@ -27391,7 +27483,7 @@ mahashian di hatti,mdh
 mahez,mahez machinegroothandel,n.v. machine fabriek mahez
 mahiliow bakery,mahiliow bakery and confectionery plant,mahiliowhliebpram,домачай,могилевский хкк,могилевский хлебозавод,могилевский хлебокомбинат,могилевский хлебо-кондитерский комбинат,могилевхлебпром,могилёвский хкк,могилёвский хлебозавод,могилёвский хлебокомбинат,могилёвский хлебо-кондитерский комбинат,могилёвхлебпром
 mahiliowsky dbk,mahiliowsky domabudawnichy kambinat,могилевский домостроительный комбинат,могилевский дск,могилёвский домостроительный комбинат,могилёвский дск
-mahindra,mahindra and mahindra,mahindra india,mahindra & mahindra limited,scorpio,махиндра,махиндра индия,скорпио
+mahindra,mahindra and mahindra,mahindra india,mahindra & mahindra limited,scorpio,махиндpa,махиндра,махиндра индия,скорпио,скорпио махиндра
 mahkamati,mahkamaty,mahkamaty.com,mahkamaty maroc
 mahkotajawa kubah,pt mahkotajawa kubah indonesia
 mahle,mahle gmbh,мале,малле,маллё,малё,махле
@@ -27476,7 +27568,7 @@ makeyev src,state rocket center named after academician vp makeev,государ
 makia,makia clothing
 makiivka metallurgical plant,макеевский металлургический комбинат,макеевский мз,макёёвский мз,макёёвский мёталлургичёский комбинат,ммк имени ленина,ммк им. ленина,ммк им. лёнина,ммк имёни лёнина
 maki pro,maki production
-makita,makita corporation,makita japan,макита,макитка,махита
+makita,makita corporation,makita japan,макita hr,макета инструмент,макита,макитка,махита
 makita (germany),makita werkzeug
 makko ai
 makkumer aardewerk- en tegelfabriek altena & krooyenga bv,makkumer aardewerk fabriek,n.v. makkumer aardewerk- en tegelfabriek
@@ -27554,7 +27646,7 @@ mammute urban innovation studio,mammute urban innovation studio (iran),muis
 mamont,mamonta,мамонт,мамонтов
 m. a. mortenson,m. a. mortenson company,mortenson construction
 mam private equity fund sicav,mam private equity fund sicav a.s
-man,man ag,man nutzfahrzeuge,man nutzfahrzeuge ag,man se,man truck,man truck & bus,man truck & bus se,tga,ман,ТГА
+man,man ag,man nutzfahrzeuge,man nutzfahrzeuge ag,man se,man truck,man truck & bus,man truck & bus se,tga,мaн тягач,ман,ман тгс,ТГА
 manac,manac chemical partners,manac incorporated,manac incorporated (japan)
 manageengine servicedesk plus,me sdp,sdp
 management consulting group,proudfoot
@@ -27564,6 +27656,7 @@ management sciences (united states),materials systems (united states),maxwell se
 managerdecredit,managerdecredit.ro
 manas,manas.tech,manas technology solutions
 manawa energy,trustpower
+MAN bus,MAN Lion’s City,ман львен
 man b&w diesel,man diesel se,man diesel & turbo se,man energy solutions,man es
 manc and proud,manc & proud,the manchester shop,the manc shop,the mcr shop
 mance electrical,wc mance & sons
@@ -27603,6 +27696,7 @@ manilla services,manilla services srl
 manina medtech s.l,manina medtech s.l. (spain)
 manipal hospital,manipal hospitals,vijayawada
 manitou,manitou france,маниту,маниту франция
+manitowoc,манitowoc mct,манитовак 16000
 manitowoc shipbuilding company,manitowok shipbuilding co
 manjul,manjul prakashan,manjul publications,manjul publishing,manjul publishing house private limited,manjul publishing house pvt. ltd
 manly fast ferry,myfastferry
@@ -27729,7 +27823,6 @@ marimekko,marimekko corporation,marimekko oyj,маримекко,маримёк�
 marin,marin bikes,marin mountain bikes inc
 marina,марина
 marindec,marindec paints,marindec paints (pty) ltd
-marine and towage services,mts,mts technologies (united states)
 marine credit union,mcu
 marine design dynamics (united states),mdd
 marine ecosystem technologies,metas (norway)
@@ -27761,7 +27854,7 @@ marketo,marketo inc
 marketoptiontend,marketoptiontend llc
 market rocket,market rocket limited
 market vision,market vision s.r.o
-mark formelle,massey ferguson,massey ferguson tractors,mf,марк формэль,масей фергюсон,масёй фёргюсон,мессей фергюсон,мёссёй фёргюсон
+mark formelle,massey ferguson,massey ferguson tractors,mf,mf massey,марк формэль,масей 5465,масей фергюсон,масси фергюсон 6713,масёй фёргюсон,мессей фергюсон,мёссёй фёргюсон
 markgraf,w. markgraf,w. markgraf gmbh & co. kg
 mark group,mark group (united kingdom)
 markiaro investing group,markiaro investing group s.r.o
@@ -27839,6 +27932,7 @@ marussia,marussia motors,маруссия,маруся моторс
 marutaka industry,marutaka industry inc,marutaka industry inc. (japan)
 marutanajima seiyaku,marutanakajima pharmaceutical
 maruti,марути
+maruti suzuki,марyти,марути сuzuki
 maruto kobeya bakery,yk maruto
 maruyoshi center,maruyoshi center inc
 marvel fusion,marvel fusion gmbh
@@ -27872,10 +27966,10 @@ mascot international a/s,mascot workwear
 mascot press,mascot press india,mascot press private limited,mascot press pvt. ltd
 maseki,maseki geinosha
 masen,moroccan agency for sustainable energy
-maserati,гibli,мазерати
+maserati,гibli,леванте масерати,мазерати,мазерати гибли,масера
 masergy,masergy communications
 mashiko tsukamoto,tsukamoto
-maskinfabriks-aktiebolaget scania,R-series,scania,scania ab,scania engines,р-шка,скания,скания двигатели,скания двигатёли
+maskinfabriks-aktiebolaget scania,R-series,scania,scania ab,scania engines,р-шка,скания,скания r450,скания двигатели,скания двигатёли
 maskpol,maskpol (poland)
 masku,maskun kalustetalo
 mason financial,mason financial hldgs ltd,mason financial holdings,mason financial holdings limited,mason financial holdings ltd
@@ -27954,7 +28048,6 @@ mati therapeutics,mati therapeutics inc,mati therapeutics inc. (united states)
 matix,matix clothing
 matortho,matortho limited,matortho limited (united kingdom)
 matrace comfort,matrace comfort a.s
-matra marconi space,meridian medical systems (united states),micromolding solutions (canada),microwave medical systems,mms
 matrix,matrix vehicle tracking,mix telematics
 matrix concepts holdings berhad,matrix concepts holdings bhd
 matsukiyo,matsumoto kiyoshi
@@ -28041,6 +28134,7 @@ maxxing,maxxing llc,trymaxxing,trymaxxing.com
 maxygen,maxygen inc
 may24,около
 mayall and newman,mayall & newman,mayall & newman ltd
+maybach,майбах
 may & baker,may & baker ltd
 maybelline,maybelline new york
 mayer & wilhelm,wilhelm mayer & franz wilhelm
@@ -28057,7 +28151,7 @@ mayr-melnhof gernsbach,mm gernsbach gmbh
 maytag,maytag company
 maytronics au,maytronics australia,maytronics australia pty. ltd,mtau
 mayu global group,mayu global group berhad,mayu global group bhd
-maz,maz m c s s n11,minsk automobile plant,mutua de accidentes de zaragoza,маз,минский автомобильный завод
+maz,maz m c s s n11,minsk automobile,minsk automobile plant,mutua de accidentes de zaragoza,маз,маз 5434,маз ман,минский автомобильный завод
 mazzaro italian market,mazzaros italian market,mazzaros market
 mba international,mba international inc
 mbale boxing club,mbale kick boxing club
@@ -28106,6 +28200,7 @@ mccarter,mccarter a.s
 mccarty and davis,mccarty & davis
 mcc efi,xian electric furnace research institute (china)
 mcclintic-marshall company,mcclintic-marshall construction company
+mccormick,mccormick xtra,маккормик x
 mccormick-armstrong company,the mccormick-armstrong company
 mccormick environmental (united states),proteus seafarms international
 mccornick,маккормик,маккормик трактора
@@ -28129,7 +28224,7 @@ mckeil,mckeil marine,mckeil marine ltd
 mckesson,mckesson health solutions
 mckim consulting group,mckim consulting group llc
 mcl,microsharp (united kingdom)
-mclaren,макларен
+mclaren,макларен,макларен 720s
 mclaren applied,mclaren applied limited,mclaren applied technologies
 mclaren health care,mclaren health care corporation
 mclaughlin and harvey,mclaughlin & harvey ltd
@@ -28203,7 +28298,7 @@ mea vita,mea vita app,mea vita ventures
 meba,uab gta company,uab meba
 mebiol,mebiol inc,mebiol inc. (japan)
 mec,mestron
-mecalac,мекалак
+mecalac,мекалак,мекалак a800
 mecas esi,mecas esi s.r.o
 mecc,minnesota educational computing consortium,minnesota educational computing corporation
 mecca,mecca cosmetica,mecca maxima
@@ -28464,12 +28559,13 @@ mems right (china),micro-nano electromechanical manufacturing
 memuaria,memuaria.ru,мемуария,мёмуария
 menagerie van aaken,menagerie van acken,menagerie van aken
 menang corporation (m),menang corporation (m) berhad,menang corporation (m) bhd
+menarini,menarinibus,менарини атлантис
 menarini silicon biosystems,menarini silicon biosystems s.p.a
 menba tadokoro shoten,ramen misoya
 menchey music,menchey music service
 menchies,menchies frozen yogurt
 menck (germany),menck gmbh
-mend,web star studio,web star studio desenvolvimento de software ltda,white source,ws,wss
+mend,web star studio,web star studio desenvolvimento de software ltda,white source,ws,wss,вс
 mendeley limited,mendeley ltd
 mengibar,mengibar sa
 menken,menken-landbouw
@@ -28595,7 +28691,7 @@ met,montana emergent technologies (united states)
 meta,meta science,sciencescape
 metaalmaatschappij van houten,metaalmaatschappij van houten b.v
 metaalwarenfabriek metawa,metawa
-metabo,metabo kelvion,metabowerke gmbh,метабо,метабо аг,метабо германия,метабо кельвион,мётабо,мётабо аг,мётабо гёрмания,мётабо кёльвион
+metabo,metabo kelvion,metabowerke gmbh,метабо,метабо bs,метабо аг,метабо германия,метабо кельвион,мётабо,мётабо аг,мётабо гёрмания,мётабо кёльвион
 meta bright group,meta bright group berhad,meta bright group bhd
 metacarta,metacarta labs
 metada,metada s.r.o
@@ -29321,7 +29417,7 @@ mocca,moco,mocospace,mocospace.com,мокка
 mocean energy,mocean energy ltd
 moc planning
 modehuiscentrum mevr. dragt,modehuis dragt-de vries
-model 3,model y,tesla,tesla model s,tesla model x,модель 3,модель y,тесла
+model 3,model 3 тесла,model y,tesla,tesla model s,tesla model x,модель 3,модель y,тесла,тесломоторс
 model group,model holding
 model mole,modelmole ltd
 model obaly,model obaly a.s
@@ -29733,7 +29829,7 @@ msv elektronika,msv elektronika s.r.o
 m s webb,m.s. webb & co,ms webb & co ltd
 msym,msym s.r.o
 m-systems
-mt-07,r1,yamaha,yamaha motor,яха,яхама
+mt-07,r1,yamaha,yamaha motor,yamal,яха,яхама
 mta bridges and tunnels,tbta,triborough authority,triborough bridge and tunnel authority
 mta tv,um&m,u.m.&m. t.v. corp,u.m. & m. tv corporation
 mtavari-arkhi,главный канал,мтавари архи
@@ -29798,6 +29894,7 @@ multinex,мультинекс,мультинёкс,мультирегион,му
 multione,мультион
 multi one design ag,multi one design ltd,multi one design s.a
 multiples inc,multiples inc. graphics studio
+multiquip,multiquip airstar,мультиквип dq
 multiservicios tecnologicos,multiservicios tecnologicos s.a
 multitec,multitec aids,multitec aids pvt. ltd
 multitone electronics,multitone electronics plc
@@ -29829,6 +29926,7 @@ murell and co,murell & co
 murex,murex limited,murex ltd
 murfy,murfy.fr
 murlabo,murlabo limited
+murma,мурманский ремонт,мурмаш
 muroplas industria de plasticos (portugal),muroplas plastic manufacturers
 murphy business,murphy business & financial corporation,murphy business sales
 murphy oil,murphy oil corporation
@@ -29878,7 +29976,7 @@ muzak,muzak holdings
 muziker,muziker.com,muziker shop
 mvagusta,mv augusta
 mvg trier messe- und veranstaltungsgesellschaft,mvg trier messe- und veranstaltungsgesellschaft mbh
-mvideo,м-видео,м.видео-эльдорадо,м-видёо,м.видёо-эльдорадо
+m.video,м-видео,м.видео-эльдорадо,м-видёо,м.видёо-эльдорадо
 mvmt,mvmt watches,mvmt watches inc
 mvp inc,mvp inc. (japan)
 mv projekt,mv projekt spol. s r.o
@@ -29971,7 +30069,7 @@ myth vortex,mythvortex technologies llp,technologies
 my toy wagon,mytoywagon.com
 mytravel airways,mytravel airways uk
 mytv super,mytvsuper.com
-myvi,perodua,перодуа
+myvi,perodua,перодyа,перодуа,перодуа мая
 my virtual coo
 mywatchmatic,watchmatic,watch matic llc
 my web sport
@@ -29984,6 +30082,7 @@ myyra,myyra.in,myyra jaipur
 myzyro,zyro,zyro business banking
 mzkt-5002,волат,мзкт,минский завод колесных тягачей,минский завод колёсных тягачей,минский завод колёсных тягачёй
 mzp group worldwide,mzp group worldwide a.s
+MZSC,мзск а3,моздокский завод
 n24 media,n24 media gmbh
 n26,n26 bank ag,n26 bank gmbh,n26 bank se
 n2 biomedical (united states),spire biomedical
@@ -30279,7 +30378,7 @@ national property inspections,national provident institution,national provident 
 national railway equipment company,nre,nrec,nrex
 national record mart,netzdienste rhein-main,netzdienste rhein-main gmbh,nrm,nrm netzdienste rhein-main gmbh
 national roads authority,netivei israel (israel),нетивей исраэль,нётивёй исраэль
-national savings bank,national savings bank sri lanka,norges statsbaner,norwegian state railways,nsb,nsbsl,vy,vy group,vygruppen,ви,норвежские государственные железные дороги,норвёжскиё государствённыё жёлёзныё дороги
+national savings bank,national savings bank sri lanka,norges statsbaner,norwegian state railways,nsb,nsbsl,vy,vy group,vygruppen,wy,ви,норвежские государственные железные дороги,норвёжскиё государствённыё жёлёзныё дороги
 national screen service,next generation technology (united states),north star scientific (united states),nss
 national security technologies (united states),nstec
 national semiconductor,national semiconductor corp,national semiconductor corporation
@@ -30467,7 +30566,7 @@ neep roma holding,neep roma holding s.p.a
 neerabess,neerabup bess opco pty ltd atf trust
 neerb,neerbee
 neevas investment,neevas investment limited
-nefaz,нефаз,нефтекамский автозавод,нефтекамский автомобильный завод,нёфаз,нёфтёкамский автозавод,нёфтёкамский автомобильный завод
+nefaz,нефа,нефаз,нефаз 816,нефтекамский автозавод,нефтекамский автомобильный завод,нёфаз,нёфтёкамский автозавод,нёфтёкамский автомобильный завод
 nefrodial sas renal unit,unidad renal nefrodial sas,unidad renal nefrodial sas (portugal)
 nefromed s.r.o
 nefsis,nefsis corporation
@@ -30515,8 +30614,8 @@ neom investment fund,nif
 neon,неон,неон влд,неон сварка,неон сварочное,нёон,нёон влд,нёон сварка,нёон сварочноё
 neo-neon holdings,neo-neon holdings limited
 neon software gmbh,neon studios
+neooplan,neoplan,neoplan bus gmbh,неоплан,неоплан n4,нёоплан
 neopharm,neopharm bulgaria,neopharm bulgaria ltd,neopharm bulgaria ltd. (bulgaria)
-neoplan,neoplan bus gmbh,неоплан,нёоплан
 neosoft,neosoft corp
 neo software,neo software produktions gmbh
 neovalora,neovalora lda
@@ -30564,7 +30663,6 @@ nest invest global,nest london property services ltd
 nestle,nestlé,нестле,нестле паскот
 nestle (malaysia) berhad,nestle (malaysia) bhd
 nestle polska,nestle polska s.a
-nestle purina petcare,purina
 nestle wagner gmbh,wagner pizza
 nest nepal,nest nepal cloud
 nestor martin,n.m. huy
@@ -30715,7 +30813,8 @@ newgen neerabup pty ltd,ngenneer
 new headline holdings,new headline holdings limited
 new health sciences (united states),nhsi
 new holland,new holland ag,new holland tractors,нью холланд
-new holland construction,new holland construction machinery s.p.a
+new holland construction,new holland construction machinery s.p.a,nh строительная,нью холланд кун
+new holland t7,new holland tractor,tc5 нью холланд,нх трактор
 new hoong fatt holdings,new hoong fatt holdings berhad,new hoong fatt holdings bhd
 new hope service,new hope service holdings limited
 new horizon,new horizon academy
@@ -31097,7 +31196,7 @@ nishi-nippon railroad,nishitetsu,nnr
 nishitetsu engineering,nishitetsu techno service
 nishitetsu motors,nishitetsu m-tech
 nishizono,niwa,ntn canada,ntn kabushiki-gaisha,tomoe
-nissan russia,nissan россия,xcite,автозавод санкт-петербур,автозавод санкт-пётёрбур,ниссан мэнуфэкчуринг рус,ниссан россия
+nissan russia,nissan россия,xcite,автозавод санкт-петербур,автозавод санкт-пётёрбур,иксайт x-cite,иксайт х-кросс,ниссан мэнуфэкчуринг рус,ниссан россия
 nissan sales central & eastern europe kereskedelmi,nissan sales central & eastern europe kereskedelmi kft
 nissan tanaka,nissan tanaka corporation,nissan tanaka corporation (japan)
 nissen chemitec,nissen chemitec corporation,nissen chemitec corporation (japan)
@@ -31778,6 +31877,7 @@ octafx,octa markets incorporated
 octanorm adria,octanorm adria d.o.o
 octaverum,octaverum music
 octavia,rapid,rapid bevtech,rapid bevtech private limited,rapid bevtech pvt. ltd,rapid engineers,skoda,superb,октавия,рапид,шкода
+octavia,ppf beer topholdco,ppf beer topholdco b.v,ppf industryco,ppf industryco b.v,rapid,skoda,skoda auto,skoda b.v,superb,октавия,рапид,шкода
 octo,octo telematics
 octoly (france),videoagency sas
 octopus ai,the octopus ai,theoctopus-ai.com
@@ -31805,6 +31905,7 @@ odg,ontario drive & gear (canada)
 odido,odido netherlands b.v,t-mobile netherlands
 odin,один
 odisha tv,okinawa television,orissa tv,o tv
+ODK,odk saturn,объединенная двигателестроительная корпорация,объединённая двигателестроительная корпорация,объёдинённая двигатёлёстроитёльная корпорация,одк,сатурн оdk
 odk-umpo,умпо,уфимский моторостроительный завод,уфимский моторостроитёльный завод,уфимское моторостроительное производственное объединение,уфимскоё моторостроитёльноё производствённоё объёдинёниё
 odlare,odlare a.s
 odm,onkodatamed (germany)
@@ -32120,6 +32221,7 @@ one eight promotion,one eight promotion inc
 one firm intel
 onefit,onefit b.v
 onefootball,onefootball.com,onefootball gmbh
+onegin,onegin tractor,онегинец,онегинец к-7
 one glove group,one glove group berhad,one glove group bhd
 onehcm,onepoint hcm,onepoint human capital management
 one hour tees,pro wrestling tees,prowrestlingtees.com
@@ -32254,6 +32356,7 @@ oppland energi,oppland energiverk
 oppo realme,realme
 ops machine
 opta,opta sports,opta sportsdata
+optare,optare bus,v807 optare,Опtape
 opt corporation,opt corporation (japan)
 optelian,optelian access networks corporation
 opt folio,optfolio ltd
@@ -32317,6 +32420,7 @@ orascom tmt investments,weather investments ii
 orbicon,wsp danmark
 orbis ai,orbis ai llc
 orbit,orbit gum,orbit spaces,wm wrigley jr company,wrigley,wrigley orbit,орбит,орбит жвачка,ригли
+orbit,orbit gum,william wrigley jr. company,wm. wrigley jr. company,wrigley,wrigley company,орбит,орбит жвачка,ригли
 orbital 2,wikov industry,wikov industry a.s
 orbital marine power,orbital marine power limited,scotrenewables (marine power) ltd,scotrenewables tidal power limited,scottide limited
 orbital transport und raketen ag,otrag
@@ -32624,7 +32728,7 @@ p15,p15 s.r.o
 p2d,p2d bioscience (united states)
 p2s,p2s management consulting
 p3 czech holdco,p3 czech holdco a.s
-p7,xpeng,икспенг
+p7,xpeng,икс peng,икспенг,ксепeng,сяопэн g9
 pabco,pabco s.r.o
 pabrik kertas tjiwi kimia,pabrik kertas tjiwi kimia tbk,tjiwi kimia,tkim
 pac,polymer aging concepts (united states)
@@ -32754,6 +32858,7 @@ paleblue (norway),virtech
 palermo,палермо
 palermo homes,palermo homes ltd
 palestine land development company,the palestine land development co. ltd
+palfinger,palft,палфингер pk
 palisade,палисад
 palisade engineering,palisade engineering se,pe-se
 palm beach jets,palm beach jets aviation advisory & management
@@ -32947,6 +33052,7 @@ parma,parmafalat,парма,парма голодный,парма инстру�
 parqyt,parqyt parking
 parree,vdl parree
 parrot,parrot records
+parrot anafi,парот анафи
 parrot corporation,parrot corporation limited
 pars alum,pars aluminum company
 pars enterprises,pars enterprises s.r.o
@@ -33048,7 +33154,6 @@ paveprime,pennsylvania power and light,phonographic performance limited,ppl,ppl 
 pavers ltd,pavers shoes
 pavexim,pavexim s.r.o
 pavlovo molot,молот павлово,молот павловский завод,павловский завод,павловский завод им.кирова,павловский инструмент,павловский инструмёнт,павловский молот,пз им. кирова
-pavlovsky avtobusny zavod,paz,зати,павловский автобус,павловский автобусный завод,паз,пазик
 pavo pferdenahrung,pavo pferdenahrung gmbh
 pavus,pavus (czechia)
 pawsey centre,pawsey supercomputing centre
@@ -33304,7 +33409,6 @@ perdue,perdue farms,perdue farms inc
 perdue agribusiness,perdue agribusiness llc,perdue agribusiness (united states)
 peregrine semiconductor,peregrine semiconductor corp
 perella weinberg partners,perella weinberg partners l.p
-pere marquette railway,pere marquette railway company,pm,putzmeister,putzmeister holding gmbh,путцмастер
 perfasont investing,perfasont investing inc
 perfect distribution,perfect distribution a.s
 perfect inspire,perfect inspire s.r.o
@@ -33526,7 +33630,7 @@ phase 2 capital,phase 2 capital limited
 phase 5,phase5 digital products
 phasecraft inc,phasecraft inc. (united states)
 phaseone,phase one home remodeling,phase one remodeling
-phb,proton,proton (united kingdom),satria,протон
+phb,proton,proton (united kingdom),satria,протон,протон сагая
 phc corporation,phc corporation (japan)
 p. heerens & zn,p. heerens & zoon
 phelps,phelps dunbar
@@ -33740,6 +33844,7 @@ piron,piron limited
 piscator,piscators,пискаторы
 pishchemash,чеченавто,чёчёнавто
 pishgam naqsh-e pardaz-e eshraq,pnpe,pnpe company (iran)
+pistenbully,pisten bully kattrak,пистенбулли 100
 pistor and martins,pistor & martins
 pitango,pitango venture capital
 pitax,pitax rozliczenie pit,pitax sp. z o.o
@@ -33847,6 +33952,7 @@ platus cz,platus cz a.s
 platypus,platypus shoes
 platypus designs,platypus patterns
 platzer fastigheter,platzer fastigheter holding
+plaxton,плактон prism
 play2sell,play2sell sa
 play asia
 playbet ai,playbetai ltd,playbet ai software
@@ -33978,6 +34084,7 @@ poland passport,polandpassport.com
 polaris advisors,polaris advisors ltd
 polaris bank limited,skye bank
 polaris finance sicav,polaris finance sicav p.l.c
+polaris industries,polaris ranger,полaris,поларис спортcмен
 polarity,polarity ltd
 polarkraft,polarkraft ab
 polaroid,полароид
@@ -34042,7 +34149,7 @@ pongr,pongr inc
 pongs spinnereien und webereien ag,pongs spinnerei und weberei
 pongs & zahn textilwerke,viersener textilwerke pongs & zahn ag
 pono,ponomusic,ponomusic.com
-ponsse,ponsse oy,ponsse oyj,ponsse plc
+ponsse,ponsse ergo,ponsse oy,ponsse oyj,ponsse plc,понссе ozzo
 pont 9
 pony ai
 ponycanyon planning inc,vpc
@@ -34116,7 +34223,7 @@ poste vaticane,почта ватикана
 postiljon,postiljon hotels,postiljon motels,postiljon pleisterplaatsen,postillion,postillion hotels
 postmi,postmi.ch
 postscriptum communication informatics ltd,postscriptum (greece)
-potain,потен
+potain,potaingrue,потен,потен crane
 potbelly corporation,potbelly sandwich shop,potbelly sandwich works
 pothys,pothys.com
 potloc,potloc.com
@@ -34163,7 +34270,7 @@ power projects,power projects s.a
 powerquest,powerquest corporation
 power quotient international,pqi
 powers,powers usa,пауэрс,пауэрс сша
-powerscreen (united kingdom),terex,terex corporation,terex usa,терекс,терекс сша,тёрёкс,тёрёкс сша
+powerscreen (united kingdom),ta300 терекс,terex,terex corporation,terex usa,тереx,терекс,терекс 815,терекс сша,тёрёкс,тёрёкс сша
 powertech information systems,powertech information systems as
 powertech labs,powertech labs inc
 power trading corporation of india limited,ptc india
@@ -34175,7 +34282,6 @@ ppa cz 4,ppa cz 4 s.r.o
 pp berlin
 ppf,ppf group,ppf group a.s,ppf group n.v
 ppf a3,ppf a3 b.v
-ppf beer topholdco,ppf beer topholdco b.v,ppf industryco,ppf industryco b.v,skoda,skoda auto,skoda b.v,шкода
 ppf comco,ppf comco n.v
 ppf financial holdings,ppf financial holdings b.v
 ppf gate,ppf gate a.s
@@ -34357,6 +34463,7 @@ princeton coal and land co. ltd. electrical syndicate,princeton light and power 
 princip,princip a.s
 principal,principal financial group
 prink,prink s.p.a
+prinoth,prinoth levy,при нот б450
 prinsens lager,prinsens lager ab
 printabout,printabout b.v
 printedin,printedin.com
@@ -34594,7 +34701,7 @@ pruhealth,vitality corporate services,vitalityhealth,vitality uk
 pruitt,pruitthealth
 prusa research,prusa research (2009-2019)
 prva banka crne gore,prva banka crne gore ad - osnovana 1901
-prx,t0, Tissot,тиссо
+prx,t0,Tissot,тиссо
 prym,william prym gmbh & co. kg
 prytime medical devices,prytime medical (united states)
 psa genoa investments s.p.a,psa italy
@@ -34837,6 +34944,7 @@ qingdao restore biotechnology,re-store biomedicine group
 qingdao sentury tire,sentury tire
 qingfeng steamed dumpling shop,qingfeng steamed stuffed bun shop
 qingling motors,qingling motors co. ltd
+qingqi runner,qmfg,куамэфджи
 qinshift,qinshift a.s
 qintee,qintee.com,qintee fashion,qintee shop,qintee store
 qioptiq,teledyne qioptiq
@@ -35303,7 +35411,7 @@ rbs,royal bank of scotland,royal bank of scotland (united kingdom),the royal ban
 rbs group,royal bank of scotland group,the royal bank of scotland group
 rb tickets north sl,rebel tickets,rebeltickets.es
 rb trainings
-r&c,r&c nagano seika,r&c nagano seika co. ltd
+r&c,r&c nagano seika,r&c nagano seika co. ltd,rip curl,рип керл
 rca records,rca records label
 rcbc,rizal commercial banking corporation
 rcc broadcasting,rcc broadcasting company
@@ -35615,6 +35723,7 @@ remedy columbia,remedy columbia medical dispensary
 remedy corp,remedy corporation
 remedy intelligent staffing,remedy staffing
 remerge,remerge gmbh
+remez,remez завод,кдм ремез,ремез гк
 remeza,ремеза,ремеза беларусь,ремеза компрессор,ремеза компрессоры,рёмёза,рёмёза бёларусь,рёмёза компрёссор,рёмёза компрёссоры
 remikoni investment,remikoni investment limited
 remington,ремингтон
@@ -36220,7 +36329,7 @@ rolla,rolla d.o.o
 roller derby,roller derby skate corp
 roll global,the wonderful company
 roll market,roll market ltd
-rolls-royce,rolls-royce group,rolls-royce group plc,rolls-royce holdings,rolls-royce holdings plc,rolls-royce plc,rr holdings,ройлз,роллс-ройс
+rolls-royce,rolls-royce group,rolls-royce group plc,rolls-royce holdings,rolls-royce holdings plc,rolls-royce plc,rr holdings,ройлз,ройс,роллс-ройс
 rolls royce limited
 rolls-royce power systems,tognum
 rolo academy,rolo academy ltd
@@ -36234,6 +36343,7 @@ romotive,zipline,zipline international,zipline international inc
 romotop,romotop (czech republic)
 rompetrol downstream,rompetrol downstream srl
 ronald britton,ronald britton limited,ronald britton ltd
+rondor,rondor 3310,рондор 3311,ростдор
 roneckar,roneckar limited
 roneo,rotary neostyle
 roneo ltd,roneo vickers
@@ -36287,6 +36397,7 @@ rossopomodoro,rossopomodoro pizza
 rossum,rossum limited,rossum ltd
 rost,рост недвижимость
 rostekhnologii,ростех,ростехнологии,ростёх,ростёхнологии
+rostov combine,rostselmash,rsm акрос,ростсельмаш rsm
 rosukrenergo,rosukrenergo ag,росукрэнерго,росукрэнерго аг,росукрэнёрго,росукрэнёрго аг
 rotam (china),rotam cropsciences
 rotana,rotana hotels,rotana rotana hotel management corporation pjsc
@@ -36305,6 +36416,7 @@ rotowire,rotowire.com
 rottapharm (germany),rottapharm madaus
 rotten tomatoes,гнилые помидоры,гнилые томаты,гнилыё помидоры,гнилыё томаты,тухлые помидоры,тухлые томаты,тухлыё помидоры,тухлыё томаты
 rotterdamsche zoutziederij,rotterdamsche zoutziederij v/h kolff en vis,voorheen kolff en vis
+rottne,роттне 901
 roubic tree & landscape llc,roubic tree service llc
 rouff,seymour rouff dba maison rouff
 round1,round one,round one corporation,round one entertainment,round one japan,tround one
@@ -36377,6 +36489,7 @@ rse global,rse global ltd,rse global uk,rse uk
 rsfsr,всероссийский научно-исследовательский институт виноградарства и виноделия в новочеркасске,всероссийский научно-исследовательский институт виноградарства и виноделия имени потапенко,всероссийский научно-исследовательский институт виноградарства и виноделия имени я.и. потапенко,всероссийский ниивив,всёроссийский научно-исслёдоватёльский институт виноградарства и винодёлия в новочёркасскё,всёроссийский научно-исслёдоватёльский институт виноградарства и винодёлия имёни потапёнко,всёроссийский научно-исслёдоватёльский институт виноградарства и винодёлия имёни я.и. потапёнко,всёроссийский ниивив
 r.s howard co
 rsk,rsk sanyo broadcasting
+rsm vektor,vector rsm,вектор 424
 rs octavia,skoda octavia rs,рс октавия
 rsp,ryan seacrest productions
 rst,rst central
@@ -36485,7 +36598,7 @@ ryze robotics,ryze technology
 s 21 energy,s 21 energy s.r.o
 s-24 finance,s-24 finance s.r.o
 s2z,switch2zero,switch2zero ltd
-s51,simson,симсон,эс-ка
+s51,simson,sk,симсон,эс-ка
 s76,system 76,system 76 inc
 s77,s77 ai,studio 77 ai
 s&a,simms & associates
@@ -36697,13 +36810,14 @@ salzmann & comp,schwerweberei salzmann & comp,segeltuchweberei salzmann & comp
 salzmann restposten,salzmann restwaren,salzmann restwaren gmbh
 sama homes,samahomes.ca,sama homes canada
 samaiden group,samaiden group berhad,samaiden group bhd
+samand,саманд сoren
 samanthas table,samanthas table matchmaking
 samarco,samarco sa
 samart aviation solutions,samart aviation solutions public company limited
 sam bat,the original maple bat corporation
 samchem holdings,samchem holdings berhad,samchem holdings bhd
 samdore investments,samdore investments ltd
-same,same italy,саме,саме италия,самё,самё италия
+same,same dorado,same italy,саме,саме argon,саме италия,самё,самё италия
 same deutz-fahr,same deutz-fahr india,same deutz-fahr (india) private limited,sdf,sdf india,sdf s.p.a
 sam engineering & equipment (m),sam engineering & equipment (m) berhad,sam engineering & equipment (m) bhd
 samen in geld,samen in geld b.v
@@ -36777,7 +36891,8 @@ sandro,сандро
 sandstone estates,sandstone heritage trust
 s and t janitorial,s&t janitorial,s&t janitorial service,s & t janitorial service llc
 sandton office removals,sandton office removals (sor),sor,sor libchavy
-sandvik (finland),tamrock
+sandvik,сandvik dr461,сандвик rl
+sandvik (finland),tamrock,tamrock rock,тамрок 852
 sanezoo,sanezoo se
 sanford,sanford health
 san francisco and oakland helicopter airlines,sfo helicopter airlines
@@ -36828,7 +36943,7 @@ sanspareils greenlands,sg india
 san swiss arms ag,swiss arms
 santa bremar,санта-бремор,санта-брёмор,санта импэкс
 santa cruz biotechnology,santa cruz biotechnology inc,scbt
- santa fe,санта фе
+santa fe,санта фе
 santa fe botanicals,santafebotanicals.store
 santa fe drilling,santa fe international corporation
 santa monica networks,smn group
@@ -36843,7 +36958,7 @@ sanwa shutter,sanwa shutter corporation,sanwa shutter corporation (japan)
 sanwa supply,sanwa supply inc
 sanwa tekki,sanwa tekki corporation,sanwa tekki corporation (japan)
 sanwerk,sanwerk.ua
-sany,sany heavy industry,сани
+sany,sany heavy industry,sany sr200,сани,сани 950,санье
 sany group vehicles in india,sany india,sany vehicles in india
 sanyuan.com.cn,sanyuan dairy,sanyuan foods,sanyuan group
 sanzin,sanzin corporation,sanzin corporation (japan)
@@ -37005,7 +37120,7 @@ sbsu,state bank of southern utah
 sbt,sunhai bioadhesive technologies (united states)
 sbu,stanbic bank,stanbic bank uganda,stanbic bank uganda limited,stanbic uganda,standard bank uganda
 sbux,starbucks,старбакс,старбакс кофе
-sc,stiefvater consultants (united states)
+sc,stiefvater consultants (united states),эс-си
 s.c.a.e. di piscitelli & amatruda s.n.c,s.c.a.e. s.r.l
 scailex corporation,scitex
 scalable minds,scalable minds gmbh,scalable minds gmbh (germany)
@@ -37162,6 +37277,7 @@ schweizerische teletext ag,swiss txt,swiss txt ag
 schweizer r.s.g
 schwerdtle,schwerdtle stamp,schwerdtle stamp co,schwerdtle stamp company,the schwerdtle stamp co,the schwerdtle stamp company
 schwering & hasse elektrodraht,shwire
+schwing,schwing st,швинг 424
 schylling,schylling associates inc
 scibits,scibits.in,scibits india
 scicom (msc),scicom (msc) berhad,scicom (msc) bhd
@@ -37268,6 +37384,7 @@ s. culture international,s. culture international holdings,s. culture internatio
 scw,scw wrestling,southern championship wrestling
 scynexis,scynexis (united states)
 scz stock invest,scz stock invest s.r.o
+sd16 шантуй,shantui,shantui construction machinery,шанти,шантуй,шантуй sd32
 sda,sd association
 sda express courier,shipping and delivery agency
 sdam,sdamtp,сдам,сдампт
@@ -37282,7 +37399,7 @@ sdi media russia,эсдиай медиа,эсдиай мёдиа
 sdi media sweden,sun studio
 s direkt,s direkt-marketing gmbh & co. kg
 sdlcap,sdlcap s.r.o
-SDLG,сдлг
+SDLG,SDLG L933,лuнгун,лингун,сдлг,шаньдун гун
 sd lottery,sd lotto,south dakota lottery,south dakota lotto
 sdmo,sdmo industries,сдмо,сдмо генератор,сдмо гёнёратор,сдмо франция
 sdn,sdn it services,sdn it-services gmbh
@@ -37333,7 +37450,7 @@ sears vacations,sears vacations direct access,sears vacations select access
 sea side sports association,sssa
 seas-nve energi,seas-nve energi a/s
 seaspan marine corporation,seaspan ulc
-seat,seat ibiza,ибица,сеат
+seat,seat ibiza,ибица,сеат,сеат леон
 seatly,seatly software ltd
 seatme,yelp reservations,yelp seatme
 seatower,seatower (norway)
@@ -37410,6 +37527,7 @@ segot cz,segot cz a.s
 segro,segro plc
 segugio,segugio.it
 seguwantivu wind power,seguwantivu wind power (private) limited
+segway powersports,ut10 сегвей,сегвей powersports
 sehenstar energy technology (china),suzhou hongtai energy saving technology
 s.e.h kelly
 sehne,sehne backwaren,sehne backwaren kg
@@ -37484,6 +37602,7 @@ sell my business usa,smb usa
 seltos,селтос
 selu,selu s.r.o
 selventa,selventa (united states)
+sem,сем 816,шаньдун сем
 seman,seman peru,servicio de mantenimiento peru
 semanta,semanta ai,semanta.ch
 semantic technology institute international,sti international
@@ -37531,7 +37650,7 @@ senka corporation,senka corporation (japan)
 senkaku,senkaq
 senken,senken gmbh
 senken shimbun,senken shinbunsha
-sennebogen,sennebogen maschinenfabrik gmbh
+sennebogen,sennebogen 818,sennebogen maschinenfabrik gmbh,зеннебогeн
 senoh,senoh corporation
 senok,senok trade combine,senok trade combine (private) limited
 senok wind energy,senok wind energy (private) limited
@@ -37628,6 +37747,7 @@ setar,setar n.v
 setix,setix ltd
 setlyr,setlyr app
 setr,setr group,сетр
+setra,setra comfortclass,сетра 516
 setra group,setra group ab
 settarious,settarious gmbh
 settlr,settlr global
@@ -37754,7 +37874,6 @@ shangwu yinshuguan,shang wu yin shu guan (commercial press),the commercial press
 shanks group,shanks group plc
 shanon,shanon inc
 shantou light,shantou light industrial machinery factory (china)
-shantui,shantui construction machinery,шантуй
 shanxi coal sales group,shanxi coal transportation and sales group (china)
 shanxi provincial institute of chemical industry (china),taiyuan chemical research institute of the ministry of chemical industry
 shape memory medical (united states),smm
@@ -37851,6 +37970,7 @@ sherman,sherman tools,шерман,шерман инструмент,шерма�
 sherman clay,sherman clay co,sherman clay company
 sherman tree nutraceuticals s.r.l,sherman tree nutraceuticals s.r.l. (italy)
 shero,shero commerce,sherocommerce.com
+sherp,sherpp,шерп 4х4,шерп all-terrain
 sherpa,sherpa.ai,sherpa food services,sherpa supermarket
 sherwin williams,sherwin-williams company of canada
 sherwood hall nurseries,sherwood hall nursery,sherwood hall nursery co,sherwood hall nursery company
@@ -38035,7 +38155,7 @@ sibo test uk,smart nutrition,smartnutrition.co.uk,smart nutrition ltd,smart nutr
 sibplaz,сибирский научно-исследовательский холдинг,сибирский научно-исслёдоватёльский холдинг,сибплаз
 sibur-rt,таиф,таиф (компания),таиф (холдинг)
 si&c,system information,сик
-sic,sic insurance company
+sic,sic insurance company,сик
 sicae de la somme et du cambraisis,sicae somme cambraisis
 si cafe,si espresso
 sicamericana s.a.c.i.f.i
@@ -38094,6 +38214,7 @@ sifto canada,sifto salt,sifto salt canada
 sigarms,sig sauer gmbh
 sigillet,sigillet fastighets ab
 siglata,siglata tecnologia ltda
+sigma,sportovni klub sigma olomouc,сигма
 sigma alfa,сигма альфа
 sigma company limited,sigma healthcare,sigma healthcare limited,sigma pharmaceuticals
 sigma-tau,sigma-tau industrie farmaceutiche riunite
@@ -38232,6 +38353,7 @@ simvestrix,simvestrix app,simvestrix charts,simvestrix platform,simvestrix tradi
 sina,sina blog,sina corp
 sinalco,sinalco international
 sinam,синам
+Sinara Group,синара транспортные машины,синара урал,холдинг синара
 sinaran advance group,sinaran advance group berhad,sinaran advance group bhd
 sinar mas agribusiness and food,sinar mas agribusiness & food
 sinbad,синбад
@@ -38317,6 +38439,7 @@ si sun fast food,sze sun hamburger
 sit,social it,socialit software & consulting srl,socialit software & consulting srl (italy)
 sita,societe industrielle des transports automobiles,societe internationale de telecommunications aeronautiques
 sitajakhala dugdha utpadak samabai samiti,sitajakhala dugdha utpadak samabai samiti ltd
+sitak,ситаx,ситай се
 sitaram,sitaram beach retreat
 sitaram ayurveda eu,sitaram ayurveda europe
 site,сайт
@@ -38352,7 +38475,7 @@ sjp legnocrats,sjp legnocrats (pvt.) ltd,sjp legnocrats (smc-private) limited
 sjsc state real estate,state real estate agency of latvia,state real estate of latvia,государственное недвижимое имущество (латвия),государствённоё нёдвижимоё имущёство (латвия)
 sjs technology,soraa
 s. j. waring and sons,s. j. waring & sons
-sk,sk holdings,sk inc
+sk,sk holdings,sk inc,эс-ка
 skaala,skaala ab,skaala ai receptionist
 skadja studio,skadja studio magnus vuolab
 skagen,skagen denmark,skagen designs
@@ -38386,6 +38509,7 @@ skf (netherlands),svenska kullagerfabriken
 ski,skinfrared (united states),ски
 skibro invest,skibro invest s.r.o
 ski cool,skicool.ch,ski cool sankt mortitz,ski cool st. moritz
+skidiо,skydio
 skien dalen skipsselskap,turist-trafikk dalen
 ski essentials,skiessentials.com,skiessentials killington,skiessentials stowe
 skif,скиф
@@ -38533,7 +38657,7 @@ smabtp,sma group
 smaf cz,smaf cz s.r.o
 small,смол
 small planet airlines,small planet airlines uab
-smart,smart car,смарт
+smart,smart car,смарт,смарт форту
 smart ai solutions,smart ai solutions (pty) ltd
 smart auto bid,smart auto bid llc
 smartbear,smartbear software
@@ -38769,6 +38893,7 @@ soiken holdings,soiken holdings inc,soiken holdings inc. (japan)
 s-oil,ssangyong oil
 soil connect,soil connect inc,soil connect services inc
 soilmec,soilmec s.p.a
+soilmech,soilmex,соилмех 5000
 sojilearn,sojilearn optimum solutions ltd
 sojitz,sojitz corp,sojitz corp. (japan),sojitz corporation
 sojuz,союз
@@ -38834,6 +38959,7 @@ s.oliver,s.oliver bernd freier gmbh & co. kg,эс оливер
 solivera,solivera s.r.o
 solkeys,solkeys (spain)
 sollau,sollau s.r.o
+sollers,соллерс аuto,соллерс адм
 sollio,sollio cooperative group
 solmetric,solmetric corporation
 solnechny,солнечный
@@ -38906,7 +39032,6 @@ sonora news company,the sonora news company
 sonoton,sonoton creative sound solutions,sonoton recorded music library
 sons and co. ltd,thomas wilson sons & co,wilson,wilson asa
 sonus design,sonus design s.r.o
-sony,sony corporation
 sony assurance,sony assurance inc
 sony bank,sony bank incorporated
 sony br,sony brasil
@@ -38961,7 +39086,7 @@ soterios limited,soterios limited (united kingdom),soterios ltd,soterios pharma
 sotetsu building managements,sotetsu building managements inc
 sotetsu hotel management,sotetsu inn
 sotex,sotex ginetex cz,z. s,зс
-sou,су
+sou,su,су
 soubry,soubry (company)
 soufflet agro,soufflet agro a.s
 sou inc,valuence holdings inc
@@ -39211,6 +39336,7 @@ split,сплит
 split bio,split biosciences
 split my fare,splitmyfare.co.uk
 sp mar
+sp maskiner,сп маскин
 s.p.m.b,s.p.m.b. a.s
 spnk 36,spnk 36 s.r.o
 spofford and tileston,spofford & tileston
@@ -39223,7 +39349,6 @@ sportisimo,sportisimo s.r.o
 sportium,sportium store
 sportline,swey lin,vesta,веста
 sportmaster,sports world,спортмастер
-sportovni klub sigma olomouc,сигма
 sport prop,sport prop spol. s r.o
 sport prospects,sport prospects hockey agency
 sportradar us,sportsdata
@@ -39436,6 +39561,7 @@ stages cycling,stages cycling llc
 stahl,шталь
 stahlgruber cz s.r.o,swiss automotive group cz,swiss automotive group cz s.r.o
 stahlwille,stahlwille germany,стальвил,стальвилле,стальвилле германия,стальвилле ключи,стальвиллё,стальвиллё гёрмания,стальвиллё ключи
+stainigi,stanigi,станиджи sd
 stainless steel world,steel world
 stal,stal-laval
 stalin,сталин
@@ -39477,6 +39603,7 @@ stanton iron works,stanton iron works co,stanton ironworks company
 stape,stape inc
 staples press,staples press limited,staples press ltd
 stapro (czechia),stapro sro
+star,zvezda company,звезда,звезда (фирма),звёзда,звёзда (фирма),стар
 star africa,star africa commodities & minerals limited
 star-apic,star gis,star informatic
 star assembly,star assembly srl
@@ -39584,7 +39711,7 @@ STD
 stealth biotherapeutics (united states),stealth peptide
 steam,stim,стим
 steamatic,steamatic usa
-steamboat inn,steamboat inn b&b,tex.),texas,texas homecare,the steamboat inn (jefferson,university studio,university studio (austin
+steamboat inn,steamboat inn b&b,tex.),texas,texas homecare,the steamboat inn (jefferson,university studio,university studio (austin,текс
 steav,steav ai,steav inc,steav.io
 s-technics,с-техникс,с-тёхникс
 stedin,stedin netbeheer
@@ -39595,6 +39722,7 @@ steel city hrt & weight loss,steel city mens health and testosterone llc
 steel monkeys,стил манкиз
 steel radiators,stelrad
 steelwind nordenham,steelwind nordenham gmbh
+steelwrist,steelwrist quickcoupler,стилврест sw
 steer,steer davies gleave,стир
 stefanini,stefanini it solutions
 steffies,steffies llc
@@ -39896,7 +40024,7 @@ style,стайл
 style line,style line s.r.o
 stylinglife holdings,stylinglife inc
 styria,styria media group
-su,suncor energy
+su,suncor energy,су
 su 155,домодедовский завод жби,домодёдовский завод жби,су 155
 subaru techno,subaru techno corporation,subaru techno corporation (japan)
 subaru tribeca,tribeca,трибека
@@ -39953,7 +40081,7 @@ sukhoi,су-30,суперджет,сухой
 sulco proso,sulco proso ltd
 suldok,suldok ug
 sulitjelma gruber,sulitjelma mines
-sullair,sullair usa,суллар,суллэйр
+sullair,sullair sa,sullair usa,сулair 1100,суллар,суллэйр
 sullen art collective,sullen clothing
 sulo,sulo deutschland gmbh
 sultan,султан
@@ -40070,6 +40198,7 @@ sunway,sunway berhad,sunway bhd
 sunway construction group,sunway construction group berhad,sunway construction group bhd
 sunway healthcare holdings,sunway healthcare holdings berhad,sunway healthcare holdings bhd
 sunwide,sunwide bubble tea
+sunwin,sunwin v,санвин city
 sunwoo animation,sunwoo & company,sunwoo entertainment,sunwoo production
 suomen valtion rautatiet,valtion rautatiet,vr,vr group,vr-group ab,vr-group ltd,vr- group plc,вр,финские железные дороги,финскиё жёлёзныё дороги
 suomen voima,suomen voima oy
@@ -40352,6 +40481,7 @@ synergetic,синергетик
 synergetic auto performance,synergetic auto performance public company limited
 synergie,synergie publishing se
 synergis holdings limited,synergis management services limited
+synergy,белуга групп,бёлуга групп,новабев групп,новабёв групп,синергия,синёргия
 synergycon,synergycon a.s
 synergy group,synergy marine group,synergy maritime
 synergy health,synergy health plc
@@ -40411,7 +40541,7 @@ szlachet-stal,szlachet-stal sendalscy
 s.z.t.k. taps maciej kowalski,taps (poland)
 t2,t2 (mobile operator),t2 (telecommunications company),t2 (оператор сотовой связи),t2 (опёратор сотовой связи),tele2,tele2 (russia),tele2 (россия),теле2,ттк мобильный
 t206 cards,t206cards.com
-t3,t3 scientific (united states),tatra,тавра,татра,таэшка
+t3,t3 scientific (united states),tatra,tatra 815,tatra truck,тавра,тата амрик,татра,таэшка
 t31,x-trail t31
 t32,xtrail t32
 t3 system works,t3 system works corporation
@@ -40688,7 +40818,7 @@ tasy,tasy s.r.o
 tasy holding,tasy holding a.s
 t-a-t,transcontinental air transport
 ta&t,technology assessment and transfer (united states)
-tata,tata cars,tata engineering and locomotive company,tata motors,tata motors ltd,tata motors passenger vehicles,taurin,telco,tml commercial vehicles,тата,тата моторз,таурин
+tata,tata cars,tata engineering and locomotive company,tata motors,tata motors ltd,tata motors passenger vehicles,taurin,telco,tml commercial vehicles,тата,тата моторз,тата моторс индия,тата некson,таурин
 tata aig,tata aig general insurance company limited
 tata bearings,tata steel bearings division
 tata coffee,tata coffee limited
@@ -40989,7 +41119,7 @@ teko,teko corporation pty limited
 tekom,tekom gmbh,tekom industrielle systemtechnik,tekom industrielle systemtechnik gmbh
 tekr,tekr ab,tekr studio
 tekrove,tekrove.com
-teks,текс
+teks,tex,текс
 tek seng holdings,tek seng holdings berhad,tek seng holdings bhd
 tekstil,текстиль
 tektronix,tektronix inc
@@ -41128,7 +41258,7 @@ ten corporation,tenya
 tendance parfums,tendance-parfums.com
 tendence,tendence.ru,тенденция,тёндёнция
 tender,tender clothing ltd,tender co,tender denim,tender jeans,тендер
-tenet,тенет
+tenet,тенет,тенет t4,тенет t8
 tengelmann,tengelmann group
 tengizchevroil,тенгизшевройл,тёнгизшёвройл
 tenix,tenix pty limited
@@ -41305,7 +41435,7 @@ tft,trasporto ferroviario toscano
 tfw,the fragrance world,the fragrance world ltd,the fragrance world uk
 tfx,tokyo financial exchange,xtff
 t-gaia,t-gaia corporation
-tgb,tgb s.a
+tgb,tgb blade,tgb s.a,тгб арго
 tge,tokyo grain exchange,xtko
 tgen,translational genomics research institute
 tgka,tigaraksa satria,tigaraksa satria tbk
@@ -41613,7 +41743,7 @@ thompson boat,thompson brothers boat manufacturing company
 thomson directories,thomson local
 thomson reuters,thomson reuters corporation,thomson scientific & healthcare,рейтер,рёйтёр,томсон рейтер,томсон рёйтёр
 thong guan industries,thong guan industries berhad,thong guan industries bhd
-thonwaaren-industrie wiesloch gmbh,tiroler wasserkraft ag,tiw ag,ton,ton a.s,tonwaren-industrie wiesloch
+thonwaaren-industrie wiesloch gmbh,tiroler wasserkraft ag,tiw ag,ton,ton a.s,tonwaren-industrie wiesloch,тон
 thor,tore,vor,ор
 thor energy,thor energy as
 thorkell holdings,thorkell holdings limited
@@ -41662,6 +41792,7 @@ thurman cafe,thurmans
 thursday,рсдей
 thuyonx,thuyonx ai,thuyonx private limited
 thuy sinh aqua,vietaqua
+thwaites,туэйтс appv
 thx,thx ltd
 thymia limited,thymia limited (united kingdom)
 thync,thync (united states)
@@ -41727,6 +41858,7 @@ tigas-erdgas tirol gmbh,tigas versorgungs- und netzbetrieb
 tigemma engineering,tigemma engineering ltd
 tiger,tiger telematics,игер
 tiger 22,tiger 22 media,tiger 22 media corporation
+tigercat,тайгеркэт 735
 tiger electronics,tiger toys
 tiger global management,tiger technology management llc
 tigerlily films,tigerlily films (united kingdom)
@@ -41735,7 +41867,7 @@ tiger of sweden,tiger of sweden ab
 tigers polymer,tigers polymer corporation,tigers polymer corporation (japan)
 tiger tech solutions,tiger tech solutions inc
 tigga towers,tigga towers limited
-tight,wait,айт
+tight,wait,white,айт
 ti group,tube investments limited,tube products
 tiida,верса,тийда
 tii group,tii sales,transporter industry international,transporter industry international gmbh
@@ -41754,6 +41886,7 @@ tilley,tilley endurables,tilley hats
 tillty,tillty aps
 tilt,илт
 tilt5,tilt five
+timberjack,тимберджек 695
 timber research and development association (united kingdom),trada
 timber tech,timbertech.com,timbertech decking,timber tech. timbertech deck
 timberwell,timberwell berhad,timberwell bhd
@@ -41860,6 +41993,7 @@ tmcihak,tmcihak s.r.o
 t.m.c. industrial,t.m.c. industrial public company limited
 tmc life sciences,tmc life sciences berhad,tmc life sciences bhd
 tme,toyota europe,toyota motor europe
+tmem-krasny proletary,красный пролетарий,тмем
 tmh,тмх,трансмашхолдинг
 tmind,tmind ai
 tmk,тмк,трубная металлургическая компания,трубная мёталлургичёская компания
@@ -41967,7 +42101,7 @@ toll group,toll holdings
 tollpost globe
 toltech,touch of life technologies (united states)
 tom,ум
-toma,wbp,wimm-bill-pol,worldbridge partners,ymila,вимм,жимильчонок,иванчик,мальша,юmilла
+toma,wbp,wimm bill pol,worldbridge partners,ymila,вимм,жимильчонок,иван чик,мальша,юmilла
 tomato & associates,tomato&onion
 tomb,умб
 tomegas,tomegas s.r.o
@@ -41993,8 +42127,8 @@ tomtel,томтел,томтёл
 tom thumb,tom thumb food,tom thumb food & pharmacy,tom thumb grocery store,tom thumb pharmacy
 tomtom,tomtom (netherlands)
 tomypak holdings,tomypak holdings berhad,tomypak holdings bhd
+ton,tone,tone japan,тон,тон япония,ун
 tonala,tonala limited
-tone,tone japan,тон,тон япония,ун
 tongal,tongal studios
 tong herr resources,tong herr resources berhad,tong herr resources bhd
 tong services,tong services limited
@@ -42089,6 +42223,7 @@ torstar,torstar coropration
 tort,орт
 torte,рте
 tortilla,ортилья
+torum,ростсельмаш турyм,турум 710
 tory burch,trb by tory burch,тори берч,тори бёрч
 toshiba digital solutions corporation,toshiba digital solutions corporation (kawasaki)
 toshiba electronic device solutions (japan),toshiba microelectronics corporation
@@ -42268,7 +42403,7 @@ trame,trame software ltd
 trameta,trameta kft
 tramvie elettriche bresciane,tranvie elettriche bresciane
 tramvie provinciali mantovane,tranvie provinciali mantovane
-tramwaje warszawskie,tricky wombat,tricky wombat ai,tw
+tramwaje warszawskie,tricky wombat,tricky wombat ai,tw,тв
 tramways de bilbao,tramways et electricite de bilbao
 tran,ран
 transakta,transakta a.s
@@ -42666,7 +42801,7 @@ turtle,ртл
 turtle beach,turtle beach corporation,turtle beach systems
 tushino engineering plant,тмз,тушинский машиностроительный завод,тушинский машиностроитёльный завод
 tussa kraft,tussa kraft as
-tut,ute,uto,utt,uy,uz,uzz,юг
+tut,ut,ute,uto,uts,utt,uy,uz,uzz,юг
 tuta,tuta s.r.o
 tutech,tutech innovation gmbh
 tutela credit
@@ -42679,7 +42814,7 @@ tutuki,tutuki s.r.o
 tuuliwatti,tuuliwatti oy
 tuxweb,tuxweb s.r.l
 tuy,tv-u yamagata,tv-u yamagata inc
-tv,тв
+tv,tw,тв
 tv18 (tv 2018),tv 2018
 tv 2-gruppa,tv 2 gruppen
 tv4 digitala medier,tv4 vision
@@ -42748,7 +42883,7 @@ tycoons creators
 t.y.entertainment,t.y.entertainment inc
 tyla,tyla.com
 t. y. lin,t. y. lin international
-tym,tym korea,тым,тым корея,тым корёя
+tym,tym korea,TYM T-series,тим t399,тым,тым корея,тым корёя
 tymbark,tymbark-mws
 tymian assets,tymian assets s. r. o
 tynesoft,tynesoft computer software
@@ -42818,7 +42953,7 @@ ucademy,ucademy fzco
 ucanbe,ucanbe makeup
 ucb,ucb pharma,ucb pharma (france),ucb pharma (united kingdom),ucb s.a,union chimique belge
 ucb franklin avenue,ucb los angeles,upright citizens brigade los angeles,upright citizens brigade theatre,upright citizens brigade theatre los angeles
-uce,юс
+uce,us,юс
 uced chomutov,uced chomutov s.r.o
 uced commodities,uced commodities s.r.o
 uced distribuce ii,uced distribuce ii s.r.o
@@ -42848,6 +42983,7 @@ uds,urban design system co
 udt,united dominions trust
 ue,united electric controls (united states)
 ue3p,ultra electronics 3 phoenix (united states)
+UEC,uec двигатели,передовые энергетические компоненты
 uedcl,uganda electricity distribution company limited
 uee,united environment and energy (united states)
 ueki corporation,ueki corporation (japan)
@@ -43038,6 +43174,7 @@ unilink education,unilink education pty ltd
 unima,unitra-unima
 unimat life,unimat life corporation
 unimech group,unimech group berhad,unimech group bhd
+unimog,unimog мерседес,унамог,юнимoг u4023
 unimono,unimono marketing
 unimot,unimot s.a
 uninite,unite living
@@ -43178,7 +43315,7 @@ universal sensors (united states),vantix ltd
 universal storefront services corporation,ussc,u super service center
 universal studio,юниверсал
 universal technical institute,universal technical institute of phoenix,uti
-universal trim supply (taiwan),uts
+universal trim supply (taiwan),uts,utt,uy,uz,uzz,юг
 universal wrestling corporation,wcw,world championship wrestling,вцв,чемпионат мира по рестлингу,чёмпионат мира по рёстлингу
 universia,universia.net
 university games,university games corporation
@@ -43274,7 +43411,7 @@ urozhai,урожай
 ursina,ursina ag,ursina (company)
 urtopa,urtopa s.r.o
 urtovox,urtovox records
-us,user systems (united states)
+us,user systems (united states),юс
 usag,usag italia,усаг,усаг инструмент,усаг инструмёнт,усаг италия
 usa locksmith nyc,usa locksmith service,usa locksmith services
 usa pawn and jewelry,usa pawn and jewelry company
@@ -43305,20 +43442,20 @@ usterka,usterka.pl
 ust global pte. ltd,ust global (singapore) pte. ltd. (singapore)
 ustwo,ustwo games
 us worldmeds,us worldmeds (united states)
-ut,u-tel (south korea)
+ut,ute,u-tel (south korea),uto,uts,utt,uy,uz,uzz,юг
 utah,юта
 utah property management associates,zions securities
 utex fashion group,utility textile industries
 utility plumbing,utility plumbing services
 utility support group (usg),utility support group (usg) b.v
-utility warehouse,uw
+utility warehouse,uw,юв
 utopai,utopai studios
 ut research institute,ut research institute (japan)
 utva,утва
 utylis,utylis s. r. o
 uu,юю
 uub,uue,украинская универсальная биржа,украинская унивёрсальная биржа
-uv,юв
+uv,uw,юв
 uvamai,uvamai niche tourism
 uvb technik,uvb technik s.r.o
 uveekai,uveekai gmbh & co. kg
@@ -43335,7 +43472,7 @@ uzex,узбекская республиканская товарно-сырье
 uzma,uzma berhad,uzma bhd
 uzpost,почта узбекистана,почта узбёкистана
 uztransgaz,узтрансгаз
-(v),version industries,(vi),(v) industries,ви,видео интернешнл,видёо интёрнёшнл
+(v),version industries,(vi),(v) industries,wy,ви,видео интернешнл,видёо интёрнёшнл
 v1 agency,v1agency.pl
 v1 group,v1 group limited
 v32,v32 a.s
@@ -43353,9 +43490,10 @@ vadamond management,vadamond management s.r.o
 vadavision,vadavision private limited
 vaden,vaden original,vaden otomotiv
 vadsco sales,vadsco sales corporation
-vag,volkswagen,volkswagen ag,volkswagen aktiengesellschaft,volkswagen-audi group,volkswagen automotive group,volkswagen group,vw,vw ag,вв фолксваген,фольксваген,фольксваген ао,фольксвагён,фольцваген,фольцвагён
+vag,volkswagen,volkswagen ag,volkswagen aktiengesellschaft,volkswagen-audi group,volkswagen automotive group,volkswagen group,vw,vw ag,вв фолксваген,тигуан фолксваген,фолксваген,фольк,фольксваген,фольксваген ао,фольксвагён,фольц,фольцваген,фольцвагён
 vaganet,vaganet group
 vag armaturen,vag gmbh
+vagonmash,vagonmash tvs,вагонмаш тверь
 vahed gasht
 vaidam.com,vaidam health,vaidam health private limited
 vaimuga,ваймуга
@@ -43405,12 +43543,12 @@ valley tech systems (united states),vts
 vallibel one,vallibel one plc
 vallibel willwind,vallibel willwind (private) limited
 valmano,valmano gmbh
-valmet,valmet corporation,valmet oyj
+valmet,valmet 901,valmet corporation,valmet oyj,валмет 911
 valoe,valoe oyj
 valor,элор
 valters and rapa ltd,valters & rapa,valters un rapa,walters and rapa ltd,walther & rappa,валтерс и рапа,валтёрс и рапа,вальтер,вальтер и рапа,вальтеръ и рапа,вальтёр,вальтёр и рапа,вальтёръ и рапа,изд. вальтерс и рапа,изд. вальтёрс и рапа,изд. и тип. вальтерс и рапа,изд. и тип. вальтёрс и рапа,рапа и ко,тип. а./о. вальтерс и рапа,тип. а./о. вальтёрс и рапа
 valtion lentokonetehdas,vl,вл
-valtra,valtra finland,валтра,валтра финляндия
+valtra,valtra finland,waltra,валтра,валтра метра,валтра финляндия
 value,элью
 value chain lab (united kingdom),vcl
 value farm consulting (japan),vfc
@@ -43451,6 +43589,7 @@ vanguard,vanguard cleaning systems
 vanguard animation,vanguard films & animation
 vanguard medica,vernalis group
 van hattum en blankevoort,van hattum en blankevoort b.v
+van hool,т9 ван хуль
 vanilla aircraft,vanilla unmanned (united states)
 vanitii,vanitii llc
 vanity,vanity shops
@@ -43531,6 +43670,7 @@ vattenfall energy trading,vattenfall energy trading gmbh
 vattenfall uk,vattenfall united kingdom
 vault,vault (insurance),walt,олт
 vauraus,vauraus suomi oyj
+vauxhall,воксхолл
 vav versicherungen,vav versicherungs-aktiengesellschaft
 vawd applied science & technology,vawd (united states)
 vawin,vawin (private) limited
@@ -43581,7 +43721,6 @@ vector designs arizona
 vector motors,vector motors corporation
 vectorridge,vector ridge systems,vectorridige
 vectoryon,vic,week,ик
-vectra,vectra s.a
 vectracom,vectracom sas
 ved,virgin experience days,virgin experience days uk
 veda,veda (nz) limited
@@ -43757,6 +43896,7 @@ versa,versa wireless,versa wireless inc,versа
 versace,версаче
 versa gripps,vg,вг
 versarien,versarien plc,versarien technologies (united kingdom)
+versatile,версатайл 930
 versatile creative,versatile creative berhad,versatile creative bhd
 versatile space,versatile space s.r.o
 versele-laga,versele-laga nv
@@ -43883,13 +44023,13 @@ victoria dom,victoria dom s.a
 victoria kapitalanlagegesellschaft,vorsorge lebensversicherungs-ag
 victorian rail track corporation,victrack,vrtc
 victorinox,wenger,wenger & co,wenger s.a,венгер,викторинокс
-victorinox,victorinox ag,викторинокс
+victorinox,victorinox ag,Wenger,венгер,викторинокс
 victor mayer gmbh,vogel & mayer
 victory,victory brewing company,иктори
 victory capital,victory capital management
 victory skating academy,vsa
 victrex,victrex plc,victrex (united kingdom)
-vid,ид
+vid,weed,ид
 vidatamunai wind power,vidatamunai wind power (private) limited
 vida vacation,vida vacation club,vida vacations
 video,идео
@@ -44038,6 +44178,7 @@ virgin oceanic,вирджин океаник,вирджин окёаник
 virgin radio,virgin radio anthems,virgin radio chilled,virgin radio international
 viriom,viriom inc,viriom inc. (united states)
 vironit,вайронайти,васофт,виронит
+virrtgen,wirtgen,wirtgen gmbh,wirtgen w215,виртген w
 virscend education,virscend education company limited
 virt,ирт
 virtua,virtua health
@@ -44225,6 +44366,7 @@ voe mtx,voe mtx air charter
 voestalpine,voestalpine austria,фестальп,фестальпин,фёстальп,фёстальпин
 vogel,vogel germany,фогель,фогель германия,фогёль,фогёль гёрмания
 vogel business media,vogel communications group
+vogele,vögele 1900,фогель асфальтоукладчик
 voh,voices of history,voices of history foundation
 voice,ойс
 voiceb,voiceb.ai
@@ -44244,7 +44386,7 @@ voith hydro,voith hydro gmbh & co. kg,voith hydro kraftwerkstechnik gmbh & co. b
 voizematic,voizematic ai
 vojd,vojd s.r.o
 vokks kraft,vokks kraft as
-vol,wal,ол
+vol,wal,wall,ол
 volcano,олкано
 volcanoadventures,volcanodiscovery,volcanodiscovery gmbh
 vole,оле
@@ -44276,7 +44418,7 @@ volk und wissen verlag,vwv
 volla,volla systeme
 volleybird,volleybird box,volleybird shop
 vollmer werke,vollmer werke maschinenfabrik gmbh
-volt,олт
+volt,walt,олт
 volta,олта
 voltage control,voltage control austin,voltage control llc
 volta global,volta global llc
@@ -44287,6 +44429,7 @@ voltkart,voltkart.in
 volton,volton a.e
 voltrade,voltrade uk
 volture,volture tech,volture teknoloji
+volvo bus,волво 7900,вольво 8900
 volvo car czech republic,volvo car czech republic s.r.o
 volvo car gent,volvo cars gent
 volx,volx appliance,volx appliance repair,volx appliance repair llc
@@ -44330,7 +44473,7 @@ voxility,voxility gmbh,voxility llc,voxility llp,voxility srl
 voxplo,voxplo.ai
 voyo,voyo.ro
 voys global,voys nl,voys voip
-vp,вп
+vp,wp,вп
 vpp energy,vpp energy gmbh
 vps mart
 vrana,vrana gmbh,vrana gmbh (germany)
@@ -44346,7 +44489,7 @@ vromans bookstore,vromans bookstore inc
 vr oze systems,vr oze systems s.r.o
 vrr diagnostics,vrr diagnostic services (india)
 vrumona,vrumona b.v
-vs,вс
+vs,ws,вс
 vs assets,vs assets s.r.o
 v-sharp ventures,v-sharp ventures se
 vsim,vsim telecom,vsim telecommunication services,vsim telecommunication services joint stock company,vsim telecommunication services jsc,vsim vietnam,vsim.vn
@@ -44357,11 +44500,12 @@ vsqm,v-square,v-square quantitative management,v-square quantitative management 
 vstecs,vstecs berhad,vstecs bhd
 vst industries,vst industries ltd
 vst tiller,v.s.t tillers,vst tillers tractors,vst tillers tractors limited,vst tillers tractors ltd,vsttl
-vt,вт
+vt,wt,вт
 vta,vta verfahrenstechnische anlagen,vta verfahrenstechnische anlagen gmbh,vta verfahrenstechnische anlagen gmbh & co. kg
 vtg rail logistics gmbh,vtg rl gmbh
 vtm global,vtm global (portugal)
 vtv,vtv therapeutics (united states)
+vtz,вгтз,волгоградский трактор,втз 100
 vu,wu,ву
 vuab pharma,vuab pharma a.s
 vucast,vucast inc
@@ -44371,7 +44515,7 @@ vulkan,vulkan izdavastvo
 vulkan group,vulkan gruppe
 vulut,vulut.com,vulut hosting
 vunjabei,vunjabei fashion store,vunjabei group limited,vunjabei store
-vv,вв
+vv,wv,ww,вв
 vvm cement,v.v.m. (nv)
 vvv most,vvv most spol. s r.o
 vw electronics research laboratory,vwerl
@@ -44398,7 +44542,7 @@ wab,аб
 wabasso cotton,wabasso ltd
 wabco,wabtec,wabtec corporation,westinghouse air brake company,westinghouse air brake technologies corporation
 wachovia corp,wachovia corporation
-wacker,wacker chemie,wacker chemie ag,wacker neuson,wacker neuson se,вакер виброплита,вакер неусон,вакер нойсон,ваккер,ваккер нойсон,ваккёр,ваккёр нойсон,вакёр виброплита,вакёр нойсон,вакёр нёусон
+wackeneuson,wacker,wacker chemie,wacker chemie ag,wacker neuson,wacker neuson se,wp вакер,вакер виброплита,вакер неусон,вакер нойзон,вакер нойсон,ваккер,ваккер нойсон,ваккёр,ваккёр нойсон,вакёр виброплита,вакёр нойсон,вакёр нёусон
 wacky works digital,wwd
 waco,waco aircraft company,weaver aircraft company of ohio
 wacoal,wacoal corp,wacoal corp. (japan)
@@ -44442,7 +44586,7 @@ walker digital,walker digital (united states)
 walker & dunlop,walker & dunlop inc
 walkers,walkers crisps
 walkers shortbread,walkers shortbread ltd
-wall,wall ag,wall gmbh
+wall,wall ag,wall gmbh,ол
 wallace and co,wallace and company,wallace & co,wallace & company
 wallace heaton limited,wallace heaton ltd
 wallace laboratories,wallace labs
@@ -44621,9 +44765,9 @@ w.d. & h.o. wills,w.d. & h.o. wills. bristol & london
 wdna,wireless dna,wirelessdna.ca,wireless dna inc
 wdr mediagroup,wdr mediagroup gmbh
 w. dunning,william dunning
-we,weco,western electric,western electric company,ви
+we,weco,western electric,western electric company,wy,ви
 we accelerate,weccelerate,weccelerate ltd
-weak,ик
+weak,week,ик
 wealthfront,wealthfront corporation
 wealth fund,wealth fund s.r.o
 wealthwise kids,wealthwise kids llc
@@ -44794,13 +44938,13 @@ western costume,western costume company
 western gate private investments,western gate private investments limited
 western india palm refined oils limited,western india products limited,wipro,wipro limited (bangalore)
 western metals,western metals llp
-western pacific railroad,wp
+western pacific railroad,wp,вп
 western pipe and steel company,wps
 western power company,western power company limited,western power company (private) limited
 western power corporation,wpc
 western provident association,wpa
 western rail inc,western rails inc,wrix
-western & southern,western & southern financial group,w&s
+western & southern,western & southern financial group,w&s,вс
 western star,вестерн
 westfalen mobil gmbh,westfalia,вестфалия
 westfalen weser energie,westfalen weser energie gmbh & co. kg
@@ -44836,6 +44980,7 @@ weve,weve inc
 we work group,wwg
 wex,wex inc,wexinc.com,wright express
 wexperience,wexperience s.r.o
+wey,вей vv5
 weyerhaeuser,weyerhaeuser company
 weyersberg kirschbaum & co,wyersberg kirschbaum und co
 wezag gmbh & co. kg,wezag gmbh & co. kg (stadtallendorf)
@@ -44898,7 +45043,7 @@ wholfahrt piano,wohlfahrt
 whoop,хуп
 whop,whop inc
 w. hunt,william hunt
-wi,ви
+wi,wy,ви
 wiaugem,wiaugem celestial institute
 wibank,wirtschafts- und infrastrukturbank hessen
 wibo holding,wibo holding gmbh
@@ -44977,7 +45122,6 @@ williams-pyro,williamsrdm (united states)
 williams shoes
 william sym,w. sym
 william thomas,w. thomas
-william wrigley jr. company,wm. wrigley jr. company,wrigley,wrigley company,орбит,орбит жвачка
 willingsford,willingsford ltd,willingsford ltd. (united kingdom)
 willis group,willis group holdings limited
 willis motor company,willys-overland
@@ -45052,7 +45196,6 @@ wips,worldwide intellectual property service (south korea)
 wirecard,wirecard ag
 wireless communication laboratory,wireless communication laboratory (japan)
 wire monkey,wire monkey llc,wiremonkeyshop
-wirtgen,wirtgen gmbh
 wisco,wugang group,wuhan iron and steel,wuhan iron and steel corporation
 wisco (joint-stock),wuhan iron and steel company limited,wuhan iron and steel (joint-stock)
 wisconsult,wisconsult s. r. o
@@ -45097,6 +45240,7 @@ wode cz,wode cz s.r.o
 woebot health,woebot health (united states),woebot labs,woebot labs inc
 wohnly,wohnly.ai
 wolf3d,wolfprint 3d
+wolffkran,вольфкран 4031
 wolford,wolford ag
 wolfox,wolfox organic coffee roasters
 wolfram research europe,wolfram research (united kingdom)
@@ -45202,7 +45346,7 @@ wpw spv3,wpw spv3 a.s
 wp xawax moravia,wp xawax moravia s.r.o
 wpx energy,wpx energy inc
 wrangler,wrangler jeans,wrangler jeans company,вранглер,рэнглер
-wraps & wings,w&w
+wraps & wings,w&w,вв
 wrather corporation,wrather corporation company
 wrexham eats,wrexham eats limited
 w. r. grace and company,w.r. grace & co,w. r. grace & co.- conn
@@ -45223,7 +45367,7 @@ wsw,wsw wuppertaler stadtwerke,wsw wuppertaler stadtwerke gmbh,wuppertaler stadt
 wsw 3/4/5 energie,wsw 3/4/5 energie gmbh
 wsw mobil,wsw mobil gmbh
 wsw portfoliomanagement,wsw portfoliomanagement ag
-wt,wunderman thompson
+wt,wunderman thompson,вт
 wtf (wurzner teppichfabrk),wurzener teppich- und velours-fabriken ag,wurzner teppichfabrik
 wtk holdings,wtk holdings berhad,wtk holdings bhd
 w turner lord and co,w. turner lord and company,w turner lord & co
@@ -45253,7 +45397,7 @@ w. w. hodkinson corporation,w. w. hodkinson distribution
 w&wsens devices inc,w&wsens inc
 ww technology group (united states),wwtg
 wwwave,wwwave co,wwwave corp,wwwave corporation
-wy,wysa ltd,wysa ltd. (united kingdom)
+wy,wysa ltd,wysa ltd. (united kingdom),ви
 wyatt technology,wyatt technology corporation
 wycon,wycon cosmetics
 wyeth,wyeth pharmaceuticals inc,уайес,уайёс
@@ -45282,7 +45426,7 @@ xbrane biopharma,xbrane bioscience (sweden)
 xcede,xcede group
 x-celeprint,x display company technology limited (dublin)
 xcene,xcene automation,xcene home automation,xcene smart home
-xcmg,xuzhou construction machinery,ксмг,ссмг,сюйгун
+xcmg,xcmg xct,xcmg xe135,xuzhou construction machinery,иксмджи,ксмг,ссмг,сюйгун
 x con,x convenience
 x corp,x (formerly twitter)
 xd,хд
@@ -45307,7 +45451,7 @@ xg,хг
 xgi,xgi technology inc
 xg technology,xmax
 xh,xx,хх
-xi,хи
+xi,xy,хи
 xia,x-ray instrumentation associates (united states)
 xiabu.com,xiabu xiabu
 xiamen cigarette factory,xiamen tobacco industry (china)
@@ -45389,7 +45533,7 @@ ya,ya bank as,я
 yab,yamaguchi asahi broadcasting
 yabs,yabs public relations management llc
 yac,yac chat,yelling across cubicles
-yachtworld,yachtworld.com,yw
+yachtworld,yachtworld.com,yw,йв
 yacimientos petroliferos fiscales,ypf,ypf s. a,ypf sociedad anonima
 yadkin financial,yadkin financial corporation,yadkin valley bank and trust
 yadoct,yadoct algeria,yadoct.com
@@ -45438,7 +45582,7 @@ yangtze optical electronic company ltd,yoec
 yangtze optical fc,yangtze optical fibre and cable joint stock limited company,yofc
 yangzhou yaxing,yaxing coach
 yankee environmental system (united states),yes
-yanmar,yanmar japan,ямар,янмар,янмар япония
+yanmar,yanmar diesel,yanmar japan,yanmar трактор,ямар,яммар йт,янмар,янмар япония
 yanmar agribusiness,yanmar agricultural machinery manufacturing
 yanoman,yanoman corporation
 yantai polaris,yantai polaris timepiece group
@@ -45627,6 +45771,7 @@ y&t home,y&t home s.r.o
 ytl corporation,ytl corporation berhad,ytl corporation bhd
 ytl power international berhad,ytl power international bhd
 ytl powerseraya,ytl powerseraya pte ltd
+yto,yto tractor,ЙТО 2404,东方红 yto
 yu,ю
 yuan-liou,yuan-liou publishing
 yubico,yubico ab
@@ -45649,9 +45794,9 @@ yushin,yushin precision equipment
 yusoki kogyo co. ltd,yusoki kogyo k. k,yusoki kogyo k. k. (japan)
 yu tai hing,yu tai hing company limited
 yutaka foods,yutaka foods corporation
-yutong,zhengzhou yutong bus,zhengzhou yuyong bus,ютонг
+yutong,yutong zks,zhengzhou yutong bus,zhengzhou yuyong bus,ютонг,ютонг 6122
 yux,yux design,yux design (senegal)
-yv,йв
+yv,yw,йв
 yvert and tellier,ивер и телье,ивёр и тёльё
 yx,йкс
 yxaiio,yxaiio pheromones - the aphrodisiac drink
@@ -45760,7 +45905,7 @@ zee and co,zee & co
 zeebo,zeebo effect,zeebo effect llc,zeebo placebo
 zee entertainment enterprises,zee entertainment enterprises limited
 zeeg,zeeg co. ltd
-zeekr,zeekr 001,zeekrub,зекр
+zeekr,zeekr 001,zeekrub,зекр,зикр 001
 zeeuwse asfalt onderneming
 zeg power (norway),zero emission gas power
 zeisner & co,zeisner feinkost gmbh & co. kg
@@ -45779,6 +45924,7 @@ zeltiq aesthetics,zeltiq aesthetics inc
 zemaitis,zemaitis guitars
 zemcheba (czechia),zemcheba (firma)
 zemet,zemet spol. s r.o
+zemlyak,земляк газон,земляк зга
 zem (norway),zero emission energy
 zend by perforce,zend technologies,zend technologies ltd
 zendera,zendera as,zendera tms
@@ -45852,6 +45998,7 @@ zhejiang expressway company,zhejiang expressway company limited
 zhejiang provincial innovation center of laser intelligent equipment technology,ziclet
 zhejiang radio and television group,zhejiang radio & tv group
 zhejiang xinao,zhejiang xinao textiles inc
+zhengtong,чжентон zk,чжентон нейоплан
 zheng yan seed (china),zhengzhou zhengyan seed technology
 zhengzhou yunhai information technology,zhengzhou yunhai information technology co
 zhigulevskoe,zhiguli,жигулевское,жигули
@@ -45926,9 +46073,10 @@ zomato,zomato.com.admin,zomato media,zomato media private limited,zomato private
 zometool,zometoy
 zone group,zone group pty ltd
 zone labs
+zongshen,zongshen cyclone,зоншен zs
 zonnepark koningspleij arnhem,zonnepark koningspleij arnhem b.v
 zoo digital publishing,zushi games
-zoomlion,zoomlion ghana limited,zoomlion heavy industry,зумлион
+zoomlion,zoomlion ghana limited,zoomlion heavy industry,zoomlion qy25,зумлаён 70200,зумлион
 zoom systems
 zoon,зоон,зун,зуун
 zoopla,zpg ltd
@@ -45973,7 +46121,6 @@ zurich insurance group,zurich insurance group ltd,zurich life
 zuri.com,zuri.com se
 zv,zw,зв
 zv cars,zv cars s.r.o
-zvezda company,звезда,звезда (фирма),звёзда,звёзда (фирма)
 zvon ai,zvonai.ai
 zvoska,zvoska s.r.o
 zx,зкс
@@ -46029,7 +46176,6 @@ zzz-keflenta trading,zzz-keflenta trading ltd
 алчевский коксохимический завод,алчевский кхз,алчевсккокс,алчёвский коксохимичёский завод,алчёвский кхз,алчёвсккокс
 алчевский металлургический комбинат,алчевский мк,алчёвский мк,алчёвский мёталлургичёский комбинат
 альт телеком,альт тёлёком
-альфа-банк,альфа-банк беларусь,альфа-банк бёларусь,банк международной торговли и инвестиций,банк мёждународной торговли и инвёстиций,межторгбанк,мёжторгбанк
 альфа групп
 альфастрахование,альфастрахованиё,ао альфастрахование,ао альфастрахованиё
 альянс,альянс евразия,альянс (страховая компания),альянс ёвразия
@@ -46117,7 +46263,6 @@ zzz-keflenta trading,zzz-keflenta trading ltd
 белебеевский завод автонормаль,белзан,бёлзан,бёлёбёёвский завод автонормаль
 белжелдорпроект,бждп,бёлжёлдорпроёкт
 беллона,беллона фонд,бёллона,бёллона фонд,фонд беллона,фонд бёллона
-белуга групп,бёлуга групп,новабев групп,новабёв групп,синергия,синёргия
 белый ветер,белый ветер цифровой,бёлый вётёр,бёлый вётёр цифровой
 беляевы и партнеры,бёляёвы и партнёры,ооо беляевы и партнеры,ооо бёляёвы и партнёры
 бердичевский завод прогресс,бердичевский прогресс (завод),бёрдичёвский завод прогрёсс,бёрдичёвский прогрёсс (завод),прогресс (завод),прогрёсс (завод)
@@ -46364,7 +46509,6 @@ zzz-keflenta trading,zzz-keflenta trading ltd
 ишбанк,турция бизнес банк,турция бизнёс банк
 ишимбайские распределительные электрические сети,ишимбайскиё распрёдёлитёльныё элёктричёскиё сёти,ишимбайэлектроток,ишимбайэлёктроток
 ишимбайский экспериментально-механический завод,ишимбайский экспёримёнтально-мёханичёский завод,пнго,промышленное нефтегазовое объединение,промышлённоё нёфтёгазовоё объёдинёниё
-кавасаки,судоверфь кавасаки,судовёрфь кавасаки
 кавказ.рф,курорты северного кавказа,курорты сёвёрного кавказа
 казанский оптико-механический завод,казанский оптико-мёханичёский завод,комз
 кайбицы-агрохимсервис,кайбицы-агрохимсёрвис
@@ -46526,7 +46670,6 @@ zzz-keflenta trading,zzz-keflenta trading ltd
 мир инструмент,мир инструмента,мир инструментов,мир инструмёнт,мир инструмёнта,мир инструмёнтов
 мичуринский локомотиворемонтный завод,мичуринский локомотиворёмонтный завод,мичуринский лрз
 ммп,мурманское морское пароходство,мурманскоё морскоё пароходство
-мобильные телесистемы (белоруссия),мобильныё тёлёсистёмы (бёлоруссия),мтс,мтс беларусь,мтс бёларусь
 могилевхимволокно,могилёвхимволокно
 молебский завод,молёбский завод
 молния (завод),челябинский часовой завод,чёлябинский часовой завод
@@ -46596,7 +46739,6 @@ zzz-keflenta trading,zzz-keflenta trading ltd
 оао промприбор,промприбор
 оао херсонский судостроительный завод,оао хёрсонский судостроитёльный завод,херсонский судостроительный завод,хсз,хёрсонский судостроитёльный завод
 оборонимпэкс,проминвест,проминвёст
-объединенная двигателестроительная корпорация,объединённая двигателестроительная корпорация,объёдинённая двигатёлёстроитёльная корпорация,одк
 объединенная промышленная корпорация,объединённая промышленная корпорация,объёдинённая промышлённая корпорация
 объединенная судостроительная корпорация,объединённая судостроительная корпорация,объёдинённая судостроитёльная корпорация,оск
 объединенная энергетическая компания (москва),объединённая энергетическая компания (москва),оэк

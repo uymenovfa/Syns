@@ -10,6 +10,20 @@
 """
 
 # ---------------------------------------------------------------- шумовые токены
+# --------------------------------------------- обрывки юр. форм: не являются брендами сами по себе
+# (используется в build_clean_dictionary.is_legal_suffix при проверке пересечений ADDITIONS)
+LEGAL_SUFFIXES = {
+    'ltd', 'ltd.', 'co', 'co.', 'co.ltd', 'co.,ltd', 'inc', 'inc.', 'corp', 'corp.',
+    'llc', 'llp', 'plc', 'gmbh', 'ag', 'a/g', 'kg', 'ohg', 'sro', 's.r.o', 's.r.o.',
+    'as', 'a/s', 'ab', 'sa', 's.a', 's.a.', 'spa', 'srl', 's.r.l', 's.r.l.',
+    'nv', 'n.v', 'bv', 'b.v', 'lda', 'unipessoal lda', 'pte', 'pte.', 'pty',
+    'bhd', 'tbk', 'ee', 'oy', 'ab', 'asa', 'nk', 'jsc', 'ojsc', 'cjsc', 'pao',
+    'oao', 'ooo', 'zao', 'iao', 'sp z o.o', 'sp. z o.o.', 'zrt', 'v/a', 'cv',
+    'de cv', 'sa de cv', 's.a. de c.v', 's de rl', 'sl', 's.l', 'sas', 'sasu',
+    'eurl', 'sci', 'sem', 'sca', 'jsc', 'ad', 'ood', 'eoood', 'doo', 'd.o.o',
+    'company', 'corporation', 'group', 'holdings', 'international', 'worldwide',
+}
+
 NOISE_TOKENS = {
     'co.ltd', 'inc', 'ltd. (a 22 f 102)', 'ltd. (asan)', 'ltd. (bucheon-si)',
     'ltd. (cheonan-si)', 'ltd. (chiyoda-ku)', 'ltd. (daegu)', 'ltd. (gimpo-si)',
