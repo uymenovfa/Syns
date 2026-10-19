@@ -79,7 +79,7 @@ HAND_TOOL_BRANDS = {
     'Stanley Proto': ['stanley proto industrial', 'прото станли'],
     'Ridgid': ['риджд', 'ridgid hand tools', 'ridgid emerson'],
     'Rothenberger': ['ротенбергер инструмент', 'rotendberger', 'ротенбергер индастриз'],
-    'Flex': ['flex electro tools', 'немезис flex'],
+    'Flex': ['flex electro tools'],
     'Dewalt Industrial': ['de walt hand tools', 'dewalt dw'],
 }
 
@@ -87,7 +87,7 @@ POWER_TOOL_BRANDS = {
     # --- глобальные
     'Makita': ['makita japanese', 'makita corp', 'макита инструмент', 'макотра', 'микита'],
     'DeWalt': ['dewalt corporation', 'dewalt bernard', 'девальт', 'дёволт', 'делтал', 'деварт'],
-    'Milwaukee': ['milwaukee tool', 'milwaukee electric tool', 'милуоке', 'милики', 'милуокa', 'милуоки'],
+    'Milwaukee': ['milwaukee tool', 'milwaukee electric tool', 'милуоке', 'милики', 'милуоки'],
     'Milwaukee One-Key': ['one key milwaukee'],
     'Metabo': ['metabowerke', 'метава', 'меттабо'],
     'Bosch Power Tools': ['bosch gmbh power tools', 'boosh', 'бош электроинструмент'],
@@ -226,7 +226,7 @@ PNEUMATIC_TOOL_BRANDS = {
     'DynoMax': ['динамакс'],
     'Frenco': ['frenco france', 'френко'],
     'Half Moon': ['half moon tools'],
-    'Jun-Air': ['junair', 'jun air tools', 'джанэйр'],
+    'Jun-Air': ['jun air tools', 'джанэйр'],
     'MacTool': ['mactools', 'мактаул'],
     'MityVac': ['митивакс', 'mityvac instruments'],
     'OBA': ['oba druckluft', 'оба'],
