@@ -1,23 +1,23 @@
-всего групп: 47165
-оставлено строк: 8527
-удалено групп: 38637
+всего групп: 43330
+оставлено строк: 7578
+удалено групп: 35752
 
 причины удаления:
-  low_popularity: 38126
-  stopped_topic: 314
-  single_form_left: 93
-  not_a_brand: 62
-  garbage_after_clean: 42
+  low_popularity: 35309
+  stopped_topic: 215
+  single_form_left: 124
+  garbage_after_clean: 52
+  not_a_brand: 52
 
 == примеры удалённого ==
-[low_popularity] editorial mexicana de musica internacional s.a. de c.v
+[low_popularity] editorial mexicana de musica internacional de c.v
 [low_popularity] zeroichi familia | 01familia
 [garbage_after_clean] 081 inc
 [low_popularity] 0g iot | iotnet
 [low_popularity] 0n1
 [low_popularity] 0verflow
 [low_popularity] 1000minds
-[low_popularity] 1001fa imprenta digital | 1001fa fingerprints
+[low_popularity] imprenta digital | fingerprints
 [garbage_after_clean] 1001 terapist
 [low_popularity] lion rock
 [garbage_after_clean] 1010 tires
@@ -25,15 +25,14 @@
 [not_a_brand] 104.5fm radio tzafon
 [garbage_after_clean] 1069 bdc
 [low_popularity] 10gen | mongodb
-[low_popularity] ten medical design (sweden) | 10md
+[low_popularity] ten medical design | 10md
 [low_popularity] 10ml
-[low_popularity] 10x s.r.o
+[garbage_after_clean] 10x capital
 [low_popularity] 11 ai & blockchain | 11 11 ai
-[low_popularity] grant
+[low_popularity] hong chin | grant
 [low_popularity] 1 & 1 ionos | ionos
 [low_popularity] 123helmets
 [low_popularity] 123 naval architects | one2three
-[low_popularity] 1 2 3 production | premier studios
 [garbage_after_clean] 123rf
 [low_popularity] ppp kit
 [low_popularity] twelve k padel | 12k padel
@@ -42,24 +41,19 @@
 [low_popularity] 14 reels plus | 14 reels entertainment
 [low_popularity] 166 2nd financial | 166 2nd
 [low_popularity] alibaba
-[low_popularity] hong ha shipbuilding | z173 factory
-[low_popularity] 1 800 awnings
-[low_popularity] 1 800 free 411 | marchex
-[low_popularity] 1 800 radiator & a c | 1 800 radiator franchise
 [low_popularity] harris & harris | 180 degree
 [low_popularity] 1898 welding gear
-[low_popularity] 189 shipbuilding | z189 factory
 [low_popularity] zenni
 [low_popularity] 19th bdc
 [low_popularity] 1 a pharma
 [low_popularity] 1by0 | smstake
-[low_popularity] 1c | 1с
-[low_popularity] 1. day | first day | 1. day s.r.o
+[low_popularity] 1с | 1c
+[low_popularity] 1. day | first day
 [low_popularity] 1f cash advance
 [low_popularity] ehi | 1hai
 [low_popularity] 1malaysia berhad | 1mdb
 [low_popularity] 1 malaysia housing programme | pr1ma malaysia
-[low_popularity] 1 park a s | onepark a s
+[low_popularity] 1 park a | onepark a
 [low_popularity] 1pm
 [low_popularity] one rockwell | 1r
 [low_popularity] 1sec
@@ -67,15 +61,23 @@
 [low_popularity] first central insurance management | 1st central
 [low_popularity] 1st nationwide mortgage
 [low_popularity] 1st valley bank | 1vb
-[low_popularity] 1 to many | 1 to many s.r.o
+[low_popularity] 1 to many
 [low_popularity] 1 up studio | brownie brown
 [low_popularity] worldspace
 [low_popularity] halodi robotics
 [low_popularity] mad dog 2020 casting
-[low_popularity] 2. 0 lca consultants (denmark) | lca
+[low_popularity] 2. 0 lca consultants | lca
 [low_popularity] 20 minutes | vingt minutes
-[low_popularity] 20th century fox home entertainment | 20th century studios home entertainment
-[low_popularity] fox television animation | 20th television animation
+[low_popularity] 21m assets
+[low_popularity] jewlr
+[low_popularity] 24 7 antwoord
+[low_popularity] 24 hr fitness
+[low_popularity] peak processing
+[low_popularity] big launcher | 2big
+[low_popularity] 2d
+[low_popularity] gruppo 2duerighe s.r.l | 2duerighe
+[low_popularity] 2g
+[stopped_topic] institute for the study and integration of graphical heritage techniques | bureau for the study of african languages and cultures | bureau for study of african languages and cultures | austrian competence centre for feed
 [garbage_after_clean] 3541 prg
 [garbage_after_clean] 360i
 [not_a_brand] 5 элемент (сеть магазинов)
@@ -85,185 +87,187 @@
 [garbage_after_clean] ab service
 [garbage_after_clean] achatdor.ch
 [stopped_topic] studios of aether | aether studios
-[stopped_topic] institute of information management | iim africa | africa
-[stopped_topic] bank of africa rwanda | agaseke bank
 [not_a_brand] (ahci)
-[stopped_topic] college of banking | banking institute university | ambis university | banking institute
+[stopped_topic] college of information management and business administration | college of entrepreneurship and law | college of banking | college of regional | pan european university | banking institute university | ambis university |
 [stopped_topic] finance bank zambia | ambzl
+[single_form_left] apple benelux
 [single_form_left] apple data ireland
 [single_form_left] apple
-[single_form_left] apple retail belgium
-[single_form_left] apple retail europe
-[single_form_left] apple retail sweden
 [single_form_left] apple ireland
-[single_form_left] apple
 [stopped_topic] military factory and shipyard management | asfat
 [stopped_topic] studio remy & veenhuizen | remy & veenhuizen | atelier remy&veenhuizen
-[stopped_topic] bank of attica | attica bank | credia bank | credia banking s.a
-[stopped_topic] bank of internet usa | axos bank
-[stopped_topic] bank ayandeh | ayandeh bank
-[stopped_topic] bank of legnano | banca di legnano
-[stopped_topic] bank of the city of buenos aires | buenos aires | banco ciudad
-[stopped_topic] bank of angola | banco de angola | banque dangola
-[stopped_topic] bank of chile | banco de chile
-[stopped_topic] bank of costa rica | banco de costa rica
-[stopped_topic] bank of ponce | banco de ponce
-[stopped_topic] bank of venezuela | banco de venezuela | bdv
-[stopped_topic] bank of sardinia | banco di sardegna
-[stopped_topic] bank of sicily | banco di sicilia
-[stopped_topic] bank of commerce | the boc | bank of | basra oil | south oil | банк китая | british oxygen | boc | bankcom | bancommerce
-[stopped_topic] bank of the west | bancwest
-[stopped_topic] restaurant banders potato | bander potato | bander restaurant | banderita restaurant
-[stopped_topic] bank | safi | safi bank | shaheen | safipay | safitopup
+[stopped_topic] games | auran | n3vrf41l publishing
+[stopped_topic] restaurant banders potato | bandar potato | bander restaurant | banderita restaurant
+[stopped_topic] bank | safi | shaheen | safipay | safitopup
 [stopped_topic] bank alfalah
 [stopped_topic] bank al habib
 [stopped_topic] bank and clients | church house trust
-[stopped_topic] bank austria creditanstalt | credit anstalt
 [stopped_topic] bank eurasia | bank avrasiya
 [stopped_topic] bank axept | bankid bankaxept | bankaxept
 [stopped_topic] bank pundi indonesia | bank banten
-[stopped_topic] bank belveb | белвэб | белвнешэкономбанк
 [stopped_topic] bank bni syariah | bni syariah
-[stopped_topic] bank of boston | baybank | bankboston
 [stopped_topic] bank brussel lambert | buffalo biolabs | bbl
 [stopped_topic] bank consortium
 [stopped_topic] bank des rheinischen bauernvereins | rheinische bauernbank
 [stopped_topic] bank first
 [stopped_topic] bank frick
-[stopped_topic] bank gpb s.a | gazprombank luxembourg
+[stopped_topic] bank gpb | gazprombank luxembourg
 [stopped_topic] bank hottinger & cie | hottinger & cie
 [stopped_topic] bank ifsc code
 [stopped_topic] bank islam malaysia berhad | bank islam malaysia
-[stopped_topic] bank leumi leisrael | банк леуми
-[stopped_topic] bank leumi romania | eurom bank
+[stopped_topic] bank leumi romania | bank leumi leisrael | банк леуми | eurom bank
 [stopped_topic] bank levoberezhny
 [stopped_topic] bank mega tbk | bank mega | mega | мега
-[stopped_topic] bank mendes gans | bmg | bmg rights management | new bmg | barvensky media
 [stopped_topic] bank nederlandse gemeenten | bng bank
-[stopped_topic] bank of africa togo | boa togo
-[stopped_topic] bank of baghdad | багдадский банк
-[stopped_topic] bank of baroda uganda
-[stopped_topic] bank of bengal | bank of calcutta
-[stopped_topic] bank of copenhagen | finansbanken
-[stopped_topic] bank of credit and commerce | bcci
-[stopped_topic] bank of | банк грузии
-[stopped_topic] bank of ireland | банк ирландии
-[stopped_topic] bank of iwate | iwagin
-[stopped_topic] bank of montserrat
-[stopped_topic] bank of new england
+[stopped_topic] bank pan indonesia tbk | bank panin | pnbn
+[stopped_topic] bank pembangunan daerah jawa timur | bank pembangunan malaysia | jatim bank | bpmb | bjtm
+[stopped_topic] bank permata tbk | bank permata | bnli
+[stopped_topic] bank snb | simmons bank | southwest bank
 [not_a_brand] baranov
 [not_a_brand] barnaul
+[stopped_topic] coffee star in | belcoff | coffee star malaysia | coffee star
 [garbage_after_clean] belefi.eu
 [garbage_after_clean] bet365
+[stopped_topic] bet at home | bet at internet | bet at entertainment | bet at
+[stopped_topic] bet
 [garbage_after_clean] bett1.de
 [not_a_brand] bezikaron
 [garbage_after_clean] bid.net
 [garbage_after_clean] bigbear.ai
-[single_form_left] bosch (china) investment
-[single_form_left] bosch engineering
+[single_form_left] black hornet productions
+[single_form_left] black lough windfarm
+[single_form_left] bmw brilliance
+[stopped_topic] team elysium | bodydot
+[stopped_topic] book
+[stopped_topic] book off | bookoff
+[stopped_topic] books sanseido | sanseido shoten | sanseido bookstore
+[stopped_topic] book yacht charter | byc
+[single_form_left] bosch investment
 [single_form_left] bosch sicherheitssysteme
-[single_form_left] бритиш газ
+[stopped_topic] clip joint | bottakuri
+[stopped_topic] news corp. digital media | fox | fox sports and entertainment | fox sport radio | fox sports media | fox interactive media | bs fox | fox sports
 [not_a_brand] burberry
 [garbage_after_clean] buy.com
+[stopped_topic] cafe & bar celona | celona gastro
+[stopped_topic] cafe del sol | gastro & soul
+[stopped_topic] academy of science & | cam
 [single_form_left] canon
-[single_form_left] canon electronics
-[single_form_left] canon
+[single_form_left] canon semiconductor
 [single_form_left] canon software
+[stopped_topic] press
+[stopped_topic] studio cartoonist | cartoonist productions
 [garbage_after_clean] cas corp
-[single_form_left] caterpillar
+[stopped_topic] cinema design in sweden | cinema design | cdis
+[stopped_topic] ministry of posts & communications | cefc hong kong financial investment | ministry of posts and communications | ministry of railways of | ministry of sound records | ministry of gems australia | ministry of sound recor
+[stopped_topic] studio cevas | cevas
+[stopped_topic] university of wisconsin hospital and clinics | university of wisconsin carbone cancer center | university of pain boxing club | university of warwick science park | university of colorado hospital authority | uw hospital
+[stopped_topic] bank | китайский банк развития | bank investment | bank corpration | banking
+[stopped_topic] book | cibtc
+[stopped_topic] church law & tax | compagnie luxembourgeoise de navigation | compagnie luxembourgeoise de radiodiffusion | clt ufa | clr | rtl | cldn | cl&t
+[stopped_topic] church missionary societys press | c.m.s. press | kottayam
+[stopped_topic] church tiles in rhineland palatinate | vereinigte mosaik und wandplattenwerke | friedland sinzig ehrang | sinziger mosaikplatten
+[stopped_topic] cinema 11 | cinema undici
 [garbage_after_clean] clearly.ca
+[stopped_topic] clinic wise health | clinic wise
 [not_a_brand] community doukhobors
-[single_form_left] данфосс
+[single_form_left] continental portugal
+[single_form_left] continental
+[single_form_left] continental
+[single_form_left] continental matador truck tires
 [single_form_left] danfoss compressors
+[single_form_left] denso
+[single_form_left] denso fukushima
+[single_form_left] denso europe
+[single_form_left] denso it laboratory
 [single_form_left] dyson
-[not_a_brand] earth institute
 [single_form_left] e d & f man markets
+[single_form_left] edon
 [single_form_left] ekf diagnostic
-[single_form_left] epson
+[single_form_left] electrolux
+[single_form_left] elring
 [single_form_left] epson imaging devices
 [garbage_after_clean] ev.ca corp
+[garbage_after_clean] expert
+[garbage_after_clean] expert ag
+[garbage_after_clean] expert system spa
 [garbage_after_clean] facile.it
-[single_form_left] far east
-[single_form_left] far east organisation
-[single_form_left] festo
+[single_form_left] far
+[single_form_left] faw volkswagen
 [not_a_brand] filmove studio barrandov
+[single_form_left] finder
 [single_form_left] ford
-[single_form_left] ford
-[single_form_left] ford
+[single_form_left] gates unitta asia
 [not_a_brand] gazeta.uz
+[single_form_left] general evidence
+[single_form_left] general foods
+[single_form_left] general instrument
+[single_form_left] general kinetics
+[single_form_left] general pants
+[single_form_left] general patent
+[garbage_after_clean] gesinn.it
+[single_form_left] gls general logistics slovakia
 [single_form_left] go far
 [garbage_after_clean] h1.cz
 [not_a_brand] happy life academy ltd
 [single_form_left] harison toshiba lighting
 [not_a_brand] hc karlovy vary
+[garbage_after_clean] helvia.ai
 [single_form_left] henry ford health
-[single_form_left] hitachi kokusai electric
-[single_form_left] hitachi maxell energy
+[single_form_left] hitachi kokusai
 [single_form_left] honda
 [garbage_after_clean] hotel.de
 [not_a_brand] hsci
 [single_form_left] huawei
-[single_form_left] huawei
+[single_form_left] husqvarna manufacturing cz
+[single_form_left] хутер
+[single_form_left] hyundai
+[single_form_left] hyundai kefico
+[single_form_left] hyundai steel
 [garbage_after_clean] ie.nl
 [not_a_brand] ikem
-[not_a_brand] industrial research & engineering (germany)
-[not_a_brand] institute for systems biology
 [not_a_brand] iri
 [not_a_brand] isi
 [single_form_left] iveco
 [single_form_left] ken
+[single_form_left] ken garff
 [single_form_left] ken
+[single_form_left] ken research institute
 [garbage_after_clean] kiwi.com
-[single_form_left] komatsu forest
 [not_a_brand] kpoko fm
 [garbage_after_clean] kvik.shop
 [single_form_left] legrand
 [garbage_after_clean] lesensky.cz
-[single_form_left] lg invest
-[single_form_left] lowara
-[single_form_left] man
-[single_form_left] man wah
-[single_form_left] mercedes benz romania
+[single_form_left] lg cns india
+[garbage_after_clean] machine shop
+[garbage_after_clean] max-pro
 [not_a_brand] mfk karvina
-[single_form_left] mi
-[single_form_left] mi ming mart
-[not_a_brand] ministry of railways (japan)
 [garbage_after_clean] mojadarila.com
 [garbage_after_clean] neplatnyvyhazov.cz
 [garbage_after_clean] notebooksbilliger.de
 [not_a_brand] odessa film studio
-[not_a_brand] office de la poste guineenne
 [not_a_brand] oryx qatar sports investments
 [garbage_after_clean] p15
 [garbage_after_clean] pammo.cz
-[single_form_left] panasonic
-[single_form_left] philips bros
-[single_form_left] philips
 [garbage_after_clean] play.com
 [not_a_brand] powells books
 [garbage_after_clean] r2a.com
 [not_a_brand] radioman
-[single_form_left] renault commercial roumanie
 [not_a_brand] rize 106.7 fm
-[single_form_left] robert bosch battery
-[single_form_left] robert bosch familientreuhand
-[single_form_left] robert bosch industrietreuhand
-[single_form_left] robert bosch
 [not_a_brand] rtv-podmoskovie
-[single_form_left] samsung
+[garbage_after_clean] se corporation
 [not_a_brand] singularity education group
 [not_a_brand] siruela
 [garbage_after_clean] softfloor.cz
-[garbage_after_clean] spain
 [garbage_after_clean] sportsb.io
 [garbage_after_clean] srpyro.cz
 [garbage_after_clean] supernova.io
 [garbage_after_clean] superodhad.cz
+[garbage_after_clean] trade power
 [not_a_brand] tva
 [garbage_after_clean] uitvaart.nl
 [not_a_brand] unizulu
-[not_a_brand] ural scientific research institute of technology and production management
 [garbage_after_clean] webhose.io
+[garbage_after_clean] x (formerly twitter)
 [garbage_after_clean] yourgames.cz
 [not_a_brand] zlin film studio
 [garbage_after_clean] zuri.com
@@ -273,86 +277,58 @@
 [not_a_brand] барнаульский меланжевый комбинат
 [not_a_brand] гипростроймост
 [not_a_brand] глобальный институт прессы
-[not_a_brand] гуп ниипи генплана москвы
 [not_a_brand] журнал мод
 [not_a_brand] знание
 [not_a_brand] золотой ключик (газета)
 [not_a_brand] издательский дом мещерякова
 [not_a_brand] издательство мир
-[not_a_brand] издательство самокат
 [not_a_brand] издательство фантастика
 [not_a_brand] колледж менеджмента южной африки
 [not_a_brand] концерн радио центр
 [not_a_brand] концерн рти системы
 [not_a_brand] латвийское государственное издательство
-[not_a_brand] литовский университет наук о здоровье
 [not_a_brand] ломоносовъ
 [not_a_brand] министерство сталелитейной промышленности индии
-[not_a_brand] п/я 104
 [not_a_brand] рипол-классик
 [not_a_brand] росмен
 [not_a_brand] русалка
+[not_a_brand] русский путь
+[not_a_brand] центральное конструкторско-исследовательское бюро спортивного и охотничьего оружия
 
 == примеры изменённых известных брендов ==
-  boosh,bosch power tools,бош,гбх бош
-  bosch,бош,роберт бош
-  bosch 18v li,bosch coolpack,bosch procore,босш прокор
-  bosch aerotwin,bosch flat wiper
-  bosch auto,бош авто
-  bosch automotive,bosch automotive s.r.l
   bosch diesel,bosch powertrain
-  bosch easycut,bosch pfa alliance,bosch power for all
-  bosch home comfort,bosch thermotechnik
-  bosch home comfort,hitachi johnson controls air conditioning
+  bosch home comfort,bosch thermotechnik,hitachi johnson controls air conditioning
   bosch plug,фросш свеча
   bosch security,bosch security and safety
-  bosch software,bosch software private (bgsw)
-  bosch solar,bosch solar energy,ersol
-  firma t.d.h. pull,g.j. bosch
-  j. wed s bosch loretz,loretz
-  robert bosch (australia),robert bosch (australia) pty.
-  robert bosch automotive steering,zf lenksysteme
-  robert bosch investment nederland,robert bosch investment nederland b.v
-  de walt,de walt hand tools,de walt industrial,dewalt,dewalt bernard,де волт,деварт,делтал,дэволт
-  dewalt atomic,dewalt brushless,dewalt xr,dewalt xr liion,девалт иксар
-  dewalt flex fit,dewalt flexvolt,flex voltd,девалт флексволт
-  dolmar,makita engineering
-  makita,макита
-  makita (germany),makita werkzeug
-  makita 40v max,makita xgt,makita xgt 40,макита хгт
-  makita bl,makita lithium ion,makita lxt,makita starlock,макита лхт
-  hilti,hilti kollex,hilti tonson,те 3000 хилти,хилти
-  hilti b22,hilti nuron,nuron b6
-  hilti firestop,хилти монтажный пистолет,хилти противопожарная,хилти файрстоуп
-  alfred kärcher,karcher,керхер
+  bosch software,bosch software private
+  ersol,bosch solar,bosch solar energy
+  g.j. bosch,firma t.d.h. pull
+  loretz,j. wed bosch loretz
+  robert bosch,zf lenksysteme,robert bosch pty,robert bosch familientreuhand,robert bosch industrietreuhand,robert bosch automotive steering,robert bosch investment nederland
+  бош,bosch,гбх бош,bosch li,роберт бош,бош аэротвин,bosch flat wiper,bosch pfa alliance,bosch automotive s.r.l,босш прокор
+  dewalt,делтал,de walt,dewalt dw,flex voltd,dewalt bernard,деварт,дэволт,де волт,девалт иксар,девалт флексволт
+  makita,dolmar,макита хгт,макотра
+  hilti,хилти,b6,хилти те,хилти нурон,те 3000 хилти,хилти файрстоуп,хилти корпорейшн,хилти противопожарная
   pivovary cz,pivovary zubr
-  zbr zubr,zubr,зубр
-  zubr 20v max,zubr xr,зубр икср
+  zubr,zbr zubr,зубр овм,зубр эксперт,зубр электро
+  zubr,зубр икср
   enkor,энкор
-  enkor li ion,энкор литий
-  interskol,интерскол,интескол
-  interskol li ion,interskol lia,интерскол литий
-  galaxy,giapony samsung,gmtf,гал럭시,гэлэкси,самсун
+  enkor li,энкор литий
+  interskol li,интерскол литий
+  интерскол,interskol,интескол
   galaxy watch,samsung watch,галакси вотч
-  hanwha total,hanwha totalenergies petrochemical,samsung total
+  hanwha total,samsung total,hanwha totalenergies petrochemical
   hanwha vision,samsung techwin
-  lfc,lotte fine chemical,lotte fine chemical (south korea),samsung fine chemicals
-  renault,renault motors,renault samsung,samsung motors
-  sambyung sdi,samsing sdi,samsung inr,sdi 25r,самсунг эсди
-  samsung (seuk),samsung electronics (uk)
-  samsung (switzerland),samsung electric
-  samsung aerospace,sleep science academy,ssa
-  samsung austin semiconductor,samsung austin semiconductor (united states)
-  samsung e&a,samsung engineering
-  samsung electronics,samsung electronics (sea),samsung electronics america,samsung electronics america (sea)
-  samsung electronics,samsung electronics (sehg)
-  samsung electronics benelux b.v,samsung electronics europe logistics,samsung electronics nederland b.v,samsung nederland b.v
-  samsung electronics india software operations,samsung india software operations,samsung r&d institute india
-  samsung electronics magyar,samsung electronics magyar zrt
-  samsung electronics polska,samsung electronics polska sp. z o.o
-  samsung future foundation,samsung science & foundation,samsung science and foundation (south korea),sstf
+  lfc,lotte fine chemical,samsung fine chemicals
+  renault,renault motors,samsung motors,renault samsung
+  samsung,gmtf,galaxy,xerox data,giapony samsung,samsung america,scientific data,galaxy microsystems,гал럭시,самсун,гэлэкси,эс ди эс
+  samsung benelux,samsung nederland,samsung europe logistics
   samsung heavy,samsung shipbuilding & heavy
-  samsung pharm (south korea),samsung pharmaceutical
-  samsung sdi hungary,samsung sdi hungary manufacturing and closed by shares
-  samsung sds,scientific data,scientific data (united states),sds,xerox data,эс ди эс
-  toshiba samsung storage,tsst
+  samsung magyar,samsung magyar zrt
+  samsung pharm,samsung pharmaceutical
+  samsung polska,samsung polska sp. z o.o
+  samsung r&d institute india,samsung india software operations
+  sdi 25r,samsung inr,samsung sdi,samsung sdi hungary,samsung sdi hungary manufacturing and closed by shares
+  ssa,samsung aerospace,sleep science academy
+  sstf,samsung future foundation,samsung science & foundation,samsung science and foundation
+  tsst,toshiba samsung storage
