@@ -1,12 +1,12 @@
-всего групп: 47002
-оставлено строк: 10786
-удалено групп: 36213
+всего групп: 46783
+оставлено строк: 10626
+удалено групп: 36152
 
 причины удаления:
-  low_popularity: 19189
-  single_form_left: 10592
-  off_topic: 5997
-  stopped_topic: 323
+  low_popularity: 19171
+  single_form_left: 10565
+  off_topic: 5975
+  stopped_topic: 329
   not_a_brand: 62
   garbage_after_clean: 50
 
@@ -159,7 +159,7 @@
 [off_topic] 7 bank | seven bank
 [off_topic] 7 games | 7games bet
 [off_topic] 7 news | seven news | 7news australia
-[off_topic] seven pictures sound studios egypt | seven pictures sound studios | seven pictures studios | la tino | 7 pictures | digisay | latino studio | seven studios | se7en pictures | e7lam production | seven productions | egypt 
+[off_topic] seven pictures sound studios egypt | seven pictures sound studios | seven pictures studios | la tino | 7 pictures | seven studios | latino studio | digisay | se7en pictures | e7lam production | seven productions | egypt 
 [single_form_left] 7screen
 [single_form_left] 7stories
 [single_form_left] 80eight
@@ -210,7 +210,7 @@
 [stopped_topic] finance bank zambia | ambzl
 [stopped_topic] military factory and shipyard management | asfat
 [stopped_topic] studio remy & veenhuizen | remy & veenhuizen | atelier remy&veenhuizen
-[stopped_topic] bank of attica | attica bank | credia bank | credia banking
+[stopped_topic] bank of attica | credia bank | attica bank | credia banking
 [stopped_topic] bank of internet usa | axos bank
 [stopped_topic] bank ayandeh | ayandeh bank
 [garbage_after_clean] b2 (slovenia)
@@ -363,27 +363,14 @@
 [not_a_brand] русалка
 
 == примеры изменённых известных брендов ==
-  boch rexrot,бош рексрот,bosch rexroth,рекрот,рексрота,рекстрот
-  boosh,гбх бош,бош авто,роберт бош,bosch for all,bosch flat wiper,bosch pfa alliance,bosch automotive s.r.l,босш,ботш
-  bosch diesel,bosch powertrain
   bosch home comfort,bosch thermotechnik
-  bosch home comfort,hitachi johnson controls air conditioning
   bosch plug,фросш свеча
   bosch solar energy,ersol solar energy
   g.j. bosch,firma t.d.h. pull
   zf lenksysteme,robert bosch pty.,robert bosch familientreuhand,robert bosch industrietreuhand,robert bosch automotive steering,robert bosch investment nederland
-  dewalt,dewalt dw,dewalt bernard,dewalt flex fit
-  makita,макита,dolmar,макета,махита,микита,макитка,макотра
-  hilti,те хилти,хилти те,хилти файрстоуп,хилти корпорейшн,хилти противопожарная,хилти монтажный пистолет,хилте,хилльти
   karcher,керхер мойка,alfred kärcher,калхер,кэрхер
-  pivovary cz,pivovary zubr
   zubr,зубр икср
-  zubr zm,zbr zubr,zubr ovm,зубр овм,зубр эксперт,зубр электро
-  энкор литий,enkor dniepr,энкор машсервис,енкор
-  interskol lia,интерскол литий
-  interskol sha,интерскол ша500,интескол,инторскол
   galaxy watch,samsung watch,галакси вотч
-  gmtf,xerox data,galaxy ford,samsung c&t,samsung e&a,гэлэкси форд,giapony samsung,samsung america,scientific data,гал럭시,эс ди эс,самсунговский
   hanwha vision,samsung techwin
   lfc,lotte fine chemical,samsung fine chemicals
   renault motors,renault samsung motors
