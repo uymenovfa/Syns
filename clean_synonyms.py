@@ -36,8 +36,25 @@ MIN_KEY_LEN = 5     # минимальная длина «ключа бренд�
 MAX_LINKS = 25      # максимум склеек через один ключ (защита от омонимов-конденсаторов)
 POP_MIN = 3           # минимальная частота варианта/ключа для участия в склейке и для retention
 MAX_GROUP = 20      # группы больше — артефакты цепочечной склейки, разбиваются
-MAX_SYNS = 12       # максимум синонимов в одной ES-строке
+MAX_SYNS = 16       # максимум синонимов в одной ES-строке
 MAX_FORMS_PER_KEY = 8   # максимум форм одного ядра бренда (канон лат+кир + частотные опечатки)
+
+# Якорные бренды никогда не удаляются фильтром off_topic/low_popularity —
+# защита от регрессии «makita/milwaukee исчезли из словаря».
+ANCHOR_PROTECT = {"bosch", "dewalt", "makita", "hilti", "milwaukee", "karcher",
+    "ryobi", "metabo", "hitachi", "panasonic", "celma", "энкор", "интерскол",
+    "zubr", "зубр", "стапель", "стахель", "resant", "калибр", "ватрушка",
+    "патон", "солярка", "спец", "гриф", "кратон", "fit", "гамбит", "барс",
+    "диолд", "skil", "aidex", "aeg", "gmc", "gt", "greenworks", "daewoo",
+    "champion", "husqvarna", "stihl", "mtd", "efco", "oleo", "echo",
+    "torx", "denzel", "wigam", "wilmax", "sve", "sadko", "shtenly",
+    "intertool", "korfo", "konner", "sber", "prof", "prorab", "starter",
+    "topex", "triomax", "yato", "wortex", "абразив", "алко", "асола",
+    "бош", "делтал", "милуоки", "макита", "хилти", "кархер", "метобо",
+    "риоби", "хитачи", "панасоник", "целма", "стаиглер", "дельт",
+    "greenwork", "чемпион", "хускварна", "штиль", "елеко", "дензель",
+    "вигам", "садо", "интерскол", "корфо", "коннер", "профи", "проораб",
+    "топэкс", "триомэкс", "ято", "вортекс"}
 
 # ---------------------------------------------------------------- нормализация
 
@@ -284,14 +301,18 @@ def _line_variants(w):
 LINE_WORDS = set()
 for _w in """
 lxt xgt cas neuron nuron flexvolt coolpack procore atomic easycut aerotwin firestop
-kollex tonson nmop starlock brushless xtr bl sds max min li flatwiper
+kollex tonson nmop starlock brushless xtr bl sds max min li flatwiper onekey redlithium
+redlithiumhd highoutput hub
 лхт хгт кейс нейрон нурон флексвольт кулпак прокор атомик изикат аэротвин фаерстоп
-коллекс тонсон нмоп старлок брашлесс икстр
+коллекс тонсон нмоп старлок брашлесс икстр редлитиум хаб
 """.split():
     LINE_WORDS |= _line_variants(_w)
+# однобуквенные токены ('м18'->'m18') не добавляем в regex-Alternation — иначе
+# одиночная 'm' матчит любое имя 'm...' и режет канонические формы
 LINE_WORDS_RE = re.compile(
-    r"^(?:" + "|".join(sorted(map(re.escape, LINE_WORDS))) +
-    r"|(?:[a-z]{1,3})?\d{1,3}[vvlw](?:max|li[-]?ion|ion|x|ac|dc|ch|ah)?|flat[-]?wiper)$")
+    r"^(?:" + "|".join(sorted(map(re.escape, {w for w in LINE_WORDS if len(w) > 1}))) +
+    r"|[а-я]?[a-z]?\d{1,3}[vvlwh](?:max|li[-]?ion|ion|x|ac|dc|ch|ah|bdl)?" +
+    r"|m\d{2}|one[- ]?key|flat[-]?wiper)$")
 # хвостовые описательные слова: bosch auto parts -> bosch; makita japanese -> makita
 TAIL_STOP = set("""
 auto automotive parts part accessories accessory japan japanese germany german
@@ -300,16 +321,30 @@ electric electrical werkzeug engineering corp corporation company
 te tf hr ht hm dhr dth hc dh sh sw ga gh gp gm gsa gs ha hs hw up um us
 one hand onehand corded pneumatic wood metal concrete stone masonry garden outdoor
 garden power tools accessories spare parts replacement original genuine compatible
+twelve eighteen fuel redlithium lithium hd highoutput onekey key hub bernard flexfit flex
 """.split())
+
+# линейка/под-бренд = [модельный токен ...] + одно слово ('one key', 'redlithium',
+# 'flex fit'); вырезается ЦЕЛИКОМ, иначе 'one'/'key' по отдельности матчат
+# обычные названия ('one world', 'key tech') и режут канонические формы.
+LINE_PHRASE_RE = re.compile(
+    r"^(?:(?:[а-я]?[a-z]?\d{1,3}[vvlwh](?:max|li[-]?ion|ion|x|ac|dc|ch|ah|bdl)?|m\d{2}"
+    r"|fuel|redlithium|hd)\s+)*"
+    r"(?:one[\s-]?key|key|redlithium(?:hd)?|onekey|highoutput|flexfit|bernard|twelve|eighteen)$")
 
 def strip_line_tail(name):
     """срезать модельные/линеечные/описательные хвосты: 'makita 40v max'->'makita',
-       'bosch flat wiper'->'bosch', 'макита хгт'->'макита'.
+       'bosch flat wiper'->'bosch', 'макита хгт'->'макита', 'milwaukee one key'->'milwaukee'.
        Хвост режется ПОСЛЕДОВАТЕЛЬНО (только совпадающие подряд), иначе
        'hilti te 3000' превратилось бы в 'hilti te' — потерянный мусор."""
     toks = tokens(strip_brackets(name))
     while len(toks) > 1 and (LINE_WORDS_RE.match(toks[-1]) or toks[-1] in TAIL_STOP):
         toks.pop()
+    # фразовая линейка целиком: 'milwaukee one key' -> 'milwaukee'
+    if len(toks) >= 2:
+        for cut in range(1, len(toks)):
+            if LINE_PHRASE_RE.match(" ".join(toks[cut:])):
+                toks = toks[:cut]; break
     return " ".join(toks)
 
 def brand_key(name):
@@ -328,11 +363,19 @@ def brand_key(name):
                 oo = translit_cyr_to_lat(o) if has_cyr(o) else o
                 if len(tt) >= 4 and (tt == oo or lev(tt, oo) <= 2):
                     replaced = True; break
+            if not replaced and len(t) >= 4:
+                # фонетическая сверка русской записи с латинским токеном ядра:
+                # 'делтал'~dewalt, 'милуоки'~milwaukee — дырявый транслит это не ловит
+                for o in out:
+                    if has_lat(o) and not has_cyr(o) and len(o) >= 5 and phon_match(t, o):
+                        replaced = True; break
         elif has_lat(t) and not has_cyr(t):
             for o in out:
                 if has_cyr(o) and not has_lat(o):
                     oo = translit_cyr_to_lat(o)
                     if len(t) >= 4 and (t == oo or lev(t, oo) <= 2):
+                        replaced = True; break
+                    elif len(o) >= 4 and len(t) >= 5 and phon_match(o, t):
                         replaced = True; break
         if not replaced:
             out.append(t)
@@ -374,12 +417,23 @@ def reduce_to_core(name, keep_short=False):
     while len(toks) > 1 and (LINE_WORDS_RE.match(toks[-1]) or MODEL_TOKEN_RE.match(toks[-1])
                              or toks[-1] in CORP_WORDS or toks[-1] in TAIL_STOP):
         toks.pop()
+    # фразовая линейка целиком ('milwaukee one key' -> 'milwaukee')
+    if len(toks) >= 2:
+        for cut in range(1, len(toks)):
+            if LINE_PHRASE_RE.match(" ".join(toks[cut:])):
+                toks = toks[:cut]; break
     kept = []
     for i, t in enumerate(toks):
         is_tail_rule = (LINE_WORDS_RE.match(t) or MODEL_TOKEN_RE.match(t) or
                         t in CORP_WORDS or is_legal_tok(t))
         if is_tail_rule and not (keep_short and len(t) <= 3):
             continue
+        # смешанный токен ('м18милуоки', 'makitaмакита'): если после удаления
+        # кириллицы остаётся известное написание бренда — это модель+бренд, режем
+        if has_cyr(t) and has_lat(t):
+            stripped = re.sub(r"[а-яё]+", "", t)
+            if len(stripped) >= 4 and stripped in LAT_KNOWN:
+                continue
         kept.append(t)
     return " ".join(kept) if kept else toks[0]
 
@@ -491,6 +545,73 @@ gembird oklicke Svenism erdnemo powercase speedline arrowmax forcegroove
 # Для сверки sub-доменов используем полную транслит-таблицу TR и точное совпадение.
 def _tr_exact(w):
     return "".join(TR.get(c, c) for c in w)
+
+# --- фонетическая транслит-сверка кириллического написания с латинским брендом:
+# 'милуоки'~milwaukee, 'хилте'~hilti. Дырявый побуквенный транслит (х->h, ц->ts...)
+# не ловит русскую запись иностранных брендов, поэтому сравниваем по «звучанию».
+# Ключевое ограничение: согласные остаются на СВОИХ позициях (гласные удаляются) —
+# иначе 'бош'(bsh) превращается в 'bosch'(bkhk) и матчит любой паттерн CVCVC.
+TR_SINGLE = str.maketrans({
+    "а":"a","б":"b","в":"v","г":"g","д":"d","е":"e","ж":"j","з":"z","и":"i",
+    "й":"i","к":"k","л":"l","м":"m","н":"n","о":"o","п":"p","р":"r","с":"s",
+    "т":"t","у":"u","ф":"f","х":"h","ц":"c","ч":"c","ш":"s","щ":"s","ъ":"",
+    "ь":"", "э":"e","ю":"u","я":"a",
+})
+VOWELS_C = "aeiouyj"          # 'j' = ж; 'u' здесь также из ю/у — убираем гласные
+VOWELS_L = "aeiouy"
+
+def _phon_cyr(w):
+    s = w.translate(TR_SINGLE)
+    return "".join(ch for ch in s if ch not in VOWELS_C)
+
+def _phon_lat(w):
+    s = re.sub(r"[^a-z]", "", w)
+    s = s.replace("tch","c").replace("sch","s").replace("ck","k")
+    return "".join(ch for ch in s if ch not in VOWELS_L)
+
+_phon_cache = {}
+def phon_match(cyr_word, lat_word):
+    """фонетическое совпадение русской записи бренда с латинской: одинаковый
+       скелет согласных (±1 правка) и сопоставимая длина"""
+    key = (cyr_word, lat_word)
+    r = _phon_cache.get(key)
+    if r is None:
+        a, b = _phon_cyr(cyr_word), _phon_lat(lat_word)
+        r = (len(a) >= 3 and len(b) >= 3 and abs(len(a) - len(b)) <= 2
+             and lev(a, b) <= max(1, round(max(len(a), len(b)) / 5)))
+        _phon_cache[key] = r
+    return r
+
+def _brand_forms(name):
+    """пары (кириллический токен, латинский токен) из ядра имени; добавляем и
+       склеенную форму многословных: 'сен гобен' -> 'sengobain' ('сенгобен')."""
+    out = []
+    tk = core_tokens(name)
+    for i in range(0, len(tk)-1):
+        a, b = tk[i], tk[i+1]
+        if has_cyr(a) and not has_lat(a) and has_lat(b) and not has_cyr(b):
+            out.append((a, b)); out.append((b, a))
+    joined_cyr = "".join(t for t in tk if has_cyr(t) and not has_lat(t))
+    joined_lat = "".join(t for t in tk if has_lat(t) and not has_cyr(t))
+    if len(joined_cyr) >= 4 and len(joined_lat) >= 5:
+        out.append((joined_cyr, joined_lat))
+    return out
+
+def script_merge(v, groups):
+    """сопоставить вариант с группой по смешанной письменности ('makita макита'):
+       если в группе есть форма той же письменности, фонетически совпадающая с
+       токеном v того же скрипта — это тот же бренд."""
+    if has_cyr(v) == has_lat(v):
+        return None
+    vtoks = [t for t in tokens(v) if (has_cyr(t) if has_cyr(v) else has_lat(t))]
+    if not vtoks: return None
+    for gname, members in groups:
+        for m in members:
+            for cyw, latw in _brand_forms(m):
+                probe = cyw if has_cyr(v) else latw
+                if any(phon_match(probe, t) or probe == t for t in vtoks):
+                    return gname
+    return None
 
 def _contains_seq(ht, ot):
     """токены ot встречаются в ht подряд: точно, опечаткой или точным транслитом"""
@@ -624,6 +745,51 @@ def main():
     for vs in rows:
         for v in vs:
             groups[dsu.find(v)].add(v)
+
+    # волна 3: склейка по смешанной письменности ('makita макита' <-> 'милуоки',
+    # 'делтал dewalt' <-> 'dewalt'): кириллический токен варианта v фонетически
+    # совпадает с кириллическим токеном группы (или наоборот — латинский).
+    # Только частотные варианты и только якорные группы — защита от ложных омофонов.
+    def _tok_match(t, probe):
+        """t и probe — односкриптовые; совпадают точно или фонетически
+           (для кириллицы probe может быть латинским словом бренда)"""
+        if t == probe: return True
+        if has_cyr(t) and has_lat(probe): return phon_match(t, probe)
+        if has_lat(t) and has_cyr(probe): return phon_match(probe, t)
+        return False
+
+    anchor_set = set()
+    for root, g in groups.items():
+        if any(any(w in ANCHORS for w in tokens(m)) or m in ANCHORS for m in g):
+            anchor_set.add(root)
+    group_toks = {root: {t for m in g for t in tokens(brand_key(m) or m)}
+                  for root, g in groups.items()}
+    merged_into = {}
+    for vs in rows:
+        for v in vs:
+            if pop[v] < POP_MIN: continue
+            if has_cyr(v) == has_lat(v): continue      # не смешанная письменность
+            r1 = dsu.find(v)
+            if r1 not in anchor_set: continue
+            vt = [t for t in tokens(v)]
+            target = None
+            for r2 in anchor_set:
+                if r2 == r1: continue
+                toks2 = group_toks.get(r2)
+                if not toks2: continue
+                if all(any(_tok_match(t, p) for p in toks2)
+                       for t in vt if (has_cyr(t) != has_lat(t))):
+                    target = r2; break
+            if target is not None:
+                dsu.union(target, v)
+                merged_into.setdefault(target, set()).update(groups[r1])
+                anchor_set.discard(r1)
+                group_toks[target] |= group_toks.pop(r1, set()) | {t for m in groups[r1] for t in tokens(brand_key(m) or m)}
+    for root, extra in merged_into.items():
+        groups[root] |= extra
+    absorbed = set().union(*merged_into.values()) if merged_into else set()
+    groups = {r: g for r, g in groups.items() if not (g & absorbed)}
+
     # гигантские группы — артефакты склейки; разбираем их по «ключу бренда»,
     # но НЕ режем группу на куски, если после разбивки остаётся слишком много
     # маленьких подгрупп (это означало бы потерю синонимов кириллицы и опечаток).
@@ -663,6 +829,18 @@ def main():
     for g in groups.values():
         orig_first = sorted(g)[0]
         # 1) строки-«не бренд» целиком
+        # Точечная защита от ложных склеек якорных брендов (makita+dolmar):
+        # удаляем из группы только варианты, чьё ядро — ДРУГОЙ известный латинский
+        # бренд; кириллица/опечатки того же бренда при этом не трогаются.
+        def _brand_core_lat(v):
+            b = reduce_to_core(strip_noise(v))
+            tk = tokens(b)
+            c = tk[0] if tk else ""
+            return c if (c and has_lat(c) and len(c) >= 5 and c in ANCHORS) else None
+        lat_cores = Counter(cc for cc in (_brand_core_lat(v) for v in g) if cc)
+        if len(lat_cores) >= 2:
+            main = max(lat_cores, key=lambda c: (lat_cores[c], pop.get(c, 0)))
+            g = {v for v in g if _brand_core_lat(v) in (main, None)}
         joined = ",".join(sorted(g))
         if is_bad_line(joined) or any(is_bad_line(v) for v in g):
             bad = [v for v in g if is_bad_line("," + v)]
@@ -729,6 +907,16 @@ def main():
                 tk0 = tokens(strip_brackets(n))
                 if len(tk0) > 1 and MODEL_TOKEN_RE.match(tk0[0]):
                     k = " ".join(tk0[1:])
+            # склеенный смешанный токен ('м18милуоки'): вычленяем известное написание
+            # бренда из середины — иначе форма повиснет отдельным «loose»-мусором
+            if not k and len(tokens(n)) == 1:
+                t = tokens(n)[0]
+                if has_cyr(t) and has_lat(t):
+                    best = ""
+                    for cand in LAT_KNOWN:
+                        if len(cand) >= 5 and cand in t and len(cand) > len(best):
+                            best = cand
+                    if best: k = best
             if k: by_key[k].append(n)
             else: loose.append(n)
         converged = []
@@ -777,6 +965,8 @@ def main():
         n_cores, _ = popularity_score(merged_names)
         gpop = max(pop[v] for v in g) if g else 0     # макс. частота варианта в группе
         anchor = any(any(w in ANCHORS for w in tokens(m)) or m in ANCHORS for m in merged_names)
+        protected = any(m in ANCHOR_PROTECT or any(w in ANCHOR_PROTECT for w in tokens(m))
+                        for m in merged_names)
         first_tok = tokens(merged_names[0])[0] if merged_names else ""
         stop = first_tok in STOP_FIRST_TOKENS
         # тема вне сегмента: ≥2 разных topic-слова в группе или ≥1 в маленькой группе
@@ -790,7 +980,7 @@ def main():
         off_topic = len(twords) >= 2 or (len(twords) >= 1 and len(merged_names) <= 3)
         frequent = gpop >= POP_MIN or any(pop.get(k, 0) >= POP_MIN
                               for k in (brand_key(m) for m in merged_names))
-        keep = anchor or (not stop and not off_topic and (n_cores >= 3 or frequent))
+        keep = anchor or protected or (not stop and not off_topic and (n_cores >= 3 or frequent))
         if not keep:
             reason = ("stopped_topic" if stop else
                       "off_topic" if off_topic else "low_popularity")
@@ -810,11 +1000,11 @@ def main():
         for r in row:
             if any(r != p and r in p for p in pruned): continue
             pruned.append(r)
-        row = canonical_first(pruned)[:MAX_SYNS]
+        row = canonical_first(pruned)
         if len(row) < 2:
             removed.append(("single_form_left", row[0] if row else orig_first)); continue
-        # 6) разъединение дочерних брендов/поддоменов: 'bosch rexroth' — отдельный бренд,
-        #    не синоним 'bosch'; одиночные обрывки ('boch rexrot') удаляем как мусор.
+        # 6) разъединение дочерних брендов/поддоменов ДО усечения MAX_SYNS —
+        #    иначе хвостовые поддомены ('bosch rexroth') терялись без своей группы.
         for sub in split_subbrands(row)[0]:
             sub = canonical_first(sub)
             if len(sub) >= 2:
