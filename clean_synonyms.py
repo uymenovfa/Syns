@@ -77,6 +77,15 @@ NOISE_RE = re.compile(
 
 DOMAIN_RE = re.compile(r"\.(com|net|org|ru|su|rf|de|uk|fr|it|es|pl|cz|jp|cn|in|info|biz|shop|store|io|ai|tech|online|site|pro|eu|us|ca|au|ch|at|be|nl|dk|se|no|fi|by|kz|ua|lv|lt|ee)(\.[a-z]{2})?$")
 
+# корпоративные/описательные слова, которые сами по себе не делают название
+# другим брендом: makita werkzeug -> makita, bosch power tools -> bosch.
+CORP_WORDS = set("""
+werkzeug werkzeuge gerate equipment tools tool power hand electric electrical
+engineering engineering srl srl spolka spolka s r o machinery machine machines
+hardware supplies supply industrial professional expert experts division
+electro electronics electronic
+""".split())
+
 # «имена собственные не-бренды» — явные стоп-паттерны целых строк
 BAD_LINE_RE = re.compile(
     r"(?:"
@@ -95,7 +104,7 @@ BAD_LINE_RE = re.compile(
 MODEL_TOKEN_RE = re.compile(
     r"^(?:"
     r"\d{1,3}[vvlw](?:max|li[-]?ion|ion|x|ac|dc|ch|ah)?"              # 18v 40v max
-    r"|lxt|xgt|cas|neuron|nuron|flexvolt|flex[-]?volt|xr|xtr|coolpack|procore|atomic|"
+    r"|max|min|bl|nl|sds|lxt|xgt|cas|neuron|nuron|flexvolt|flex[-]?volt|xr|xtr|coolpack|procore|atomic|"
     r"brushless|starlock|li[-]?ion|easycut|aerotwin|flat[-]?wiper|firestop|kollex|tonson|nmop|"
     r"b\d{2}|te[-]?\d{3,4}|dw[-]?\d{3,4}|dcd[-]?\d{3,4}|dcf[-]?\d{3,4}|ga[-]?\d{3,4}|"
     r"sb[-]?\d{3,4}|bs[-]?\d{3,4}|hr\d{2,4}|ht\d{2,4}|gf\d{2,4}|gmf\d{2,4}|kt\d{2,4}|"
@@ -130,6 +139,7 @@ def is_legal_tok(t):
     return False
 
 def strip_noise(name):
+    name = strip_brackets(name)          # скобочные уточнения вырезаем целиком
     toks = tokens(name)
     def drop(t):
         if t in LEGAL or DOMAIN_RE.search(t): return True
@@ -138,11 +148,18 @@ def strip_noise(name):
     kept = [t for t in toks if not drop(t)]
     return " ".join(kept) if kept else ""
 
+def strip_brackets(s):
+    """вырезаем скобочные уточнения целиком: 'makita (germany)' -> 'makita',
+       'opal labs inc. (portland, or)' -> 'opal labs inc.'"""
+    s = re.sub(r"\((?:[^()]*)\)", " ", s)
+    return re.sub(r"\s+", " ", s).strip(" .,")
+
 def core_tokens(name):
-    """токены 'ядра' бренда (без шума/юрлица/домена/моделей)"""
+    """токены 'ядра' бренда (без шума/юрлица/домена/моделей/скобочных уточнений)"""
     out = []
-    for t in tokens(name):
+    for t in tokens(strip_brackets(name)):
         if is_legal_tok(t) or MODEL_TOKEN_RE.match(t): continue
+        if t in CORP_WORDS: continue
         out.append(t)
     return out
 
@@ -215,6 +232,47 @@ def typo_match(a, b):
             return True
     return False
 
+# линейки/модельные слова (в т.ч. транслит кириллицы): aerotwin / аэротвин, procore / прокор
+CYR2LAT = str.maketrans("абвгдежзийклмнопрстуфхцчшщъыьэюя",
+                        "abvgdezzijklmnoprstufhccshhyeeyu")  # х->x, щ->sh, ж/з->z: лхт->lxt, хгт->xgt
+
+def _line_variants(w):
+    out = {w}
+    v = w.translate(CYR2LAT)
+    if v != w: out.add(v)
+    return out
+
+LINE_WORDS = set()
+for _w in """
+lxt xgt cas neuron nuron flexvolt coolpack procore atomic easycut aerotwin firestop
+kollex tonson nmop starlock brushless xtr bl sds max min li flatwiper
+лхт хгт кейс нейрон нурон флексвольт кулпак прокор атомик изикат аэротвин фаерстоп
+коллекс тонсон нмоп старлок брашлесс икстр
+""".split():
+    LINE_WORDS |= _line_variants(_w)
+LINE_WORDS_RE = re.compile(
+    r"^(?:" + "|".join(sorted(map(re.escape, LINE_WORDS))) +
+    r"|(?:[a-z]{1,3})?\d{1,3}[vvlw](?:max|li[-]?ion|ion|x|ac|dc|ch|ah)?|flat[-]?wiper)$")
+# хвостовые описательные слова: bosch auto parts -> bosch; makita japanese -> makita
+TAIL_STOP = set("""
+auto automotive parts part accessories accessory japan japanese germany german
+tools tool power professional pro industrial lithium ion battery batteries cordless
+electric electrical werkzeug engineering corp corporation company
+""".split())
+
+def strip_line_tail(name):
+    """срезать модельные/линеечные/описательные хвосты: 'makita 40v max'->'makita',
+       'bosch flat wiper'->'bosch', 'макита хгт'->'макита'"""
+    toks = tokens(strip_brackets(name))
+    while len(toks) > 1 and (LINE_WORDS_RE.match(toks[-1]) or toks[-1] in TAIL_STOP):
+        toks.pop()
+    return " ".join(toks)
+
+def brand_key(name):
+    """'ключ бренда': ядро без моделей/юрлиц/шума/скобок.
+       makita (germany) / makita werkzeug / makita 40v max -> 'makita'"""
+    return " ".join(core_tokens(strip_line_tail(name)))
+
 def prefix_variant(big, small):
     """small — 'ядро' big, лишние токены big — только шум/гео/юрлицо/модель.
        devolt промышленный -> devolt ; bosch auto parts -> bosch"""
@@ -222,9 +280,25 @@ def prefix_variant(big, small):
     if not cs or len(cs) >= len(cb): return False
     if cb[0] != cs[0] and not typo_match(cb[0], cs[0]): return False
     st = set(tokens(small))
-    rest = [t for t in tokens(big) if t not in st]
+    rest = [t for t in tokens(strip_brackets(big)) if t not in st]
     return bool(rest) and all(NOISE_RE.match(t) or t in LEGAL or DOMAIN_RE.search(t)
-                              or MODEL_TOKEN_RE.match(t) for t in rest)
+                              or MODEL_TOKEN_RE.match(t) or t in CORP_WORDS
+                              for t in rest)
+
+def reduce_to_core(name):
+    """схлопнуть вариант к базовому имени: отбросить модельные/линеечные/корпоративные
+       хвосты. 'makita 40v max' -> 'makita'; 'bosch power tools' -> 'bosch';
+       'hilti nuron' -> 'hilti'; 'макита лхт' -> 'макита'."""
+    toks = tokens(strip_brackets(name))
+    if not toks: return ""
+    while len(toks) > 1 and (LINE_WORDS_RE.match(toks[-1]) or MODEL_TOKEN_RE.match(toks[-1])
+                             or toks[-1] in CORP_WORDS or toks[-1] in TAIL_STOP):
+        toks.pop()
+    kept = []
+    for t in toks:
+        if LINE_WORDS_RE.match(t) or MODEL_TOKEN_RE.match(t) or t in CORP_WORDS or is_legal_tok(t): continue
+        kept.append(t)
+    return " ".join(kept) if kept else toks[0]
 
 # ------------------------------------------------------------ популярность бренда
 #
@@ -249,6 +323,14 @@ samsung самсунг lg apple huawei xiaomi mi philips sony toshiba canon epso
 dewalt stadil стадил resanta ресанта fiolent denzel kitfort greenworks energizer duracell varta
 robitron elara deko gauss osram ledvance navigator волга электросвет кометос феникс легранд
 aBB swe-spb ssw элтехпроект
+deboj дебой skil сбил black decker stanley стэнли irwin орвин general purpose grundy
+gembird dexp electrolux электролюкс beko indesit hotpoint whirlpool gorenje горение
+vertum вертум edon champion huter хутер carver daewoo дэу palisad палисад
+sto ceresit церезит weber optibelt dayco contitech gates goodyear michelin
+continental nokian nordman yokohama bridgestone pirelli ngk denso filtron mahle mann
+fram victor reinz elring trw zimmermann ferodo swag febil lestat patron starline
+weidmuller phoenix wago finder omron mitsubishi schmersal moeller hager
+heidenhain fanuc kemppi abicor binzel twintec esab hypertherm forch friul airpress fiocchi
 """.split()))
 
 STOP_FIRST_TOKENS = set(map(norm, """
@@ -267,6 +349,27 @@ def popularity_score(names):
         if c: cores.add(c)
     scr = sum(len(tokens(c)) for c in cores)
     return len(cores), scr
+
+def canonical_first(names):
+    """Вернуть список имён, где ПЕРВЫМ — наиболее каноничное название бренда.
+       Приоритет: точное совпадение с якорным списком > латинская форма оригинала
+       (Bosch, Makita) > самая короткая базовая форма без опечаток.
+       Остальные варианты идут как синонимы (кириллица, короткие формы)."""
+    def score(n):
+        core = brand_key(n) or n
+        exact_anchor = core in ANCHORS or n in ANCHORS
+        # латиница предпочтительнее для иностранных брендов, кириллица — для русских
+        is_lat = has_lat(core) and not has_cyr(core)
+        is_cyr = has_cyr(core) and not has_lat(core)
+        ru_brand = any(tok in ANCHORS for tok in tokens(core)) and is_cyr
+        return (
+            0 if exact_anchor else 1,
+            0 if (ru_brand and is_cyr) or (is_lat and not ru_brand) else 1,
+            len(core),
+            len(n),
+            n,
+        )
+    return sorted(set(names), key=score)
 
 # -------------------------------------------------------------------------------
 
@@ -299,17 +402,17 @@ def main():
         for v in vs[1:]:
             dsu.union(vs[0], v)
 
-    # вторая волна: склейка строк с общим «ядром» (без юрлиц/шума),
-    # чтобы "bosch" + "bosch профессионал" + "бош" оказались в одной группе
+    # вторая волна: склейка строк по «ключу бренда» (ядро без юрлиц/шума/моделей/скобок),
+    # чтобы "makita" + "makita (germany)" + "makita 40v max" + "макита" оказались в одной группе
     key_owner = {}
     def keys_of(v):
         out = []
-        c = strip_noise(v)
-        tk = core_tokens(c) if c else []
+        k = brand_key(v)
+        tk = tokens(k)
         if len(tk) >= 2:
             out.append(" ".join(tk[:2]))
-        elif len(tk) == 1 and len(tk[0]) >= 5 and has_lat(tk[0]):
-            out.append(tk[0])
+        elif len(tk) == 1 and len(tk[0]) >= 5:
+            out.append(tk[0])          # и латиница, и кириллица: makita / макита
         return out
     for vs in rows:
         for v in vs:
@@ -337,34 +440,39 @@ def main():
             if len(bad) >= max(1, len(g)//2):
                 removed.append(("not_a_brand", orig_first)); continue
 
-        # 2) чистим варианты: вырезаем шум/юрлица/домены, отбрасываем мусор
+        # 2) чистим варианты: вырезаем шум/юрлица/домены/скобки, схлопываем к базовому
+        #    имени (makita 40v max -> makita), отбрасываем мусор
         cleaned_names = []
         for v in g:
-            c = strip_noise(v)
+            c = reduce_to_core(strip_noise(v))
             if not c or looks_like_garbage(c): continue
-            cleaned_names.append(c)
+            # кэшируем «ключ бренда» до схлопывания хвостов (см. шаг 3)
+            cleaned_names.append((c, brand_key(c)))
         if not cleaned_names:
             removed.append(("garbage_after_clean", orig_first)); continue
 
         # 3) слияние внутри группы: приставочные/опечаточные/транслит-варианты
-        cleaned_names.sort(key=lambda s: (-len(core_tokens(s)), len(s)))
-        merged = []            # списки токенов канонических имён
+        cleaned_names.sort(key=lambda p: (-len(core_tokens(p[0])), len(p[0])))
+        merged = []            # канонические имена
+        mkeys = []             # их «ключи бренда»
         alias_of = defaultdict(list)
-        for n in cleaned_names:
+        for n, nk in cleaned_names:
             placed = False
             for i, m in enumerate(merged):
-                if prefix_variant(m, n) or prefix_variant(n, m) or same_translit(m, n) or \
+                mk = mkeys[i]
+                if (nk and mk and nk == mk) or prefix_variant(m, n) or prefix_variant(n, m) \
+                   or same_translit(m, n) or \
                    (len(tokens(m)) == len(tokens(n)) and typo_match(m, n)) or \
                    (tokens(m)[0] == tokens(n)[0] and len(tokens(n)) == 1 and len(tokens(m)) > 1):
                     # выбрать более короткое/каноничное как голову
                     if len(core_tokens(n)) < len(core_tokens(m)) or \
                        (len(core_tokens(n)) == len(core_tokens(m)) and len(n) < len(m)):
-                        merged[i] = n
+                        merged[i] = n; mkeys[i] = nk
                     alias_of[i].append(n)
                     placed = True
                     break
             if not placed:
-                merged.append(n)
+                merged.append(n); mkeys.append(nk)
 
         merged = list(dict.fromkeys(merged))
 
@@ -380,7 +488,7 @@ def main():
 
         # 5) финальная форма каждой строки: канон + частотные опечатки оставляем только
         #    если они реально отличаются буквой е/ё или это известные варианты.
-        row = sorted(set(merged))
+        row = canonical_first(merged)
         # ES-валидность: без «>», без пустых, без повторов
         row = [r for r in row if r and ">" not in r]
         if len(row) < 2:
