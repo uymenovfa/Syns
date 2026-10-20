@@ -31,6 +31,14 @@ SRC = "synonyms.txt"
 DST = "synonyms_clean.txt"
 RPT = "clean_report.txt"
 
+# параметры качества/безопасности склейки
+MIN_KEY_LEN = 5     # минимальная длина «ключа бренда» для union по ключу
+MAX_LINKS = 25      # максимум склеек через один ключ (защита от омонимов-конденсаторов)
+POP_MIN = 3           # минимальная частота варианта/ключа для участия в склейке и для retention
+MAX_GROUP = 20      # группы больше — артефакты цепочечной склейки, разбиваются
+MAX_SYNS = 12       # максимум синонимов в одной ES-строке
+MAX_FORMS_PER_KEY = 8   # максимум форм одного ядра бренда (канон лат+кир + частотные опечатки)
+
 # ---------------------------------------------------------------- нормализация
 
 def norm(s: str) -> str:
@@ -100,6 +108,27 @@ BAD_LINE_RE = re.compile(
     r"|министерств|ведомств|администрац|сельсовет|муниципал"
     r")", re.I)
 
+# Тематические слова вне сегмента B2B-инструментов/оборудования.
+# Если в группе ≥2 разных таких слов (или ≥1 при малой группе) — это кафе/киностудия/лейбл,
+# а не производитель. Слова вроде "power tools engineering" сюда НЕ входят.
+TOPIC_WORDS = set("""
+coffee cafe cafeteria bakery pastry pancake donut dessert icecream ice cream yogurt milk cheese meat
+pizzeria pizza restaurant diner tavern steakhouse bistro pub bar brew brewery beer wine vodka spirits
+roasters roaster espresso latte cappuccino food foods snacks catering deli grocery market markets
+film films movie movies cinema tv television video videos music musical song songs band album albums
+records label studio studios media multimedia production productions entertainment games gaming casino
+lottery betting bet poker news press publishing publisher book books library magazine journals podcast
+radio television channel channels app apps software cloud hosting digital agency advertising marketing
+bank banking finance fintech insurance fund funds capital investments investment loans credit mortgage
+broker brokers asset assets holdings trust consultancy consulting law legal attorney attorneys
+pharma pharmaceutical pharmaceuticals pharma biologics medical healthcare clinic clinics hospital
+hospitals dental care wellness spa beauty cosmetics makeup perfume fragrance fashion clothing apparel
+shoes jewelry hotel hotels resort travel tours airline airlines airport taxi transport logistics courier
+school schools academy academies college university university education learning course courses
+church temple mosque parish diocese monastery sect movement party union foundation charity nonprofit
+ngo volunteer team teams fc fk hockey basketball football soccer club clubs league
+""".split())
+
 # токен-«не бренд»: модели/линейки/юрлицо-суффиксы с точками/гео-уточнения в скобках.
 MODEL_TOKEN_RE = re.compile(
     r"^(?:"
@@ -109,7 +138,8 @@ MODEL_TOKEN_RE = re.compile(
     r"b\d{2}|te[-]?\d{3,4}|dw[-]?\d{3,4}|dcd[-]?\d{3,4}|dcf[-]?\d{3,4}|ga[-]?\d{3,4}|"
     r"sb[-]?\d{3,4}|bs[-]?\d{3,4}|hr\d{2,4}|ht\d{2,4}|gf\d{2,4}|gmf\d{2,4}|kt\d{2,4}|"
     r"sha\d{3,4}|dia[-]?\d{3,4}|en[-]?\d{3,4}|p\d{2,4}[a-z]{0,3}|"
-    r"[a-z]{1,3}\d{3,5}[a-z]{0,3}|\d{3,5}[a-z]{1,3}"                 # ct18 dw4210 1069bdc
+    r"|\d{2,5}[a-z]{1,3}"                                 # ct18 dw4210 1069bdc
+    r"|\d{2,5}"                                            # makita 40, hilti te 3000
     r"|\((?:germany|deutschland|france|italia|italy|spain|portugal|japan|korea|china|"
     r"india|brazil|mexico|canada|usa|u\.?s\.?a?\.?|united states|united kingdom|uk|"
     r"england|switzerland|sweden|norway|denmark|finland|poland|czech|czech republic|"
@@ -258,6 +288,9 @@ TAIL_STOP = set("""
 auto automotive parts part accessories accessory japan japanese germany german
 tools tool power professional pro industrial lithium ion battery batteries cordless
 electric electrical werkzeug engineering corp corporation company
+te tf hr ht hm dhr dth hc dh sh sw ga gh gp gm gsa gs ha hs hw up um us
+one hand onehand corded pneumatic wood metal concrete stone masonry garden outdoor
+garden power tools accessories spare parts replacement original genuine compatible
 """.split())
 
 def strip_line_tail(name):
@@ -268,10 +301,51 @@ def strip_line_tail(name):
         toks.pop()
     return " ".join(toks)
 
+def strip_line_tail(name):
+    """срезать модельные/линеечные/описательные хвосты: 'makita 40v max'->'makita',
+       'bosch flat wiper'->'bosch', 'макита хгт'->'макита'.
+       Хвост режется ПОСЛЕДОВАТЕЛЬНО (только совпадающие подряд), иначе
+       'hilti te 3000' превратилось бы в 'hilti te' — потерянный мусор."""
+    toks = tokens(strip_brackets(name))
+    while len(toks) > 1 and (LINE_WORDS_RE.match(toks[-1]) or toks[-1] in TAIL_STOP):
+        toks.pop()
+    return " ".join(toks)
+
 def brand_key(name):
     """'ключ бренда': ядро без моделей/юрлиц/шума/скобок.
-       makita (germany) / makita werkzeug / makita 40v max -> 'makita'"""
-    return " ".join(core_tokens(strip_line_tail(name)))
+       makita (germany) / makita werkzeug / makita 40v max -> 'makita'.
+       Ключ всегда в одной письменности: кириллический токен, транслит-совпадающий
+       с латинским токеном ядра, заменяется им ('макита lxt' -> 'makita', а не
+       'makita макита'), иначе ключ ломается на два и канон теряется."""
+    core = core_tokens(strip_line_tail(name))
+    out = []
+    for t in core:
+        replaced = False
+        if has_cyr(t) and not has_lat(t):
+            tt = translit_cyr_to_lat(t)
+            for o in out:
+                oo = translit_cyr_to_lat(o) if has_cyr(o) else o
+                if len(tt) >= 4 and (tt == oo or lev(tt, oo) <= 2):
+                    replaced = True; break
+        elif has_lat(t) and not has_cyr(t):
+            for o in out:
+                if has_cyr(o) and not has_lat(o):
+                    oo = translit_cyr_to_lat(o)
+                    if len(t) >= 4 and (t == oo or lev(t, oo) <= 2):
+                        replaced = True; break
+        if not replaced:
+            out.append(t)
+    return " ".join(out)
+
+CYR2LAT_FULL = str.maketrans({
+    "а":"a","б":"b","в":"v","г":"g","д":"d","е":"e","ж":"zh","з":"z","и":"i","й":"y",
+    "к":"k","л":"l","м":"m","н":"n","о":"o","п":"p","р":"r","с":"s","т":"t","у":"u",
+    "ф":"f","х":"h","ц":"ts","ч":"ch","ш":"sh","щ":"sch","ъ":"","ь":"","э":"e","ю":"yu","я":"ya"})
+
+def translit_cyr_to_lat(cyr_word):
+    """транслит кириллического слова в латиницу для сверки с брендом (makita==макита).
+       допускает основные варианты: kh/h, c/s, u/v — сравнивающий lev это терпит."""
+    return cyr_word.translate(CYR2LAT_FULL)
 
 def prefix_variant(big, small):
     """small — 'ядро' big, лишние токены big — только шум/гео/юрлицо/модель.
@@ -285,18 +359,26 @@ def prefix_variant(big, small):
                               or MODEL_TOKEN_RE.match(t) or t in CORP_WORDS
                               for t in rest)
 
-def reduce_to_core(name):
+def reduce_to_core(name, keep_short=False):
     """схлопнуть вариант к базовому имени: отбросить модельные/линеечные/корпоративные
        хвосты. 'makita 40v max' -> 'makita'; 'bosch power tools' -> 'bosch';
-       'hilti nuron' -> 'hilti'; 'макита лхт' -> 'макита'."""
+       'hilti nuron' -> 'hilti'; 'макита лхт' -> 'макита'.
+
+       keep_short=True: короткие слова (bl, pro, xr) НЕ вырезаются из середины —
+       иначе 'makita bl' превращается в мусор; для них срабатывает только правило
+       хвоста. Используется на этапе сбора алиасов, чтобы не терять формы вроде
+       'makita bl', которые затем схлопнутся к 'makita' через хвост/ключ."""
     toks = tokens(strip_brackets(name))
     if not toks: return ""
     while len(toks) > 1 and (LINE_WORDS_RE.match(toks[-1]) or MODEL_TOKEN_RE.match(toks[-1])
                              or toks[-1] in CORP_WORDS or toks[-1] in TAIL_STOP):
         toks.pop()
     kept = []
-    for t in toks:
-        if LINE_WORDS_RE.match(t) or MODEL_TOKEN_RE.match(t) or t in CORP_WORDS or is_legal_tok(t): continue
+    for i, t in enumerate(toks):
+        is_tail_rule = (LINE_WORDS_RE.match(t) or MODEL_TOKEN_RE.match(t) or
+                        t in CORP_WORDS or is_legal_tok(t))
+        if is_tail_rule and not (keep_short and len(t) <= 3):
+            continue
         kept.append(t)
     return " ".join(kept) if kept else toks[0]
 
@@ -350,26 +432,26 @@ def popularity_score(names):
     scr = sum(len(tokens(c)) for c in cores)
     return len(cores), scr
 
+def canonical_rank(n):
+    """Ранг каноничности имени (меньше = каноничнее). Общий для выбора головы
+       слияния и для порядка в ES-строке: якорный список > латинская оригинальная
+       форма (для иностранных) / кириллица (для русских) > короче и без опечаток."""
+    core = brand_key(n) or n
+    exact_anchor = core in ANCHORS or n in ANCHORS
+    is_lat = has_lat(core) and not has_cyr(core)
+    is_cyr = has_cyr(core) and not has_lat(core)
+    ru_brand = any(tok in ANCHORS for tok in tokens(core)) and is_cyr
+    return (
+        0 if exact_anchor else 1,
+        0 if (ru_brand and is_cyr) or (is_lat and not ru_brand) else 1,
+        len(core),
+        len(n),
+        n,
+    )
+
 def canonical_first(names):
-    """Вернуть список имён, где ПЕРВЫМ — наиболее каноничное название бренда.
-       Приоритет: точное совпадение с якорным списком > латинская форма оригинала
-       (Bosch, Makita) > самая короткая базовая форма без опечаток.
-       Остальные варианты идут как синонимы (кириллица, короткие формы)."""
-    def score(n):
-        core = brand_key(n) or n
-        exact_anchor = core in ANCHORS or n in ANCHORS
-        # латиница предпочтительнее для иностранных брендов, кириллица — для русских
-        is_lat = has_lat(core) and not has_cyr(core)
-        is_cyr = has_cyr(core) and not has_lat(core)
-        ru_brand = any(tok in ANCHORS for tok in tokens(core)) and is_cyr
-        return (
-            0 if exact_anchor else 1,
-            0 if (ru_brand and is_cyr) or (is_lat and not ru_brand) else 1,
-            len(core),
-            len(n),
-            n,
-        )
-    return sorted(set(names), key=score)
+    """Список имён, где ПЕРВЫМ — наиболее каноничное название бренда."""
+    return sorted(set(names), key=canonical_rank)
 
 # -------------------------------------------------------------------------------
 
@@ -397,36 +479,90 @@ class DSU:
 
 def main():
     rows = load_lines(SRC)
+
+    # ---- индекс popularity: сколько раз вариант написания встречается в файле.
+    # У популярных брендов много строк-вариантов (makita — в десятках строк),
+    # у мусора — 1-2. Это прокси статистики маркетплейсов.
+    pop = Counter()
+    for vs in rows:
+        for v in set(vs):
+            pop[v] += 1
+            k = brand_key(v)
+            if k: pop[k] += 1
+
     dsu = DSU()
     for vs in rows:
         for v in vs[1:]:
             dsu.union(vs[0], v)
 
     # вторая волна: склейка строк по «ключу бренда» (ядро без юрлиц/шума/моделей/скобок),
-    # чтобы "makita" + "makita (germany)" + "makita 40v max" + "макита" оказались в одной группе
+    # чтобы "makita" + "makita (germany)" + "makita 40v max" + "макита" оказались в одной группе.
+    # Ограничения против цепочечной склейки («samsung galaxy watch» -> «apple galaxy watch»):
+    #  - ключ не короче MIN_KEY_LEN;
+    #  - через один ключ проходит максимум MAX_LINKS склеек, и только если обе стороны
+    #    достаточно частотны (pop >= POP_MIN) — мусорные омонимы не сцепляют ничего.
     key_owner = {}
+    key_link_cnt = Counter()
     def keys_of(v):
         out = []
         k = brand_key(v)
         tk = tokens(k)
         if len(tk) >= 2:
-            out.append(" ".join(tk[:2]))
-        elif len(tk) == 1 and len(tk[0]) >= 5:
+            cand = " ".join(tk[:2])
+            if len(cand) >= MIN_KEY_LEN: out.append(cand)
+        elif len(tk) == 1 and len(tk[0]) >= MIN_KEY_LEN:
             out.append(tk[0])          # и латиница, и кириллица: makita / макита
         return out
     for vs in rows:
         for v in vs:
+            if pop[v] < POP_MIN and not any(w in ANCHORS for w in tokens(v)):
+                continue               # редкий вариант не имеет права сцеплять группы
             for k in keys_of(v):
-                if k in key_owner:
-                    dsu.union(key_owner[k], v)
-                else:
+                if pop.get(k, 0) < POP_MIN and k not in ANCHORS:
+                    continue
+                o = key_owner.get(k)
+                if o is None:
                     key_owner[k] = v
+                elif key_link_cnt[k] < MAX_LINKS:
+                    dsu.union(o, v)
+                    key_link_cnt[k] += 1
 
     groups = defaultdict(set)
     for vs in rows:
         for v in vs:
             groups[dsu.find(v)].add(v)
-    print(f"[i] исходных строк: {len(rows)}, групп после union-find: {len(groups)}", file=sys.stderr)
+    # гигантские группы — артефакты склейки; разбираем их по «ключу бренда»,
+    # но НЕ режем группу на куски, если после разбивки остаётся слишком много
+    # маленьких подгрупп (это означало бы потерю синонимов кириллицы и опечаток).
+    giant_split = 0
+    fixed_groups = []
+    for g in list(groups.values()):
+        if len(g) <= MAX_GROUP:
+            fixed_groups.append(g); continue
+        sub = defaultdict(set)
+        for v in g:
+            sub[brand_key(v) or "_"].add(v)
+        big_subs = [s for s in sub.values() if len(s) > 1]
+        if len(big_subs) < max(3, len(g) // 4):
+            # группа склеена legitimately (много одиночек-вариантов одного ядра) — оставляем как есть
+            fixed_groups.append(g); continue
+        giant_split += 1
+        for members in sub.values():
+            if len(members) > MAX_GROUP:      # всё ещё слишком много — режем по первому токену
+                sub2 = defaultdict(list)
+                for v in members:
+                    tk = tokens(brand_key(v))
+                    sub2[tk[0] if tk else "_"].append(v)
+                for mm in sub2.values():
+                    if len(mm) > MAX_GROUP:
+                        for v in mm: fixed_groups.append({v})
+                    else:
+                        fixed_groups.append(set(mm))
+            else:
+                fixed_groups.append(set(members))
+    groups = {id(g): g for g in fixed_groups}
+    print(f"[i] исходных строк: {len(rows)}, групп после union-find: {len(groups)} "
+          f"(разбито гигантских: {giant_split})", file=sys.stderr)
 
     removed = []          # (reason, item)
     final_rows = []
@@ -440,57 +576,125 @@ def main():
             if len(bad) >= max(1, len(g)//2):
                 removed.append(("not_a_brand", orig_first)); continue
 
-        # 2) чистим варианты: вырезаем шум/юрлица/домены/скобки, схлопываем к базовому
-        #    имени (makita 40v max -> makita), отбрасываем мусор
-        cleaned_names = []
+        # 2) ЧИСТКА БЕЗ ПОТЕРЬ: для каждого исходного варианта храним пару
+        #    (полная очищенная форма full, базовое имя base). Полная форма сохраняет
+        #    кириллицу и опечатки (макита, макитка), base нужен только для склейки
+        #    ('makita 40v max' -> 'makita'). Раньше вывод шёл только из base — и все
+        #    русские формы терялись. Теперь в строку попадают обе.
+        pairs = []
         for v in g:
-            c = reduce_to_core(strip_noise(v))
-            if not c or looks_like_garbage(c): continue
-            # кэшируем «ключ бренда» до схлопывания хвостов (см. шаг 3)
-            cleaned_names.append((c, brand_key(c)))
-        if not cleaned_names:
+            full = strip_noise(v)
+            if not full or looks_like_garbage(full): continue
+            base = reduce_to_core(full)
+            if not base or looks_like_garbage(base): base = full
+            pairs.append((full, base))
+        if not pairs:
             removed.append(("garbage_after_clean", orig_first)); continue
 
-        # 3) слияние внутри группы: приставочные/опечаточные/транслит-варианты
-        cleaned_names.sort(key=lambda p: (-len(core_tokens(p[0])), len(p[0])))
-        merged = []            # канонические имена
-        mkeys = []             # их «ключи бренда»
-        alias_of = defaultdict(list)
-        for n, nk in cleaned_names:
+        # 3) слияние вариантов, НЕ меняющих базовое слово: одинаковый ключ бренда,
+        #    приставочные формы, транслит, опечатки одного слова.
+        pairs.sort(key=lambda p: (-len(core_tokens(p[1])), len(p[1]), len(p[0])))
+        merged = []            # [(head_full, head_base, [aliased pairs...])]
+        for item in pairs:
+            n, nk = item
             placed = False
-            for i, m in enumerate(merged):
-                mk = mkeys[i]
+            for slot in merged:
+                m, mk, aliases = slot
                 if (nk and mk and nk == mk) or prefix_variant(m, n) or prefix_variant(n, m) \
                    or same_translit(m, n) or \
                    (len(tokens(m)) == len(tokens(n)) and typo_match(m, n)) or \
                    (tokens(m)[0] == tokens(n)[0] and len(tokens(n)) == 1 and len(tokens(m)) > 1):
-                    # выбрать более короткое/каноничное как голову
-                    if len(core_tokens(n)) < len(core_tokens(m)) or \
-                       (len(core_tokens(n)) == len(core_tokens(m)) and len(n) < len(m)):
-                        merged[i] = n; mkeys[i] = nk
-                    alias_of[i].append(n)
+                    aliases.append(item)
+                    # голова — более каноничная форма (якорь/латиница/короче)
+                    cand = min([m] + [a[0] for a in aliases], key=canonical_rank)
+                    cb = next((ab for af, ab in [item] + aliases if af == cand), nk)
+                    slot[0], slot[1] = cand, cb
                     placed = True
                     break
             if not placed:
-                merged.append(n); mkeys.append(nk)
+                merged.append([n, nk, []])
 
-        merged = list(dict.fromkeys(merged))
+        # base-формы («makita», «bosch») собираем со всех вариантов — они и есть
+        # канонические короткие имена; полные формы добавляем как алиасы.
+        bases_all = {b for _, b in pairs if b}
+        heads = [m for m, _, _ in merged]
+        merged_names = list(dict.fromkeys(heads + sorted(bases_all, key=len)))
 
-        # 4) релевантность/популярность
-        n_cores, _ = popularity_score(merged)
-        anchor = any(any(w in ANCHORS for w in tokens(m)) or m in ANCHORS for m in merged)
-        first_tok = tokens(merged[0])[0] if merged else ""
+        # 3b) ФИНАЛЬНАЯ КОНВЕРГЕНЦИЯ: все варианты с одинаковым «ключом бренда»
+        #     (ядро без юрлиц/шума/моделей/скобок) — это один бренд, и в строке ES
+        #     должны остаться только базовые формы: 'makita', 'makita werkzeug',
+        #     'makita 40v max' -> 'makita'; 'макита хгт' -> 'макита'.
+        #     Для каждого ядра держим: латинскую канон-форму, кириллическую канон-форму
+        #     и частотные однословные опечатки того же корня (maketra, макитка...).
+        by_key = defaultdict(list)
+        loose = []
+        for n in merged_names:
+            k = brand_key(n)
+            if k: by_key[k].append(n)
+            else: loose.append(n)
+        converged = []
+        for k, forms in by_key.items():
+            ktoks = tokens(k)
+            keep = {k}
+            for f in forms:
+                ft = tokens(f)
+                # форма «того же слова»: токен за токеном равны или отличаются опечаткой
+                same_shape = (len(ft) == len(ktoks) and
+                              all(a == b or typo_match(a, b) for a, b in zip(ft, ktoks)))
+                if not same_shape: continue
+                if any(LINE_WORDS_RE.match(t) or MODEL_TOKEN_RE.match(t) for t in ft): continue
+                # чистая кириллица (макита) или чистая латиница (makita) — канон;
+                # смешанные/опечаточные формы — только однословные
+                pure_cyr = has_cyr(f) and not has_lat(f)
+                pure_lat = has_lat(f) and not has_cyr(f)
+                if pure_cyr or pure_lat or len(ft) == 1:
+                    keep.add(f)
+            # ограничиваем: сначала канонические (лат+кир), затем топ по частоте опечатки
+            ordered = sorted(keep, key=lambda x: (x != k, -pop.get(x, 0), len(x)))
+            canon_forms = [x for x in ordered if x == k or
+                           ((has_cyr(x) and not has_lat(x)) or (has_lat(x) and not has_cyr(x)))]
+            typos = [x for x in ordered if x not in canon_forms]
+            converged.extend((canon_forms + typos)[:MAX_FORMS_PER_KEY])
+        merged_names = list(dict.fromkeys(converged + loose))
+
+        # 4) релевантность/популярность + тематический фильтр (B2B-инструменты/оборудование)
+        n_cores, _ = popularity_score(merged_names)
+        gpop = max(pop[v] for v in g) if g else 0     # макс. частота варианта в группе
+        anchor = any(any(w in ANCHORS for w in tokens(m)) or m in ANCHORS for m in merged_names)
+        first_tok = tokens(merged_names[0])[0] if merged_names else ""
         stop = first_tok in STOP_FIRST_TOKENS
-        keep = anchor or (not stop and n_cores >= 3)
+        # тема вне сегмента: ≥2 разных topic-слова в группе или ≥1 в маленькой группе
+        twords = set()
+        for m in merged_names:
+            mtoks = set(tokens(m))
+            for w in TOPIC_WORDS:
+                if " " in w:
+                    if w in m: twords.add(w.split()[0])
+                elif w in mtoks: twords.add(w)
+        off_topic = len(twords) >= 2 or (len(twords) >= 1 and len(merged_names) <= 3)
+        frequent = gpop >= POP_MIN or any(pop.get(k, 0) >= POP_MIN
+                              for k in (brand_key(m) for m in merged_names))
+        keep = anchor or (not stop and not off_topic and (n_cores >= 3 or frequent))
         if not keep:
-            reason = "stopped_topic" if stop else "low_popularity"
-            removed.append((reason, " | ".join(merged))); continue
+            reason = ("stopped_topic" if stop else
+                      "off_topic" if off_topic else "low_popularity")
+            removed.append((reason, " | ".join(merged_names))); continue
 
-        # 5) финальная форма каждой строки: канон + частотные опечатки оставляем только
-        #    если они реально отличаются буквой е/ё или это известные варианты.
-        row = canonical_first(merged)
-        # ES-валидность: без «>», без пустых, без повторов
-        row = [r for r in row if r and ">" not in r]
+        # 5) финальная форма строки: канон первым, без подстрок и мусора
+        row = canonical_first(merged_names)
+        row = [r for r in row if r and ">" not in r and "(" not in r and ")" not in r
+               and not looks_like_garbage(r)]
+        # ES synonyms: «makita» и «makita xgt» в одной строке бессмысленны —
+        # подстроки удаляем, оставляем независимые формы.
+        # Порядок важен: сначала длинные (они же якорные), потом короткие;
+        # короткая форма («makita») никогда не удалит канон, а вот «makita lxt»
+        # при длинном каноне («bosch professional 18v») останется как осмысленный синоним.
+        row.sort(key=lambda r: (-len(r), canonical_rank(r)))
+        pruned = []
+        for r in row:
+            if any(r != p and r in p for p in pruned): continue
+            pruned.append(r)
+        row = canonical_first(pruned)[:MAX_SYNS]
         if len(row) < 2:
             removed.append(("single_form_left", row[0] if row else orig_first)); continue
         final_rows.append(row)
