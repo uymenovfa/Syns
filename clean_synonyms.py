@@ -187,6 +187,16 @@ def is_legal_tok(t):
         return False
     return False
 
+# Индекс «частотного ядра бренда» (заполняется в main до использования):
+# ядро без юрлиц/шума — 'makita', 'milwaukee'. Нужен, чтобы отличать модельно-
+# линейные хвосты от осмысленных дочерних брендов: 'makita werkzeug' -> 'makita',
+# но 'bosch rexroth' остаётся 'bosch rexroth' (rexroth — самостоятельный бренд).
+KNOWN_CORES = set()
+
+def is_known_brand_word(t):
+    """токен — самостоятельное известное написание бренда (ядро или якорь)"""
+    return t in KNOWN_CORES or t in ANCHORS
+
 def strip_noise(name):
     name = strip_brackets(name)          # скобочные уточнения вырезаем целиком
     toks = tokens(name)
@@ -195,6 +205,10 @@ def strip_noise(name):
         if len(toks) > 1 and NOISE_RE.match(t): return True   # шум только во многословных
         return False
     kept = [t for t in toks if not drop(t)]
+    # описательные корпоративные хвосты ('makita werkzeug' -> 'makita'), но НЕ
+    # известные названия брендов ('bosch rexroth', 'makita hitachi' остаются)
+    while len(kept) > 1 and kept[-1] in CORP_WORDS and not is_known_brand_word(kept[-1]):
+        kept.pop()
     return " ".join(kept) if kept else ""
 
 def strip_brackets(s):
@@ -577,7 +591,12 @@ def phon_match(cyr_word, lat_word):
     r = _phon_cache.get(key)
     if r is None:
         a, b = _phon_cyr(cyr_word), _phon_lat(lat_word)
-        r = (len(a) >= 3 and len(b) >= 3 and abs(len(a) - len(b)) <= 2
+        # фонетика — только для кириллической ЗАПИСИ иностранного бренда;
+        # русские слова-описания ('мурата' от муратор/мурава) не должны склеивать
+        # чужие бренды: если транслит далёк от латиницы (lev>2) — отказ.
+        tl = translit_cyr_to_lat(cyr_word)
+        ok_translit = (tl == lat_word or lev(tl, lat_word) <= 2)
+        r = (ok_translit and len(a) >= 3 and len(b) >= 3 and abs(len(a) - len(b)) <= 2
              and lev(a, b) <= max(1, round(max(len(a), len(b)) / 5)))
         _phon_cache[key] = r
     return r
@@ -709,37 +728,34 @@ def main():
         for v in vs[1:]:
             dsu.union(vs[0], v)
 
-    # вторая волна: склейка строк по «ключу бренда» (ядро без юрлиц/шума/моделей/скобок),
-    # чтобы "makita" + "makita (germany)" + "makita 40v max" + "макита" оказались в одной группе.
-    # Ограничения против цепочечной склейки («samsung galaxy watch» -> «apple galaxy watch»):
-    #  - ключ не короче MIN_KEY_LEN;
-    #  - через один ключ проходит максимум MAX_LINKS склеек, и только если обе стороны
-    #    достаточно частотны (pop >= POP_MIN) — мусорные омонимы не сцепляют ничего.
-    key_owner = {}
-    key_link_cnt = Counter()
-    def keys_of(v):
-        out = []
+    # волна 2 (ЯКОРНАЯ): склейка вариантов по «ядру-якорю» — первому токену
+    # brand_key, который является известным брендом из ANCHORS/LAT_KNOWN.
+    # 'makita' + 'makita (germany)' + 'makita 40v max' + 'макита' -> одна группа.
+    # Раньше склейка шла по произвольным двухтокенным ключам и цепляла чужие
+    # бренды ('murata'~makita); теперь сцепляют только известные имена, а их
+    # орфографические варианты ('милуоки', 'делтал') подтягиваются транзитивно
+    # через исходные строки файла.
+    def anchor_core(v):
         k = brand_key(v)
         tk = tokens(k)
-        if len(tk) >= 2:
-            cand = " ".join(tk[:2])
-            if len(cand) >= MIN_KEY_LEN: out.append(cand)
-        elif len(tk) == 1 and len(tk[0]) >= MIN_KEY_LEN:
-            out.append(tk[0])          # и латиница, и кириллица: makita / макита
-        return out
+        if not tk: return None
+        c = tk[0]
+        if c in ANCHORS: return c
+        tt = translit_cyr_to_lat(c) if has_cyr(c) else c
+        if len(tt) >= 4 and tt in LAT_KNOWN: return tt
+        return None
+    core_owner = {}
+    core_link_cnt = Counter()
     for vs in rows:
         for v in vs:
-            if pop[v] < POP_MIN and not any(w in ANCHORS for w in tokens(v)):
-                continue               # редкий вариант не имеет права сцеплять группы
-            for k in keys_of(v):
-                if pop.get(k, 0) < POP_MIN and k not in ANCHORS:
-                    continue
-                o = key_owner.get(k)
-                if o is None:
-                    key_owner[k] = v
-                elif key_link_cnt[k] < MAX_LINKS:
-                    dsu.union(o, v)
-                    key_link_cnt[k] += 1
+            c = anchor_core(v)
+            if not c: continue
+            o = core_owner.get(c)
+            if o is None:
+                core_owner[c] = v
+            elif core_link_cnt[c] < MAX_LINKS:
+                dsu.union(o, v)
+                core_link_cnt[c] += 1
 
     groups = defaultdict(set)
     for vs in rows:
@@ -762,8 +778,10 @@ def main():
     for root, g in groups.items():
         if any(any(w in ANCHORS for w in tokens(m)) or m in ANCHORS for m in g):
             anchor_set.add(root)
-    group_toks = {root: {t for m in g for t in tokens(brand_key(m) or m)}
-                  for root, g in groups.items()}
+    # сравниваем группы по ЯДРУ-ЯКОРЮ (известное имя бренда), а не по всем токенам:
+    # раньше 'makita' склеивался с группой murata/varta из-за фонетического омонима.
+    group_cores = {root: {c for c in (anchor_core(m) for m in g) if c}
+                   for root, g in groups.items()}
     merged_into = {}
     for vs in rows:
         for v in vs:
@@ -775,16 +793,20 @@ def main():
             target = None
             for r2 in anchor_set:
                 if r2 == r1: continue
-                toks2 = group_toks.get(r2)
-                if not toks2: continue
-                if all(any(_tok_match(t, p) for p in toks2)
-                       for t in vt if (has_cyr(t) != has_lat(t))):
+                cores1, cores2 = group_cores.get(r1), group_cores.get(r2)
+                if not cores1 or not cores2: continue   # обе группы — якорные бренды
+                if cores1 & cores2: continue            # одно ядро — уже одна группа
+                mixed_toks = [t for t in vt if has_cyr(t) != has_lat(t)]
+                if not mixed_toks: continue
+                if all(any(_tok_match(t, p) for c in cores2 for p in tokens(c))
+                       for t in mixed_toks):
                     target = r2; break
             if target is not None:
                 dsu.union(target, v)
                 merged_into.setdefault(target, set()).update(groups[r1])
                 anchor_set.discard(r1)
-                group_toks[target] |= group_toks.pop(r1, set()) | {t for m in groups[r1] for t in tokens(brand_key(m) or m)}
+                group_cores[target] |= group_cores.pop(r1, set()) | \
+                    {c for c in (anchor_core(m) for m in groups[r1]) if c}
     for root, extra in merged_into.items():
         groups[root] |= extra
     absorbed = set().union(*merged_into.values()) if merged_into else set()
@@ -897,6 +919,37 @@ def main():
         #     'makita 40v max' -> 'makita'; 'макита хгт' -> 'макита'.
         #     Для каждого ядра держим: латинскую канон-форму, кириллическую канон-форму
         #     и частотные однословные опечатки того же корня (maketra, макитка...).
+        anchor_cores = {c for c in (brand_key(m) for m in merged_names) if c}
+
+        # якорные имена группы (латиница/кириллица из ANCHORS): нужны, чтобы
+        # инвертированные формы ('one key milwaukee', 'м18 милуоки') и опечатки
+        # кириллицы ('милики','милуока') схлопывались к канону, а не висели хвостом
+        anchor_names = ({t for m in g for t in tokens(m) if t in ANCHORS} |
+                        {m for m in merged_names if m in ANCHORS})
+        # фонетические варианты якорей среди ядер группы: 'милуоки'~milwaukee —
+        # это каноническая кириллическая запись бренда, её надо узнавать как якорь
+        for c in list(anchor_cores):
+            ctoks = tokens(c)
+            if len(ctoks) == 1 and has_cyr(ctoks[0]) and \
+               any(len(ctoks[0]) >= 4 and phon_match(ctoks[0], a) for a in anchor_names):
+                anchor_names.add(ctoks[0])
+
+        def _anchor_form(t):
+            """канон якоря для однословного варианта/ядра: точное/фонетическое
+               совпадение ('милики'->'милуоки') или орфографическая опечатка
+               того же скрипта с близкой длиной ('макета'->'makita')."""
+            if not t or " " in t or len(t) < 4: return None
+            best = None
+            for a in sorted(anchor_names, key=lambda x: (-pop.get(x, 0), canonical_rank(x))):
+                same_len = abs(len(t) - len(a)) <= 2
+                ok = (t == a or
+                      (has_cyr(t) != has_lat(a) and phon_match(t, a)) or
+                      ((has_cyr(t) == has_lat(t)) == (has_cyr(a) == has_lat(a)) and
+                       same_len and lev(t, a) <= 2))
+                if ok:
+                    best = a; break
+            return best
+
         by_key = defaultdict(list)
         loose = []
         for n in merged_names:
@@ -907,6 +960,27 @@ def main():
                 tk0 = tokens(strip_brackets(n))
                 if len(tk0) > 1 and MODEL_TOKEN_RE.match(tk0[0]):
                     k = " ".join(tk0[1:])
+            # переписываем ключ на якорь, если в нём есть токен-якорь или его
+            # фонетический вариант: 'one key milwaukee'->'milwaukee',
+            # 'милуоки м12'->'милуоки'; однословные опечатки/фонетика ('милики',
+            # 'милуока','макета') -> канон якоря той же письменности
+            if anchor_names and k:
+                kt = tokens(k)
+                cands = []
+                for a in anchor_names:
+                    sc = sum(1 for t in kt if t == a or
+                             (len(t) >= 4 and len(a) >= 4 and
+                              ((has_cyr(t) != has_lat(a)) or (has_cyr(a) != has_lat(t)) or
+                               (has_cyr(t) and has_cyr(a))) and phon_match(t, a)))
+                    if sc: cands.append((-sc, canonical_rank(a), a))
+                if cands:
+                    k = min(cands)[2]
+                elif len(kt) == 1:
+                    af = _anchor_form(kt[0])
+                    if af: k = af
+            elif anchor_names and len(tokens(k or n)) == 1:
+                af = _anchor_form(tokens(n)[0])
+                if af: k = af
             # склеенный смешанный токен ('м18милуоки'): вычленяем известное написание
             # бренда из середины — иначе форма повиснет отдельным «loose»-мусором
             if not k and len(tokens(n)) == 1:
@@ -964,9 +1038,10 @@ def main():
         # 4) релевантность/популярность + тематический фильтр (B2B-инструменты/оборудование)
         n_cores, _ = popularity_score(merged_names)
         gpop = max(pop[v] for v in g) if g else 0     # макс. частота варианта в группе
-        anchor = any(any(w in ANCHORS for w in tokens(m)) or m in ANCHORS for m in merged_names)
-        protected = any(m in ANCHOR_PROTECT or any(w in ANCHOR_PROTECT for w in tokens(m))
-                        for m in merged_names)
+        anchor_words = {t for c in anchor_cores for t in tokens(c)} | \
+                       {m for m in merged_names if m in ANCHORS}
+        anchor = bool(anchor_words & ANCHORS)
+        protected = bool(anchor_words & ANCHOR_PROTECT)
         first_tok = tokens(merged_names[0])[0] if merged_names else ""
         stop = first_tok in STOP_FIRST_TOKENS
         # тема вне сегмента: ≥2 разных topic-слова в группе или ≥1 в маленькой группе
@@ -1005,7 +1080,10 @@ def main():
             removed.append(("single_form_left", row[0] if row else orig_first)); continue
         # 6) разъединение дочерних брендов/поддоменов ДО усечения MAX_SYNS —
         #    иначе хвостовые поддомены ('bosch rexroth') терялись без своей группы.
-        for sub in split_subbrands(row)[0]:
+        subs = split_subbrands(row)[0]
+        if not subs:
+            subs = [row]
+        for sub in subs:
             sub = canonical_first(sub)
             if len(sub) >= 2:
                 final_rows.append(sub[:MAX_SYNS])
