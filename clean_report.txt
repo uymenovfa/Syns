@@ -1,12 +1,12 @@
-всего групп: 46783
-оставлено строк: 10626
-удалено групп: 36152
+всего групп: 46681
+оставлено строк: 10500
+удалено групп: 36182
 
 причины удаления:
   low_popularity: 19171
-  single_form_left: 10565
-  off_topic: 5975
-  stopped_topic: 329
+  single_form_left: 10583
+  off_topic: 5989
+  stopped_topic: 327
   not_a_brand: 62
   garbage_after_clean: 50
 
@@ -14,7 +14,7 @@
 [low_popularity] editorial mexicana de musica internacional de c.v
 [low_popularity] zeroichi familia | 01familia
 [low_popularity] the081
-[off_topic] 0n1 | 0n1 studios | oni studios
+[off_topic] 0n1 | oni studios | 0n1 studios
 [low_popularity] 0verflow | overflow
 [single_form_left] 1000minds
 [off_topic] imprenta digital | fingerprints
@@ -53,7 +53,7 @@
 [single_form_left] bdc
 [off_topic] 1 a pharma
 [low_popularity] 1by0 | smstake
-[low_popularity] 1с | 1c
+[low_popularity] 1c | 1с
 [off_topic] central european games publishing | 1c publishing eu | cenega publishing | fulqrum publishing
 [single_form_left] 1f cash advance
 [low_popularity] 1malaysia berhad | 1mdb
@@ -159,7 +159,7 @@
 [off_topic] 7 bank | seven bank
 [off_topic] 7 games | 7games bet
 [off_topic] 7 news | seven news | 7news australia
-[off_topic] seven pictures sound studios egypt | seven pictures sound studios | seven pictures studios | la tino | 7 pictures | seven studios | latino studio | digisay | se7en pictures | e7lam production | seven productions | egypt 
+[off_topic] seven pictures sound studios egypt | seven pictures sound studios | seven pictures studios | la tino | 7 pictures | latino studio | digisay | seven studios | se7en pictures | e7lam production | seven productions | egypt 
 [single_form_left] 7screen
 [single_form_left] 7stories
 [single_form_left] 80eight
@@ -197,7 +197,7 @@
 [off_topic] asian american tv | aat television
 [off_topic] aba invest in austria | austrian business agency
 [off_topic] an binh bank | abbank
-[off_topic] abbey ales brewing | abbey ales brewery | abbey ales
+[off_topic] abbey ales brewery | abbey ales brewing | abbey ales
 [off_topic] new york chicago and st. louis railroad | giant food markets of broome county | abbey & imbrie new york | chicago and st. louis railroad | ontario and western railway | van diemen lilienfield galleries | old & weary | ab
 [stopped_topic] film lux | lux
 [garbage_after_clean] ab service
@@ -225,7 +225,7 @@
 [stopped_topic] bank of sicily | banco di sicilia
 [stopped_topic] bank of commerce | bank of | the boc | basra oil | south oil | банк китая | british oxygen | boc | bankcom | bancommerce
 [stopped_topic] bank of the west | bancwest
-[stopped_topic] restaurant banders potato | bandar potato | bander restaurant | banderita restaurant | bander potato | banders potato | banderitax restaurant | banderitas restaurant
+[stopped_topic] restaurant banders potato | bandar potato | bander restaurant | banderita restaurant | bander potato | banders potato | banderitas restaurant | banderitax restaurant
 [stopped_topic] bank | safi | shaheen | safipay | safitopup | safi bank | shaheen safi | bank for afghanistan
 [stopped_topic] bank alfalah
 [stopped_topic] bank al habib
@@ -363,22 +363,20 @@
 [not_a_brand] русалка
 
 == примеры изменённых известных брендов ==
-  bosch home comfort,bosch thermotechnik
-  bosch plug,фросш свеча
-  bosch solar energy,ersol solar energy
-  g.j. bosch,firma t.d.h. pull
-  zf lenksysteme,robert bosch pty.,robert bosch familientreuhand,robert bosch industrietreuhand,robert bosch automotive steering,robert bosch investment nederland
-  karcher,керхер мойка,alfred kärcher,калхер,кэрхер
-  zubr,зубр икср
-  galaxy watch,samsung watch,галакси вотч
-  hanwha vision,samsung techwin
-  lfc,lotte fine chemical,samsung fine chemicals
-  renault motors,renault samsung motors
-  samsing sdi,samsung inr,samsung sdi,sambyung sdi,самсунг эсди
-  samsung benelux,samsung nederland,samsung europe logistics
-  samsung heavy,samsung shipbuilding & heavy
-  samsung r&d institute india,samsung india software operations
-  samsung total,hanwha totalenergies petrochemical
-  ssa,samsung aerospace,sleep science academy
-  sstf,samsung future foundation,samsung science & foundation,samsung science and foundation
-  tsst,toshiba samsung storage
+  bosch,boosh,bausch & lomb optical,bausch and lomb optical
+  bosch,фросш свеча
+  bosch,ersol solar energy
+  bosch,firma t.d.h. pull
+  bosch,loretz
+  bosch,zf lenksysteme
+  dewalt,деволт,делтал,flex voltd,девалт,деварт,деворт,диволт,дэволт,де волт,девальт
+  makita,макита,dolmar,макета,махита,микита,макитка,макотра
+  hilti,хилти,хилте,хилльти
+  karcher,kärcher
+  zubr,pivovary cz
+  zubr,зубр
+  enkor,энкор,енкор
+  interskol,interskol lia,interskol sha
+  ford,форд,samsung,lfc,sdi,ssa,gmtf,logan,megan,duster,master,sandero,avtoframos,galaxy watch,hanwha vision,lotte fine chemical
+  samsung,sstf
+  samsung,xerox data,scientific data,эс ди эс
