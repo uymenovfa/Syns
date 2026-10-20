@@ -156,6 +156,8 @@ MODEL_TOKEN_RE = re.compile(
     r"l\.?t\.?d\.?a\.?|a\.?g\.?(?:& ?co\.? ?kg)?|d\.?o\.?o\.?|b\.?v\.?|n\.?v\.?|"
     r"p\.?l\.?c\.?|c\.?v\.?a\.?|s\.?p\.?a\.?$"                  # юр. суффиксы с точками
     r"|(?:and|&) ?co\.?|co\.?kg|company limited|limited liability"
+    # одиночные модельные/линеечные префиксы и обрывки (hilti b6, te/hilti)
+    r"|te|tf|hr|ht|dhr|dth|hc|sh|sw|ga|gh|gp|gsa|ha|hs|hw|up|um|us|b\d+"
     r")$", re.I)
 
 RU_ADJ_SUFFIXES = ("ский","ская","ское","ские","ого","овый","евый","ийский","инский")
@@ -248,10 +250,13 @@ def same_translit(a, b):
 
 def typo_match(a, b):
     """варианты одного слова с опечаткой/суффиксом: бош/ботш, макита/макитка, самсунг/самсунговский"""
+    # смешанная письменность (maketra/макета) — это НЕ одно и то же слово;
+    # иначе кириллические канон-формы теряются при схлопывании
+    if has_cyr(a) != has_cyr(b): return False
     d = lev(a, b)
     L = max(len(a), len(b))
     if L < 3 or d == 0: return False
-    if d == 1: return True
+    if d == 1 and abs(len(a) - len(b)) <= 2: return True
     if d <= 2 and L >= 6 and d / L <= 0.3: return True
     if d <= 2 and L >= 4 and d / L <= 0.4 and (has_cyr(a) == has_cyr(b)): return True
     # русская суффиксная форма прилагательного от того же корня
@@ -261,6 +266,10 @@ def typo_match(a, b):
            any(long_s.endswith(sfx) for sfx in RU_ADJ_SUFFIXES) and len(long_s) - len(short) <= 7:
             return True
     return False
+
+# Словарь известных латинских написаний для корректной канонизации смешанных форм:
+# 'dolmar долмар' -> 'dolmar', а не наоборот. Заполняется после определения ANCHORS_RAW.
+LAT_KNOWN = set()
 
 # линейки/модельные слова (в т.ч. транслит кириллицы): aerotwin / аэротвин, procore / прокор
 CYR2LAT = str.maketrans("абвгдежзийклмнопрстуфхцчшщъыьэюя",
@@ -292,14 +301,6 @@ te tf hr ht hm dhr dth hc dh sh sw ga gh gp gm gsa gs ha hs hw up um us
 one hand onehand corded pneumatic wood metal concrete stone masonry garden outdoor
 garden power tools accessories spare parts replacement original genuine compatible
 """.split())
-
-def strip_line_tail(name):
-    """срезать модельные/линеечные/описательные хвосты: 'makita 40v max'->'makita',
-       'bosch flat wiper'->'bosch', 'макита хгт'->'макита'"""
-    toks = tokens(strip_brackets(name))
-    while len(toks) > 1 and (LINE_WORDS_RE.match(toks[-1]) or toks[-1] in TAIL_STOP):
-        toks.pop()
-    return " ".join(toks)
 
 def strip_line_tail(name):
     """срезать модельные/линеечные/описательные хвосты: 'makita 40v max'->'makita',
@@ -389,7 +390,7 @@ def reduce_to_core(name, keep_short=False):
 # с маркетплейсов. У мусорных строк обычно 1-2 варианта.
 # Дополнительно: якорный список гарантированно известных B2B/потребительских брендов.
 
-ANCHORS = set(map(norm, """
+ANCHORS_RAW = """
 bosch бош siemens сименс hilti хилти makita макита dewalt делтал деволт metabo метабо
 stihl штиль стигль husqvarna хускварна karcher керхер кёрхер hitachi хитати panasonic панасоник
 milwaukee милуоки ryobi риоби ken интерскол enkor энкор zubr зубр welba viking викинг
@@ -413,7 +414,14 @@ continental nokian nordman yokohama bridgestone pirelli ngk denso filtron mahle 
 fram victor reinz elring trw zimmermann ferodo swag febil lestat patron starline
 weidmuller phoenix wago finder omron mitsubishi schmersal moeller hager
 heidenhain fanuc kemppi abicor binzel twintec esab hypertherm forch friul airpress fiocchi
-""".split()))
+""".split()
+ANCHORS = set(map(norm, ANCHORS_RAW))
+for _w in ANCHORS_RAW:
+    _n = norm(_w)
+    if has_lat(_n) and not has_cyr(_n):
+        LAT_KNOWN.add(_n)
+        for _t in tokens(_n):
+            if len(_t) >= 4: LAT_KNOWN.add(_t)
 
 STOP_FIRST_TOKENS = set(map(norm, """
 radioRecords music song songs clip band album label cafe coffee restaurant pizza food lokum
@@ -440,10 +448,18 @@ def canonical_rank(n):
     exact_anchor = core in ANCHORS or n in ANCHORS
     is_lat = has_lat(core) and not has_cyr(core)
     is_cyr = has_cyr(core) and not has_lat(core)
-    ru_brand = any(tok in ANCHORS for tok in tokens(core)) and is_cyr
+    # смешанные формы ('makita макита', 'dolmar долмар'): канон — тот токен,
+    # который есть в известных написаниях брендов; при равенстве — латиница
+    mixed = has_lat(core) and has_cyr(core)
+    if mixed:
+        lat_pref = any(t in LAT_KNOWN for t in tokens(core) if has_lat(t))
+        script_pref = 0 if lat_pref else 1
+    else:
+        ru_brand = any(tok in ANCHORS for tok in tokens(core)) and is_cyr
+        script_pref = 0 if (ru_brand and is_cyr) or (is_lat and not ru_brand) else 1
     return (
         0 if exact_anchor else 1,
-        0 if (ru_brand and is_cyr) or (is_lat and not ru_brand) else 1,
+        script_pref,
         len(core),
         len(n),
         n,
@@ -452,6 +468,83 @@ def canonical_rank(n):
 def canonical_first(names):
     """Список имён, где ПЕРВЫМ — наиболее каноничное название бренда."""
     return sorted(set(names), key=canonical_rank)
+
+# Поддомены известных брендов: 'bosch rexroth' — отдельный бренд (Rexroth),
+# а не вариант написания 'bosch'. В одной ES-строке их быть не должно.
+BRAND_SUBS = set(map(norm, """
+rexroth bose siemens vodafone metabo hilti makita dewalt stanley blackdecker
+husqvarna karcher danfoss grundfos wilo festo smc camozzi parker schneider legrand
+weidmuller phoenixcontact wago omron fanuc kemppi esab hypertherm linde koike
+milwaukee ryobi celikta stihl vidmar grifo zeus electrolux beko aeg bosch thermotechnik
+buderus junkers vaillant viessmann protherm baxi ariston immergas navien
+hitachi daewoo hyundai kia toyota nissan honda ford man scania iveco daf
+caterpillar komatsu liebherr jcb terex bobcat case johndeere newholland
+samsung lg xiaomi huawei honor realme oneplus meizu lenovo asus acer msi apple
+philips dyson braun panasonic toshiba canon epson sony jbl kenwood pioneer
+dexp dns harper telent starwind bbk igel tomahawk hydrat shtrio tebe
+interskol enkor resanta denzel zubr elitech kalashnikov hamilton promtool
+metalmaster sodem komtek cormatey geleez piella aquario neftter masters gileks
+gembird oklicke Svenism erdnemo powercase speedline arrowmax forcegroove
+""".split()))
+
+# Дырявый CYR2LAT_FULL даёт 'хилти'->'hilti' (lev 1 от hilti) — ложные sub-бренды.
+# Для сверки sub-доменов используем полную транслит-таблицу TR и точное совпадение.
+def _tr_exact(w):
+    return "".join(TR.get(c, c) for c in w)
+
+def _contains_seq(ht, ot):
+    """токены ot встречаются в ht подряд: точно, опечаткой или точным транслитом"""
+    def eq(a, b):
+        if a == b: return True
+        if has_cyr(a) != has_cyr(b):
+            cy, lt = (a, b) if has_cyr(a) else (b, a)
+            if _tr_exact(cy) == lt: return True
+            return False
+        if len(a) >= 5 and len(b) >= 5 and typo_match(a, b): return True
+        return False
+    if not ot or len(ot) > len(ht): return False
+    for i in range(len(ht) - len(ot) + 1):
+        if all(eq(x, y) for x, y in zip(ht[i:i+len(ot)], ot)):
+            return True
+    return False
+
+def split_subbrands(row):
+    """Из строки синонимов вычленить группы дочерних брендов/поддоменов:
+       ['bosch','bosch rexroth','bosch home comfort'] -> [[bosch],[rexroth],[home comfort]]
+       Только для строк с якорным головой; одиночные формы уходят в removed как noise."""
+    row = list(row)
+    if len(row) < 3: return [row], []
+    head = min(row, key=canonical_rank)
+    if canonical_rank(head)[0] != 0:      # не якорный бренд — не трогаем
+        return [row], []
+    ht_all = [tokens(r) for r in row]
+    subs = []
+    for s in BRAND_SUBS:
+        st = tokens(s)
+        if st == tokens(head): continue
+        hit = sum(1 for t in ht_all if _contains_seq(t, st))
+        if hit >= 2: subs.append((len(st), -hit, s))
+    if not subs: return [row], []
+    subs.sort(reverse=True)               # длинные специфичные раньше коротких
+    assigned = {}; used_subs = set()
+    for idx, r in enumerate(row):
+        if r == head: continue
+        for _, _, s in subs:
+            if _contains_seq(ht_all[idx], tokens(s)):
+                assigned[r] = s; used_subs.add(s); break
+    groups = defaultdict(list)
+    leftovers = [r for r in row if r not in assigned]
+    for r, s in assigned.items(): groups[s].append(r)
+    out_rows = [leftovers] if len(leftovers) >= 2 else []
+    noise = leftovers if len(leftovers) < 2 else []
+    for s, members in groups.items():
+        cand = [s] + members if not any(m == s or typo_match(m, s) for m in members) else members
+        if len(cand) >= 2:
+            out_rows.append(cand)
+        else:
+            noise.extend(cand)
+    if not out_rows: return [row], []
+    return out_rows, noise
 
 # -------------------------------------------------------------------------------
 
@@ -630,12 +723,24 @@ def main():
         loose = []
         for n in merged_names:
             k = brand_key(n)
+            if not k:
+                # полностью модельное имя ('te hilti', 'dewalt dw') после резки ключа
+                # схлопывается к первому токену — иначе остаётся мусорным «loose»-хвостом
+                tk0 = tokens(strip_brackets(n))
+                if len(tk0) > 1 and MODEL_TOKEN_RE.match(tk0[0]):
+                    k = " ".join(tk0[1:])
             if k: by_key[k].append(n)
             else: loose.append(n)
         converged = []
         for k, forms in by_key.items():
             ktoks = tokens(k)
             keep = {k}
+            # известные написания ядра (латиница/кириллица из ANCHORS): 'dolmar', 'долмар'
+            known_forms = set()
+            for a in ANCHORS:
+                at = tokens(a)
+                if len(at) == 1 and len(ktoks) == 1 and typo_match(at[0], ktoks[0]):
+                    known_forms.add(a)
             for f in forms:
                 ft = tokens(f)
                 # форма «того же слова»: токен за токеном равны или отличаются опечаткой
@@ -644,17 +749,28 @@ def main():
                 if not same_shape: continue
                 if any(LINE_WORDS_RE.match(t) or MODEL_TOKEN_RE.match(t) for t in ft): continue
                 # чистая кириллица (макита) или чистая латиница (makita) — канон;
-                # смешанные/опечаточные формы — только однословные
+                # смешанная письменность ('dolmar долмар') — канон, если все токены
+                # совпадают с известными написаниями ядра; опечаточные — только однословные
                 pure_cyr = has_cyr(f) and not has_lat(f)
                 pure_lat = has_lat(f) and not has_cyr(f)
-                if pure_cyr or pure_lat or len(ft) == 1:
+                known_mixed = (not pure_cyr and not pure_lat and
+                               all(t in known_forms or t in ktoks for t in ft))
+                if pure_cyr or pure_lat or known_mixed or len(ft) == 1:
                     keep.add(f)
-            # ограничиваем: сначала канонические (лат+кир), затем топ по частоте опечатки
+            # ограничиваем: сначала канонические (лат+кир+известные смешанные), затем топ по частоте опечатки
             ordered = sorted(keep, key=lambda x: (x != k, -pop.get(x, 0), len(x)))
             canon_forms = [x for x in ordered if x == k or
-                           ((has_cyr(x) and not has_lat(x)) or (has_lat(x) and not has_cyr(x)))]
+                           ((has_cyr(x) and not has_lat(x)) or (has_lat(x) and not has_cyr(x)) or
+                            all(t in known_forms or t in ktoks for t in tokens(x)))]
             typos = [x for x in ordered if x not in canon_forms]
             converged.extend((canon_forms + typos)[:MAX_FORMS_PER_KEY])
+        # loose-формы без ключа бренда: если их ядро совпадает с ядром канона из
+        # converged (после резки хвостов), они не нужны — схлопываются в канон.
+        conv_cores = {" ".join(core_tokens(c)) for c in converged}
+        def core_of(n):
+            ct = core_tokens(n)
+            return " ".join(ct) if ct else n
+        loose = [n for n in loose if core_of(n) not in conv_cores]
         merged_names = list(dict.fromkeys(converged + loose))
 
         # 4) релевантность/популярность + тематический фильтр (B2B-инструменты/оборудование)
@@ -697,7 +813,12 @@ def main():
         row = canonical_first(pruned)[:MAX_SYNS]
         if len(row) < 2:
             removed.append(("single_form_left", row[0] if row else orig_first)); continue
-        final_rows.append(row)
+        # 6) разъединение дочерних брендов/поддоменов: 'bosch rexroth' — отдельный бренд,
+        #    не синоним 'bosch'; одиночные обрывки ('boch rexrot') удаляем как мусор.
+        for sub in split_subbrands(row)[0]:
+            sub = canonical_first(sub)
+            if len(sub) >= 2:
+                final_rows.append(sub[:MAX_SYNS])
 
     # дедуп identical rows
     seen = set(); out = []
